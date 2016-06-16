@@ -1,8 +1,8 @@
-How To: Tabs
-==============
-
+How To Course:
+================
 
 HT3: AUTOMATION: TO CREATE AN AUTOMATED BUILD
+========================================================
 1.  New javascript file build.js, to write an automated build.
 
     (function(){
