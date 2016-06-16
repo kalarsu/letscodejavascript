@@ -15,3 +15,12 @@ HT3: AUTOMATION: TO CREATE AN AUTOMATED BUILD
 	>git status
 	>git add . (. Means all files)
 	>git commit –am “Got a basic ‘hello world’ program running”
+
+2. Build automation needs:
+   a.	Self-Documentation
+   b.	Command – Line Processing
+   c.	Dependency Resolution
+   d.	Code, Not Configuration
+   e.	Straightforward and Simple
+
+3. Instead of writing your own build.js, use this build tool: Jake
