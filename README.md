@@ -5,11 +5,11 @@ HT3: AUTOMATION: TO CREATE AN AUTOMATED BUILD
 --------------
 
 
-1.  New javascript file build.js, to write an automated build.
+1.  New javascript file build.js, to write an automated build. For other people to come in and to make a build from an existing system with software installed. Here is the automation to rebuild the system from scratch. 
 
         (function(){
             "use strict";    //help javascript prevent errors, not allow sloppy coding
-            console.log("BUILD OK");
+            console.log("\n\nBUILD OK");
         }());
 
     - To run the build, type: node build.js , will see the result.
