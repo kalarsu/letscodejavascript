@@ -43,7 +43,7 @@ HT3: AUTOMATION: TO CREATE AN AUTOMATED BUILD
         }());
 
 
-8. >jake    this time, it will run good.
+8. command type >jake    this time, it will run good.
 
 9. Add in a new task as following
 
@@ -51,7 +51,7 @@ HT3: AUTOMATION: TO CREATE AN AUTOMATED BUILD
         console.log("gooble task");
     });
 
-    >jake gooble      this will run task gooble
+    command type >jake gooble      this will run task gooble
 
 10. Add desc(“Default Task”) before default task, This will be documentation for that task.
 
