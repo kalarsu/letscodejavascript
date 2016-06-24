@@ -30,7 +30,7 @@ HT3: AUTOMATION: TO CREATE AN AUTOMATED BUILD
 4. Sudo npm install jake –g
 5. Rename build.js to Jakefile.js
 6. >jake      this will run the Jakefile.js, but couldn’t find default task
-7. in Jakefile.js add default task as following:
+7. in Jakefile.js add default task as following
 
         (function(){
             "use strict";//help javascript prevent errors, not allow sloppy coding
@@ -45,7 +45,7 @@ HT3: AUTOMATION: TO CREATE AN AUTOMATED BUILD
 
 8. >jake    this time, it will run good.
 
-9. Add in a new task as following:
+9. Add in a new task as following
 
     task("gooble", function(){
         console.log("gooble task");
@@ -64,7 +64,7 @@ HT3: AUTOMATION: TO CREATE AN AUTOMATED BUILD
 
     This is what it meant, self-documentation.
 
-11. Clean the code as following:
+11. Clean the code as following
 
         (function(){
             "use strict";//help javascript prevent errors, not allow sloppy coding
