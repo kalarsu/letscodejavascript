@@ -91,6 +91,37 @@ HT4: Dependency
     a.	Automatically install dependencies from somewhere else.
     b.	Include dependencies in the source code repository.    Pro: Ensures correct dependency version is available.
 3.	So we don’t use sudo npm install jake –g. Because when other people try to download the source code, then have to install all the dependencies that’s not automated build.
+4.  Steps to re-set up environment that other person doesn’t need to install anything just git pull then can run on another machine:
+    a.	sudo npm uninstall jake –g
+    b.	npm init : this will generate package.json. Ref: docs.npmjs.com/files/package.json
+    c.	clean the code as following
+            {
+             "name": "letscodejavascript",
+             "version": "1.0.0",
+             "private": true
+           }
+
+        //private: true ,  this will tell npm if someone try to publish it it will cause error
+
+    d.	sudo npm install jake --ignore-scripts --save-dev:
+        - install locally and -ignore-scripts don’t check in binary files from jake to git.
+        - --save-dev: Jake will save the setting into package.json.
+    e.	npm rebuild: go through and run all installed script and run all installed files
+    f.	sudo node_modules/.bin/jake : since jake wasn’t installed –g globaly, use this command to run.
+    g. At other machine to download the code from git and run:
+        - git pull
+        - npm rebuild
+        - node_modules/.bin/jake
+
+
+
+ HT5: Shell Scripting
+ --------------
+
+    h. to avoid typing sudo node_modules/.bin/jake all the time, adding following shell script:
+       - new file: jake.sh, type in node_modules/.bin/jake $* ($* will pass in parameter in like  --help  --tasks or -T )
+       - because this file doesn’t have permission to execute, need to do: chmod +x jake.sh     (chmod : change mode, +x: adding execution permission)
+       - sudo ./jake.sh : now this will run
 
 
 
