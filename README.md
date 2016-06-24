@@ -31,46 +31,49 @@ HT3: AUTOMATION: TO CREATE AN AUTOMATED BUILD
 5. Rename build.js to Jakefile.js
 6. >jake      this will run the Jakefile.js, but couldn’t find default task
 7. in Jakefile.js add default task as following:
-    (function(){
-        "use strict";//help javascript prevent errors, not allow sloppy coding
 
-        console.log("\n\nBUILD OK");
+        (function(){
+            "use strict";//help javascript prevent errors, not allow sloppy coding
 
-        task("default", function(){
-            console.log("Hello, I am the default task");
-        });
-    }());
+            console.log("\n\nBUILD OK");
+
+            task("default", function(){
+                console.log("Hello, I am the default task");
+            });
+        }());
 
 
 8. >jake    this time, it will run good.
 
 9. Add in a new task as following:
-  task("gooble", function(){
-      console.log("gooble task");
-  });
-  	>jake gooble      this will run task gooble
+
+    task("gooble", function(){
+        console.log("gooble task");
+    });
+
+    >jake gooble      this will run task gooble
 
 10. Add desc(“Default Task”) before default task, This will be documentation for that task.
 
-    desc("default task");//documentation for following task
-    task("default", function(){
-        console.log("Hello, I am the default task");
-    });
+        desc("default task");//documentation for following task
+        task("default", function(){
+            console.log("Hello, I am the default task");
+        });
 
-    >jake –T   or >jake –tasks , this will sow all the tasks with description.
+        >jake –T   or >jake –tasks , this will sow all the tasks with description.
 
     This is what it meant, self-documentation.
 
 11. Clean the code as following:
 
-    (function(){
-        "use strict";//help javascript prevent errors, not allow sloppy coding
+        (function(){
+            "use strict";//help javascript prevent errors, not allow sloppy coding
 
-        desc("default build");//documentation for following task, >jake --tasks or >jake -T  will show all the tasks, this is what it meant self-documentation
-        task("default", function(){
-            console.log("\n\nBUILD OK");
-        });
-    }());
+            desc("default build");//documentation for following task, >jake --tasks or >jake -T  will show all the tasks, this is what it meant self-documentation
+            task("default", function(){
+                console.log("\n\nBUILD OK");
+            });
+        }());
 
 12.	Check in the code
 
