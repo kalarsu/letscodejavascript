@@ -1,0 +1,6 @@
+{
+  "name": "letscodejavascript",
+  "version": "1.0.0",
+  "private": true, //this will tell npm if someone try to publish it it will cause error
+
+}

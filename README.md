@@ -77,3 +77,47 @@ HT3: AUTOMATION: TO CREATE AN AUTOMATED BUILD
 
 12.	Check in the code
 
+
+
+
+
+
+
+HT4: Dependency
+--------------
+
+1.	When moving the code from one machine to another, in order to make nodeJS and jake work, the other machine has to install all the dependencies. That was not automation.
+2.	There are 2 dependency management strategies:
+    a.	Automatically install dependencies from somewhere else.
+    b.	Include dependencies in the source code repository.    Pro: Ensures correct dependency version is available.
+3.	So we don’t use sudo npm install jake –g. Because when other people try to download the source code, then have to install all the dependencies that’s not automated build.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
