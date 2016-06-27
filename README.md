@@ -119,11 +119,67 @@ HT4: Dependency
  --------------
 
     h. to avoid typing sudo node_modules/.bin/jake all the time, adding following shell script:
-       - new file: jake.sh, type in node_modules/.bin/jake $* ($* will pass in parameter in like  --help  --tasks or -T )
-       - because this file doesn’t have permission to execute, need to do: chmod +x jake.sh     (chmod : change mode, +x: adding execution permission)
-       - sudo ./jake.sh : now this will run
 
+        i.	new file: jake.sh, type in node_modules/.bin/jake $* ($* will pass in parameter in like  --help  --tasks or -T )
+        ii.	because this file doesn’t have permission to execute, need to do:
+            chmod +x jake.sh     (chmod : change mode, +x: adding execution permission)
+        iii.	 ./jake.sh : now this will run
+        iv.	new jake.cmd   and type in node_modules\.bin\jake   %*, in command line just type >jake. This is for windows user
 
+b.	sudo git commit  --amend, and shift+z+z to save the changes, this is to modify from previous commit.
+c.	in jake.cmd file, add at the first line as #!/bin/sh  : this is a build in command prom for Unix, it tells Unix which command to use when running shell script. It’s using #!/bin/sh to understand $*, so the jake.sh looks like following now.
+
+#!/bin/sh
+
+node_modules/.bin/jake $*
+
+d.	in jake.cmd modify as following, @echo off will not show node_modules\.bin\jake path in the command line
+
+@echo off
+
+node_modules\.bin\jake %*
+
+e.	In another machine, when need to recover back to a clean repositories, do fillowing
+>sudo git clean –fdx:
+>sudo git reset --hard: reset files to last commit status
+>git pull  ,to get all the files from git and then
+>npm rebuild
+i.	clean: delete untracked files ,
+ii.	 -fdx: f: force clean to occur, d: remove directories too, x: remove excluded(gitignore would files too)
+This will reset to clean files, when just git pull from git repository. So before running jake , need to do >npm rebuild.
+f.	New .gitignore file, and type in following
+
+#Mac OS X
+.DS_Store
+
+#WebStorm
+.idea/workspace.xml
+
+# npm
+node_modules/**/.bin/
+
+This is to ignore unnecessary file to check in.
+
+g.	Sudo rm –rf node_modules/.bin    Delete unnecessary .bin files
+i.	rm: delete files
+ii.	–rf: recursively delete directories, force everything to delete
+h.	Add npm rebuild in the second line for both jake.sh and jake.cmd. So when git pull a clean repositories and run >sudo ./jake.sh  or >jake(for windows), it will automatic build the project (automatically install all the dependencies).
+
+@echo off
+
+echo Building npm modules:
+npm rebuild
+
+node_modules\.bin\jake $*
+
+i.	Add following into jake.sh and jake.cmd
+[ ! -f node_modules/.bin/jake ] && echo "Building npm modules:" && npm rebuild : from jake.sh file: if node_modules/.bin/jake doesn’t exists then print out message and npm rebuild. So it doesn’t npm rebuild all the time when running >./jake.sh
+
+#!/bin/sh
+
+[ ! -f node_modules/.bin/jake ] && echo "Building npm modules:" && npm rebuild
+
+node_modules/.bin/jake $*
 
 
 

@@ -1,5 +1,8 @@
 @echo off
 
-npm rebuild
+if not exist node_modules\.bin\jake(
+    echo building npm modules:
+    call npm rebuild
+)
 
-node_modules\.bin\jake %*
+call node_modules\.bin\jake %*
