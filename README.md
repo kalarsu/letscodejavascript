@@ -9,15 +9,15 @@ To try the code on your computer:
 4. Copy the source repository to your computer : 'git clone https://github.com/kalarsu/letscodejavascript.git'
 5. Change to the project directory: 'cd letscodejavascript'
 
-To run the build:
+To run the build
 1. Run './jake.sh' (Mac), or 'jake' (Windows)
 
 
 To reset to a clean directory
-1. >sudo git clean -fdx         Ereased generated fiels. f: force clean to occor, d: remove all directories, X:remove
-2. >sudo git reset --hard       This is to reset files to last commit status. Reset any changes
-3. >git pull
-4. >./jake.sh
+1. sudo git clean -fdx         (Ereased generated fiels. f: force clean to occor, d: remove all directories, X:remove)
+2. sudo git reset --hard       (This is to reset files to last commit status. Reset any changes)
+3. git pull
+4. ./jake.sh
 
 
 
