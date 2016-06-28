@@ -135,8 +135,8 @@ HT4: Dependency
 
 
 
- HT5: Shell Scripting
- --------------
+HT5: Shell Scripting
+--------------
 
     h. to avoid typing sudo node_modules/.bin/jake all the time, adding following shell script:
 
@@ -160,10 +160,10 @@ d.	in jake.cmd modify as following, @echo off will not show node_modules\.bin\ja
 node_modules\.bin\jake %*
 
 e.	In another machine, when need to recover back to a clean repositories, do fillowing
->sudo git clean –fdx:
->sudo git reset --hard: reset files to last commit status
->git pull  ,to get all the files from git and then
->npm rebuild
+    >sudo git clean –fdx:
+    >sudo git reset --hard: reset files to last commit status
+    >git pull  ,to get all the files from git and then
+    >npm rebuild
 i.	clean: delete untracked files ,
 ii.	 -fdx: f: force clean to occur, d: remove directories too, x: remove excluded(gitignore would files too)
 This will reset to clean files, when just git pull from git repository. So before running jake , need to do >npm rebuild.
@@ -181,30 +181,157 @@ node_modules/**/.bin/
 This is to ignore unnecessary file to check in.
 
 g.	Sudo rm –rf node_modules/.bin    Delete unnecessary .bin files
-i.	rm: delete files
-ii.	–rf: recursively delete directories, force everything to delete
+    - rm: delete files
+    - –rf: recursively delete directories, force everything to delete
 h.	Add npm rebuild in the second line for both jake.sh and jake.cmd. So when git pull a clean repositories and run >sudo ./jake.sh  or >jake(for windows), it will automatic build the project (automatically install all the dependencies).
 
-@echo off
+        @echo off
 
-echo Building npm modules:
-npm rebuild
+        echo Building npm modules:
+        npm rebuild
 
-node_modules\.bin\jake $*
+        node_modules\.bin\jake $*
 
 i.	Add following into jake.sh and jake.cmd
 [ ! -f node_modules/.bin/jake ] && echo "Building npm modules:" && npm rebuild : from jake.sh file: if node_modules/.bin/jake doesn’t exists then print out message and npm rebuild. So it doesn’t npm rebuild all the time when running >./jake.sh
 
-#!/bin/sh
 
-[ ! -f node_modules/.bin/jake ] && echo "Building npm modules:" && npm rebuild
+    •For jake.sh file: if node_modules/.bin/jake doesn’t exists then print out message and npm rebuild, and npm rebuild. Complete code as following:
 
-node_modules/.bin/jake $*
+            #!/bin/sh
+
+            [ ! -f node_modules/.bin/jake ] && echo "Building npm modules:" && npm rebuild
+
+            node_modules/.bin/jake $*
+
+
+
+    •For jake.cmd (Windows) code as following:
+
+            @echo off
+
+            if not exist node_modules\.bin\jake(
+                echo building npm modules:
+                call npm rebuild
+            )
+
+            call node_modules\.bin\jake %*
+
+
+    Now , In another machine, when need to recover back to a clean repository, do following:
+        sudo git clean -fdx:
+        sudo git reset --hard
+        git pull
+        sudo ./jake.sh       : Jake will automatically rebuild
+        sudo ./jake.sh –T     : list all the tasks
 
 
 
 
+Ht6: External Dependencies:
+------------------------------------------
 
+1.	When rebuild, we should also check if node version matching. Adding new task(“version”) in jakefile.js as following:
+
+        (function(){
+            "use strict";
+
+            desc("default build");
+                task("default", ["version"], function(){ //run version before running default
+                        console.log("\n\nBUILD OK");
+            });
+
+            desc("Check Node version");
+            task("version", function(){
+                console.log("Checking Node version: .");
+                let actualVersion = process.version;
+                if(actualVersion !== EXPECTED_NODE_VERSION){
+                  fail("Incorrect Node version: expedted:" + EXPECTED_NODE_VERSION + ", but was: "+actualVersion);  //fail is a Jake function
+                }
+            });
+        }());
+
+
+        ./jake.sh –T    to see all the tasks
+        ./jake.sh version   to run task version
+
+2.	Add “engines”: {“node”: “5.5.0”} to package.json, for Jakefile.js to fetch and verify node version. Package.json looks as following:
+    (ref: https://docs.npmjs.com/files/package.json  for engine)
+
+        {
+          "name": "letscodejavascript",
+          "version": "1.0.0",
+          "private": true,
+          "engines":{
+            "node": "5.5.0"
+          },
+          "devDependencies": {
+            "jake": "^8.0.12"
+          }
+        }
+
+
+
+3.	In Jakefile.js change code as following. (get node version from package.json)
+
+        (function(){
+            "use strict";//help javascript prevent errors, not allow sloppy coding
+
+            desc("default build");//documentation for following task, >jake --tasks or >jake -T  will show all the tasks, this is what it meant self-documentation
+            task("default", ["version"], function(){ //run "version" task before running default
+                console.log("\n\nBUILD OK");
+            });
+
+            desc("Check Node version");
+            task("version", function(){
+                console.log("Checking Node version: .");
+
+
+                var packageJson = require("./package.json"); //require was build into node
+                var expectedVersion = "v" + packageJson.engines.node;
+
+                let actualVersion = process.version; //current node version
+                if(actualVersion !== expectedVersion){
+                    fail("Incorrect Node version: expedted:" + expectedVersion + ", but was: "+actualVersion);  //fail is a Jake function
+                }
+            });
+
+        }());
+
+
+4.	sudo npm install semver --ignore-scripts --save-dev:
+        (1) semver is a parser for node for parsing version number.
+        (2) https://github.com/npm/node-semver
+        (3) It will check 2 version number is equal and ignore the first letter. A leading "=" or "v" character is stripped off and ignored.
+
+        a.	--ignore-scripts: because we would like to check into git
+        b.	--save-dev: save as development dependency
+5.	git add .,    git commit –am “message”: check in semver
+6.	sudo npm rebuild: to see if there is dependency we need to ignore
+7.	git status: looks like not no file need to be ignore
+8.	In Jakefile.js, add var semver = require("semver"); at the top, and in if statement change to if( semver.neq(actualVersion, expectedVersion) ) //neq = not equal, this will ignore the first “v” character.
+        (function(){
+            "use strict";//help javascript prevent errors, not allow sloppy coding
+            var semver = require("semver");
+
+            desc("default build
+            task("default", ["version"], function(){
+            console.log("\n\nBUILD OK");
+            });
+
+            desc("Check Node version");
+            task("version", function(){
+                console.log("Checking Node version: .");
+
+                var packageJson = require("./package.json"); //require was build into node
+                var expectedVersion = packageJson.engines.node;
+
+                let actualVersion = process.version; //current node version
+                if( semver.neq(actualVersion, expectedVersion) ){//neq : not equal
+                    fail("Incorrect Node version: expedted:" + expectedVersion + ", but was: "+actualVersion);
+                }
+            });
+        }());
 
 
 
