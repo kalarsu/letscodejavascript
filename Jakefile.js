@@ -1,5 +1,5 @@
 (function(){
-    "use strict";//help javascript prevent errors, not allow sloppy coding
+    "use strict";//Tell javascript at run time to check error , help javascript prevent errors, not allow sloppy coding
 
     var semver = require("semver");
 

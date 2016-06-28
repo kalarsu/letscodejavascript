@@ -124,6 +124,7 @@ HT4: Dependency
         //private: true ,  this will tell npm if someone try to publish it it will cause error
 
     d.	sudo npm install jake --ignore-scripts --save-dev:
+        - Jake is a automation build tool
         - install locally and -ignore-scripts don’t check in binary files from jake to git.
         - --save-dev: Jake will save the setting into package.json.
     e.	npm rebuild: go through and run all installed script and run all installed files
@@ -166,19 +167,19 @@ e.	In another machine, when need to recover back to a clean repositories, do fil
     >npm rebuild
 i.	clean: delete untracked files ,
 ii.	 -fdx: f: force clean to occur, d: remove directories too, x: remove excluded(gitignore would files too)
-This will reset to clean files, when just git pull from git repository. So before running jake , need to do >npm rebuild.
+    This will reset to clean files, when just git pull from git repository. So before running jake , need to do >npm rebuild.
 f.	New .gitignore file, and type in following
 
-#Mac OS X
-.DS_Store
+        #Mac OS X
+        .DS_Store
 
-#WebStorm
-.idea/workspace.xml
+        #WebStorm
+        .idea/workspace.xml
 
-# npm
-node_modules/**/.bin/
+        # npm
+        node_modules/**/.bin/
 
-This is to ignore unnecessary file to check in.
+    This is to ignore unnecessary file to check in.
 
 g.	Sudo rm –rf node_modules/.bin    Delete unnecessary .bin files
     - rm: delete files
@@ -193,7 +194,8 @@ h.	Add npm rebuild in the second line for both jake.sh and jake.cmd. So when git
         node_modules\.bin\jake $*
 
 i.	Add following into jake.sh and jake.cmd
-[ ! -f node_modules/.bin/jake ] && echo "Building npm modules:" && npm rebuild : from jake.sh file: if node_modules/.bin/jake doesn’t exists then print out message and npm rebuild. So it doesn’t npm rebuild all the time when running >./jake.sh
+        [ ! -f node_modules/.bin/jake ] && echo "Building npm modules:" && npm rebuild
+    from jake.sh file: if node_modules/.bin/jake doesn’t exists then print out message and npm rebuild. So it doesn’t npm rebuild all the time when running >./jake.sh
 
 
     •For jake.sh file: if node_modules/.bin/jake doesn’t exists then print out message and npm rebuild, and npm rebuild. Complete code as following:
