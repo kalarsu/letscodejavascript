@@ -4,7 +4,7 @@
     var semver = require("semver");
 
     desc("default build");//documentation for following task, >jake --tasks or >jake -T  will show all the tasks, this is what it meant self-documentation
-    task("default", ["version"], function(){ //run "version" task before running default
+    task("default", ["version", "lint"], function(){ //run "version","lint" task before running default
         console.log("\n\nBUILD OK");
     });
 
@@ -15,9 +15,16 @@
         var packageJson = require("./package.json"); //require was build into node
         var expectedVersion = packageJson.engines.node;
 
-        let actualVersion = process.version; //current node version
+        var actualVersion = process.version; //current node version
         if( semver.neq(actualVersion, expectedVersion) ){//neq : not equal
             fail("Incorrect Node version: expedted:" + expectedVersion + ", but was: "+actualVersion);  //fail is a Jake function
         }
     });
+
+    desc("Lint Javascript Code");
+    task("lint", function(){
+        console.log("Linting Javascript: .");
+
+        jake.exec("node node_modules/jshint/bin/jshint Jakefile.js", { interactive: true }, complete);   //run "complete" funtion when it's done
+    }, {async: true}); // async: true , tell jake not to end the task until the complete function is called.
 }());
