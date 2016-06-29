@@ -36,8 +36,8 @@
       <file leaf-file-name="Jakefile.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jakefile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="121" selection-start-line="27" selection-start-column="121" selection-end-line="27" selection-end-column="121" />
+            <state relative-caret-position="375">
+              <caret line="25" column="28" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -47,8 +47,10 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding />
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <marker date="1467235955000" expanded="true" signature="88:113" placeholder="{&quot;node&quot;: &quot;5.5.0&quot;...}" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -255,12 +257,12 @@
       <workItem from="1466643329416" duration="5002000" />
       <workItem from="1466792707272" duration="2567000" />
       <workItem from="1467049522784" duration="4051000" />
-      <workItem from="1467070604311" duration="5437000" />
+      <workItem from="1467070604311" duration="6085000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23847000" />
+    <option name="totallyTimeSpent" value="24495000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="533" y="-828" width="1436" height="823" extended-state="0" />
@@ -374,7 +376,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1467235955000" expanded="true" signature="88:113" placeholder="{&quot;node&quot;: &quot;5.5.0&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -437,15 +441,17 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding>
+            <marker date="1467235955000" expanded="true" signature="88:113" placeholder="{&quot;node&quot;: &quot;5.5.0&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Jakefile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="121" selection-start-line="27" selection-start-column="121" selection-end-line="27" selection-end-column="121" />
+        <state relative-caret-position="375">
+          <caret line="25" column="28" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="28" />
           <folding />
         </state>
       </provider>

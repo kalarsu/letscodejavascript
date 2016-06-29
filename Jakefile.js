@@ -2,6 +2,7 @@
     "use strict";//Tell javascript at run time to check error , help javascript prevent errors, not allow sloppy coding
 
     var semver = require("semver");
+    var jshint = require("simplebuild-jshint");
 
     desc("default build");//documentation for following task, >jake --tasks or >jake -T  will show all the tasks, this is what it meant self-documentation
     task("default", ["version", "lint"], function(){ //run "version","lint" task before running default
@@ -23,8 +24,14 @@
 
     desc("Lint Javascript Code");
     task("lint", function(){
-        console.log("Linting Javascript: .");
+        //console.log("Linting Javascript: ");
+        process.stdout.write("Linting Javascript: "); //using global process instead of console.log
+        jshint.checkFiles({
+            files: "Jakefile.js",
+            options: {},
+            globals: {}
+        }, complete, fail);
 
-        jake.exec("node node_modules/jshint/bin/jshint Jakefile.js", { interactive: true }, complete);   //run "complete" funtion when it's done
+        //jake.exec("node node_modules/jshint/bin/jshint Jakefile.js", { interactive: true }, complete);   //run "complete" funtion when it's done
     }, {async: true}); // async: true , tell jake not to end the task until the complete function is called.
 }());
