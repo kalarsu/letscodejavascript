@@ -15,7 +15,6 @@
 
         var packageJson = require("./package.json"); //require was build into node
         var expectedVersion = packageJson.engines.node;
-
         var actualVersion = process.version; //current node version
         if( semver.neq(actualVersion, expectedVersion) ){//neq : not equal
             fail("Incorrect Node version: expedted:" + expectedVersion + ", but was: "+actualVersion);  //fail is a Jake function
@@ -28,10 +27,10 @@
         process.stdout.write("Linting Javascript: "); //using global process instead of console.log
         jshint.checkFiles({
             files: "Jakefile.js",
-            options: {},
+            options: {
+                bitwise: true
+            },
             globals: {}
         }, complete, fail);
-
-        //jake.exec("node node_modules/jshint/bin/jshint Jakefile.js", { interactive: true }, complete);   //run "complete" funtion when it's done
     }, {async: true}); // async: true , tell jake not to end the task until the complete function is called.
 }());
