@@ -1,7 +1,9 @@
+/* globals desc: false, task: false, complete: false, fail: false */
+
 (function(){
     "use strict";//Tell javascript at run time to check error , help javascript prevent errors, not allow sloppy coding
 
-    var semver = require("semver");
+    var semver = require("semver"); //semver is a parser for node for parsing version number
     var jshint = require("simplebuild-jshint");
 
     desc("default build");//documentation for following task, >jake --tasks or >jake -T  will show all the tasks, this is what it meant self-documentation
@@ -28,9 +30,28 @@
         jshint.checkFiles({
             files: "Jakefile.js",
             options: {
-                bitwise: true
+                bitwise: true,    // single | or & is mistype , should be || or &&
+                //curly: true,  //always put curly braces around blocks
+                eqeqeq: true,
+                forin: true,
+                freeze: true,
+                futurehostile: true,
+                latedef: "nofunc",
+                noarg: true,
+                nocomma: true,
+                nonbsp: true,
+                nonew: true,
+                strict: true, // required to use "use strict" at the top
+                undef: true,
+
+                node: true,
+                browser: true,
             },
-            globals: {}
+            globals: {
+
+            }
         }, complete, fail);
     }, {async: true}); // async: true , tell jake not to end the task until the complete function is called.
+
+
 }());
