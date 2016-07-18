@@ -339,6 +339,141 @@ Ht6: External Dependencies:
 
 
 
+Ht7: Lint: Safe coding
+=================================
+
+-	Static code analysis
+-	Link will look into source code and find error without running it.
+-	https://en.wikipedia.org/wiki/List_of_tools_for_static_code_analysis#JavaScript
+
+-   IIFE around every file : ( function(){}() ), to have a function expression and use () to execute right away. And use ( ………..) to wrap it called IIFE. So nothing run at global scope.
+-   “use strict”;    This tell JavaScript to check error at run time.
+
+
+1.	sudo npm install jshint --ignore-scripts --save-dev
+2.	git add .,    git commit –am “message”: check in jshint
+3.	sudo npm rebuild: to see if there is dependency we need to ignore
+4.	git status: looks like not no file need to be ignore
+5.	use sudo node_modules/.bin/jshint to run
+6.	sudo node_modules/.bin/jshint --help
+7.	sudo node_modules/.bin/jshint Jakefile.js Check if there is error in Jakefile.js
+8.	Add task into Jakefile.js as following: so we don’t have to run line 6 long script.
+    Ref: http://jakejs.com/docs#running_shell-commands:_`jakeexec`_and_`jake.create_exec`
+
+
+        task("default", ["version", "lint"], function(){ //run "version","lint" task before running default
+            console.log("\n\nBUILD OK");
+        });
+
+        desc(“Lint Javascript Code”);
+        task("lint", function(){
+            console.log("Linting Javascript: .");
+            jake.exec("node node_modules/jshint/bin/jshint Jakefile.js", {interactive: true}, complete);
+        }, { async: true });
+
+-	complete: //run complete funtion when it's done
+-	async: true: tell jake not to end the task until the complete function is called
+
+9.	sudo ./jake.sh  to see if lint task is working good to check jakefile.js file error.
+10.	Running jake.exec is a bit slow, so let’s use simplebuild plugin as following, to simplify the script.
+a.	ref: https://www.npmjs.com/package/simplebuild-jshint
+b.	sudo npm install simplebuild-jshint --ignore-scripts --save-dev
+c.	document under https://www.npmjs.com/package/simplebuild-jshint
+11.	git add .,    git commit –am “check in simplebuild”
+12.	sudo npm rebuild: to see if there is dependency we need to ignore
+13.	git status: looks like not no file need to be ignore
+14.	In Jakefile.js:
+-	var jshint = require("simplebuild-jshint")
+-	Command out jake.exec(“….”)
+-	Under task (“Lint”, function(){    …….   }, update to following:
+
+
+        process.stdout.write("Linting Javascript: ");//using global process instead of console.log
+
+        jshint.checkFiles({
+            files: "Jakefile.js",
+            options: {
+                bitwise: true, //to check if bitwise issue single & or | typeo, detail at http://jshint.com/docs/options/
+                eqeqeq : true
+            },
+            globals: {}
+        }, complete, fail); //complete, fail are Jake build in
+
+
+
+
+Ht8, 9: JavaScript Gotchas
+====================================
+
+1.	Using IFEE, to prevent creating global scope variable, and execute right away.
+        (function(){
+        }());
+2.	Variable scope is defined for closest function , not other {} - elastic scope like if statement.
+
+    Function test(){
+        var xx = true;
+        If(xx == true){
+            var xx = “false”;
+        }
+        console.log(“xx=”+xx); // result xx=false
+    }
+
+In this case yy doesn’t belongs to if {} , instead, it belong to test() function scope.
+
+3.	In jakefile.js, use bitwise: true  //to check if bitwise issue (single & or | typo), detail at http://jshint.com/docs/options/
+-	“use strict” in javasscript will do the run time checking, but using Lint within jakefile.js will check before run time.
+-	Now the code with bitwise looks like:
+
+        task("lint", function(){
+            process.stdout.write("Linting Javascript: ");
+            jshint.checkFiles({
+                files: "Jakefile.js",
+                options: {
+                    bitwise: true
+                },
+                globals: {}
+            }, complete, fail);
+        }, {async: true});
+
+4.	curly: true // always put curly braces around blocks
+5.	eqeqeq : true //to see error caused by ==, instead, should use ===
+        function test(){
+            var a = 0;
+        var b = [];
+        if(a==b) console.log(“Equal”); //this result will be Equal, so use === to avoid this
+        }
+6.	freeze: true,//prohibits overwriting prototype of native object such as Array, and Date
+7.	latedef: "nofunc" // prohibits the use of a variable before it was defined, nofunc: not for function. Note: Call a function before it declares is valid as following, because JavaScript hoisting function to the top.
+
+        callme();
+
+        function callme(){
+        }
+
+However, using a variable before it declared is invalid as following. Variable will be hoisted to the top as well, but only var x will be hoisted not the value.
+
+        Console.log(x);
+        var x=19;
+
+ref: http://www.w3schools.com/js/js_hoisting.asp
+
+8.	strict: true;// required to use "use strict" at the top
+9.	undef: true, // prohibits the use of explicitly undeclared variables.
+    This will start complain a lot of errs. So type in following in #10, #11
+10.	node: true, browser: true // we are using node and browser
+11.	under globals:
+        globals: {
+            desc: false, // we sue desc, task, complete, fail, but we don’t change them
+            task: false,
+            complete: false,
+            fail: false
+        }
+
+//meaning we are not changing it to prevent desc, task, not defined.
+However, we only use desc, task, complete, fail in jake.js file , so put them at the top of js file and command out as
+	/* globals desc: false, task: false, complete : false, fail: false */
+
+
 
 
 
