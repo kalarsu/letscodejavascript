@@ -477,6 +477,29 @@ However, we only use desc, task, complete, fail in jake.js file , so put them at
 
 
 
+Ht10: Localhost server: Automated Cross browser testing
+===============================================================
+
+1.	Create new folder src and new html file index.html for cross browsers testing. When hover this index.html file , top right corner will appear different browser icon and just click either of them to test this file.
+2.	However, we will install http-server, so the result will be closest to the production.
+3.	sudo npm install http-server --ignore-scripts --save-dev
+4.	./node_modules/.bin/http-server src : will activate the web server
+5.	according to the message show on terminal, http://127.0.0.1:8080, or http://localhost:8080 : will launch the index.html page
+6.	sudo git add . , sudo git commit –am “message”, sudo npm rebuild
+7.	Adding a task “run” as following: //this will execute the command and run the web server
+
+        desc("Run a localhost server");
+        task("run", function(){
+            jake.exec("node node_modules/http-server/bin/http-server src", {interactive: true, async: true}, complete);
+        });
+
+-	interactive: true: so we can see the output
+-	complete: To run the complete function when it’s don.
+
+Add jake:false  in Jakefile.js on the top command line within globals as following:
+-	This is to define jake as a global variable.
+	/* globals jake:false, desc:false, task:false, complete:false, fail:false */
+8.	./jake.sh run
 
 
 
