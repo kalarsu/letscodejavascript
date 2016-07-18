@@ -1,4 +1,5 @@
-/* globals desc: false, task: false, complete: false, fail: false */
+/* globals jake:false, desc:false, task:false, complete:false, fail:false */
+//defint all the global variable only for this jakefile.js
 
 (function(){
     "use strict";//Tell javascript at run time to check error , help javascript prevent errors, not allow sloppy coding
@@ -6,10 +7,25 @@
     var semver = require("semver"); //semver is a parser for node for parsing version number
     var jshint = require("simplebuild-jshint");
 
+
+    //******** General-purpose tasks ----------------------------
+
     desc("default build");//documentation for following task, >jake --tasks or >jake -T  will show all the tasks, this is what it meant self-documentation
     task("default", ["version", "lint"], function(){ //run "version","lint" task before running default
         console.log("\n\nBUILD OK");
     });
+
+
+    desc("Run a localhost server");
+    task("run", function(){
+        jake.exec("node node_modules/http-server/bin/http-server src", {interactive: true, async: true}, complete);
+        //interactive:true , so we can see the output.
+        //complete: to run complete function when it's done.
+    });
+
+
+
+    //******** Supporting tasks ---------------------------------
 
     desc("Check Node version");
     task("version", function(){
