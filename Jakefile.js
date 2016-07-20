@@ -45,24 +45,7 @@
         process.stdout.write("Linting Javascript: "); //using global process instead of console.log
         jshint.checkFiles({
             files: ["Jakefile.js", "src/**/*.js"],
-            options: {
-                bitwise: true,    // single | or & is mistype , should be || or &&
-                //curly: true,  //always put curly braces around blocks
-                eqeqeq: true,
-                forin: true,
-                freeze: true,
-                futurehostile: true,
-                latedef: "nofunc",
-                noarg: true,
-                nocomma: true,
-                nonbsp: true,
-                nonew: true,
-                strict: true, // required to use "use strict" at the top
-                undef: true,
-
-                node: true,
-                browser: true,
-            },
+            options: lintOptions(),
             globals: {
                 //Mocha
                 describe: false, // false means , we will never change it
@@ -74,6 +57,29 @@
             }
         }, complete, fail);
     }, {async: true}); // async: true , tell jake not to end the task until the complete function is called.
+
+
+    function lintOptions(){
+        return {
+            bitwise: true,    // single | or & is mistype , should be || or &&
+            //curly: true,  //always put curly braces around blocks
+            eqeqeq: true,
+            forin: true,
+            freeze: true,
+            futurehostile: true,
+            latedef: "nofunc",
+            noarg: true,
+            nocomma: true,
+            nonbsp: true,
+            nonew: true,
+            strict: true, // required to use "use strict" at the top
+            undef: true,
+
+            node: true,
+            browser: true
+        }
+
+    }
 
 
 }());
