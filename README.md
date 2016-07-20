@@ -520,6 +520,7 @@ Test Automation components:
 Ht11: Assertions - Chai
 ===============================================================
 1.	Assertion :   Allow you to check the result of a function. Following assertEqual function is to check if the result is correct, but we don’t write our own assertion, we use popular plugin called “Chai”.
+
         (function () {
             "use strict";
 
@@ -533,6 +534,7 @@ Ht11: Assertions - Chai
                 if(actual !== expected) throw new Error("Expected=" + expected + ", but got="+actual);
             }
         }());
+
 2.	modify jakefile.js, under lint, files: [ “Jakefile.js”, “src/**/*.js” ]
     -	src/**/*.js: means all file under “src” folder and all the sub directory .js files, will be verify by lint
     -	So, whatever js file modified and saved under src/ will run lint
@@ -560,6 +562,7 @@ b.	sudo git add . , sudo git commit –am “message”, sudo npm rebuild
 c.	var assert = require("chai").assert; //to include chai library
 d.	assert.equal(add(3,4),7); //chai assertion function, so we don’t have to write our own
 e.	node src/test.js   to test
+
         (function () {
             "use strict";
 
