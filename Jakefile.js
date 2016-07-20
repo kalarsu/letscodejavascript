@@ -46,15 +46,7 @@
         jshint.checkFiles({
             files: ["Jakefile.js", "src/**/*.js"],
             options: lintOptions(),
-            globals: {
-                //Mocha
-                describe: false, // false means , we will never change it
-                it : false,
-                before: false,
-                after: false,
-                beforeEach: false,
-                afterEach: false
-            }
+            globals: lintGlobal()
         }, complete, fail);
     }, {async: true}); // async: true , tell jake not to end the task until the complete function is called.
 
@@ -77,8 +69,19 @@
 
             node: true,
             browser: true
-        }
+        };
+    }
 
+    function lintGlobal(){
+        return{
+            //Mocha
+            describe: false, // false means , we will never change it
+            it : false,
+            before: false,
+            after: false,
+            beforeEach: false,
+            afterEach: false
+        };
     }
 
 
