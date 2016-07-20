@@ -557,11 +557,11 @@ Ht11: Assertions - Chai
     - Sudo node src/test.js 	to test it
 
 4.	A popular third part assertion library: Chai http://chaijs.com/
-a.	Sudo npm install chai --save-dev --ignore-scripts
-b.	sudo git add . , sudo git commit –am “message”, sudo npm rebuild
-c.	var assert = require("chai").assert; //to include chai library
-d.	assert.equal(add(3,4),7); //chai assertion function, so we don’t have to write our own
-e.	node src/test.js   to test
+    - Sudo npm install chai --save-dev --ignore-scripts
+    - sudo git add . , sudo git commit –am “message”, sudo npm rebuild
+    - var assert = require("chai").assert; //to include chai library
+    - assert.equal(add(3,4),7); //chai assertion function, so we don’t have to write our own
+    - node src/test.js   to test
 
         (function () {
             "use strict";
