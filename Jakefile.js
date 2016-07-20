@@ -64,7 +64,13 @@
                 browser: true,
             },
             globals: {
-
+                //Mocha
+                describe: false, // false means , we will never change it
+                it : false,
+                before: false,
+                after: false,
+                beforeEach: false,
+                afterEach: false
             }
         }, complete, fail);
     }, {async: true}); // async: true , tell jake not to end the task until the complete function is called.
