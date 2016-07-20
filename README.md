@@ -609,6 +609,86 @@ Ht12: Test frameworks - Mocha
 
 
 
+Ht13: Cross-Browser Test Runner -Karma
+=======================================================
+1.	Install Karma http://karma-runner.github.io/0.13/index.html
+    -	sudo npm install karma --save-dev --ignore-scripts
+    -	sudo git add . , sudo git commit –am “message”, sudo npm rebuild to see if there is any binary
+    -	git status //there are a lot of untrack binary files, copy them and paste them into .gitignore file:
+
+        # Karma binaries
+        node_modules/karma/node_modules/chokidar/node_modules/fsevents/build/
+        node_modules/karma/node_modules/socket.io/node_modules/engine.io/node_modules/ws/node_modules/bufferutil/build/
+        node_modules/karma/node_modules/socket.io/node_modules/engine.io/node_modules/ws/node_modules/utf-8-validate/build/
+        node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/ws/node_modules/bufferutil/build
+        node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_modules/engine.io-client/node_modules/ws/node_modules/utf-8-validate/build/
+
+        # Karma's binaries don't build on vanilla Windows because they require Python.
+        # They're optional, so we've removed them from the repository and ignored them:
+        node_modules/karma/node_modules/chokidar/node_modules/fsevents/
+        node_modules/karma/node_modules/socket.io/node_modules/engine.io/node_modules/ws/node_modules/bufferutil/
+        node_modules/karma/node_modules/socket.io/node_modules/engine.io/node_modules/ws/node_modules/utf-8-validate/
+        node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_odules/engine.io-client/node_modules/ws/node_modules/bufferutil/
+        node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_odules/engine.io-client/node_modules/ws/node_modules/utf-8-validate/
+
+
+    -	Delete following files, so windows system won’t fail. Karma’s binarys don’t build on vanilla windows because they require Python. They are optional, so we’ve removed them from the repository and ignored them:
+    -	rm -rf : Means remove directory and all the sub directory without asking question.
+    -	sudo rm -rf  node_modules/karma/node_modules/chokidar/node_modules/fsevents/
+    -	rm -rf node_modules/karma/node_modules/socket.io/node_modules/engine.io/node_modules/ws/node_modules/bufferutil/
+    -	sudo rm -rf node_modules/karma/node_modules/socket.io/node_modules/engine.io/node_modules/ws/node_modules/utf-8-validate/
+    -	sudo rm -rf node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_odules/engine.io-client/node_modules/ws/node_modules/bufferutil/
+    -	sudo rm -rf node_modules/karma/node_modules/socket.io/node_modules/socket.io-client/node_odules/engine.io-client/node_modules/ws/node_modules/utf-8-validate/
+
+2.	To initialize Karma: sudo node_modules/.bin/karma init.
+    -	Options showing in following screen shot. (use tab to swap options)
+    -	Karma.conf.js will be created.
+
+
+3.	To start Karma server: sudo node_modules/.bin/karma start
+    -	Copy the local host url: http://localhost:9876/ to browser, that will capture the browser. When Karma run the test, it will automatically send, run and test your javascript in the browser, and report the result back to command line.
+
+4.	Open another Terminal and sudo node_moduels/.bin/karma run
+    -	This error was found from test.js : var assert = require("chai").assert; //this is only good when running under node, so use assertEqual function instead as following:
+
+        (function () {
+            "use strict";
+
+            //var assert = require("chai").assert;
+
+            //Mocha--------------------------------------
+            describe("Addition", function(){  //use "describe" to group all the test cases
+                it("adds positive numbers", function(){ //use "it" for test case, and write the comment in the code
+                    //assert.equal(add(3,4), 7); //Chai
+                    assertEqual(add(3,4), 7);
+                });
+
+                it("uses IEEE 754 floating point", function(){
+                    //assert.equal(add(0.1, 0.2), 0.30000000000000004);//Chai
+                    assertEqual(add(0.1,0.2), 0.30000000000000004);
+                });
+
+                function assertEqual(actual, expected){
+                    if (actual !== expected) throw new Error("expected"+ expected + ", but was " + actual);
+                }
+            });
+
+
+            function add(a,b){
+                return a + b;
+            }
+
+        }());
+
+
+
+    -	After modification, run sudo node_moduels/.bin/karma run
+    -	When size down the width of terminal and run above again, there is a little bug and not running correctly, so change karma.conf.js, change to reporters: ['dots’].
+    -	Go back to Karma server and control+ C and start again sudo node_modules/.bin/karma start
+    -	Go back to another terminal and run sudo node_moduels/.bin/karma run
+
+
+
 
 
 
