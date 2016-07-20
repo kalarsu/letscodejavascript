@@ -44,7 +44,7 @@
         //console.log("Linting Javascript: ");
         process.stdout.write("Linting Javascript: "); //using global process instead of console.log
         jshint.checkFiles({
-            files: "Jakefile.js",
+            files: ["Jakefile.js", "src/**/*.js"],
             options: {
                 bitwise: true,    // single | or & is mistype , should be || or &&
                 //curly: true,  //always put curly braces around blocks
