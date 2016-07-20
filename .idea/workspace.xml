@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3181fd9-da49-45da-9216-c5f7be218bbe" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jakefile.js" afterPath="$PROJECT_DIR$/Jakefile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-    </list>
+    <list default="true" id="e3181fd9-da49-45da-9216-c5f7be218bbe" name="Default" comment="" />
     <ignored path="letscodejavascript.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -38,8 +34,8 @@
       <file leaf-file-name="test.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="285">
+              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -71,11 +67,11 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
-                <marker date="1468884595000" expanded="true" signature="0:278" placeholder="{&quot;name&quot;: &quot;letscodejavascript&quot;...}" />
-                <marker date="1468884595000" expanded="true" signature="88:113" placeholder="{&quot;node&quot;: &quot;5.5.0&quot;...}" />
-                <marker date="1468884595000" expanded="true" signature="136:276" placeholder="{&quot;jake&quot;: &quot;^8.0.12&quot;...}" />
+                <marker date="1468976322000" expanded="true" signature="0:300" placeholder="{&quot;name&quot;: &quot;letscodejavascript&quot;...}" />
+                <marker date="1468976322000" expanded="true" signature="88:113" placeholder="{&quot;node&quot;: &quot;5.5.0&quot;...}" />
+                <marker date="1468976322000" expanded="true" signature="136:298" placeholder="{&quot;jake&quot;: &quot;^8.0.12&quot;...}" />
               </folding>
             </state>
           </provider>
@@ -310,12 +306,12 @@
       <workItem from="1467070604311" duration="6589000" />
       <workItem from="1467243186624" duration="731000" />
       <workItem from="1467395974896" duration="858000" />
-      <workItem from="1468866180864" duration="8052000" />
+      <workItem from="1468866180864" duration="8439000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34640000" />
+    <option name="totallyTimeSpent" value="35027000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="475" y="-1201" width="1182" height="1199" extended-state="0" />
@@ -384,9 +380,9 @@
         <state relative-caret-position="210">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <marker date="1468884595000" expanded="true" signature="0:278" placeholder="{&quot;name&quot;: &quot;letscodejavascript&quot;...}" />
-            <marker date="1468884595000" expanded="true" signature="88:113" placeholder="{&quot;node&quot;: &quot;5.5.0&quot;...}" />
-            <marker date="1468884595000" expanded="true" signature="136:276" placeholder="{&quot;jake&quot;: &quot;^8.0.12&quot;...}" />
+            <marker date="1468976322000" expanded="true" signature="0:300" placeholder="{&quot;name&quot;: &quot;letscodejavascript&quot;...}" />
+            <marker date="1468976322000" expanded="true" signature="88:113" placeholder="{&quot;node&quot;: &quot;5.5.0&quot;...}" />
+            <marker date="1468976322000" expanded="true" signature="136:298" placeholder="{&quot;jake&quot;: &quot;^8.0.12&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -496,9 +492,9 @@
         <state relative-caret-position="120">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <marker date="1468884595000" expanded="true" signature="0:278" placeholder="{&quot;name&quot;: &quot;letscodejavascript&quot;...}" />
-            <marker date="1468884595000" expanded="true" signature="88:113" placeholder="{&quot;node&quot;: &quot;5.5.0&quot;...}" />
-            <marker date="1468884595000" expanded="true" signature="136:276" placeholder="{&quot;jake&quot;: &quot;^8.0.12&quot;...}" />
+            <marker date="1468976322000" expanded="true" signature="0:300" placeholder="{&quot;name&quot;: &quot;letscodejavascript&quot;...}" />
+            <marker date="1468976322000" expanded="true" signature="88:113" placeholder="{&quot;node&quot;: &quot;5.5.0&quot;...}" />
+            <marker date="1468976322000" expanded="true" signature="136:298" placeholder="{&quot;jake&quot;: &quot;^8.0.12&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -557,11 +553,11 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
-            <marker date="1468884595000" expanded="true" signature="0:278" placeholder="{&quot;name&quot;: &quot;letscodejavascript&quot;...}" />
-            <marker date="1468884595000" expanded="true" signature="88:113" placeholder="{&quot;node&quot;: &quot;5.5.0&quot;...}" />
-            <marker date="1468884595000" expanded="true" signature="136:276" placeholder="{&quot;jake&quot;: &quot;^8.0.12&quot;...}" />
+            <marker date="1468976322000" expanded="true" signature="0:300" placeholder="{&quot;name&quot;: &quot;letscodejavascript&quot;...}" />
+            <marker date="1468976322000" expanded="true" signature="88:113" placeholder="{&quot;node&quot;: &quot;5.5.0&quot;...}" />
+            <marker date="1468976322000" expanded="true" signature="136:298" placeholder="{&quot;jake&quot;: &quot;^8.0.12&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -594,8 +590,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="285">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding />
         </state>
       </provider>
