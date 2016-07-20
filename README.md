@@ -506,7 +506,77 @@ Add jake:false  in Jakefile.js on the top command line within globals as followi
 8.	./jake.sh run
 
 
+Test Automation components:
+===============================================================
+1.	Assertion library - Chai		Ht11
+    -	This makes it a lot easier to test your code, so you don't have to do thousands of if statements.
+2.	Test framework - Mocha		Ht12
+    Testing frameworks are used to organize and execute tests.
 
+3.	Cross-Browser Test Runner - Karma	Ht13
+    Testing Environments are the places where you run your tests.
+
+
+Ht11: Assertions - Chai
+===============================================================
+1.	Assertion :   Allow you to check the result of a function. Following assertEqual function is to check if the result is correct, but we don’t write our own assertion, we use popular plugin called “Chai”.
+        (function () {
+            "use strict";
+
+            assertEqual(add(3,4), 7);
+
+            function add(a,b){
+                return a+b;
+            }
+
+            function assertEqual(actual, expected){
+                if(actual !== expected) throw new Error("Expected=" + expected + ", but got="+actual);
+            }
+        }());
+2.	modify jakefile.js, under lint, files: [ “Jakefile.js”, “src/**/*.js” ]
+    -	src/**/*.js: means all file under “src” folder and all the sub directory .js files, will be verify by lint
+    -	So, whatever js file modified and saved under src/ will run lint
+    -	sudo ./jake.sh to test
+    -	sudo node src/test.js to run javascript
+
+3.	Created an assertion function (test.js) to check if there are error:
+
+    assertEqual(add(3,4), 7)
+
+    function add(a,b){
+        return a + b;
+    }
+
+    function assertEqual(actual, expected){
+        if (actual !== expected) throw new Error("Expected: "+expected + ", but got: " + actual);
+        //throw new Error will stop the program if there is no try,catch
+    }
+
+    - Sudo node src/test.js 	to test it
+
+4.	A popular third part assertion library: Chai http://chaijs.com/
+a.	Sudo npm install chai --save-dev --ignore-scripts
+b.	sudo git add . , sudo git commit –am “message”, sudo npm rebuild
+c.	var assert = require("chai").assert; //to include chai library
+d.	assert.equal(add(3,4),7); //chai assertion function, so we don’t have to write our own
+e.	node src/test.js   to test
+        (function () {
+            "use strict";
+
+            var assert = require("chai").assert;
+
+            assert.equal(add(3,4), 7); //simeple one line chai replace following write your own assertEqual function
+
+            //assertEqual(add(3,4), 7);
+
+            function add(a,b){
+                return a+b;
+            }
+
+            // function assertEqual(actual, expected){
+            //     if(actual !== expected) throw new Error("Expected=" + expected + ", but got="+actual);
+            // }
+        }());
 
 
 
