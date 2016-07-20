@@ -1,0 +1,2580 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'rebuild' ]
+2 info using npm@3.3.12
+3 info using node@v5.5.0
+4 info readInstalled object
+5 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript',
+5 verbose rebuild   'letscodejavascript@1.0.0' ]
+6 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/arr-diff',
+6 verbose rebuild   'arr-diff@2.0.0' ]
+7 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/arr-flatten',
+7 verbose rebuild   'arr-flatten@1.0.1' ]
+8 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/anymatch',
+8 verbose rebuild   'anymatch@1.3.0' ]
+9 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/arrify',
+9 verbose rebuild   'arrify@1.0.1' ]
+10 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/micromatch',
+10 verbose rebuild   'micromatch@2.3.11' ]
+11 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/array-unique',
+11 verbose rebuild   'array-unique@0.2.1' ]
+12 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/braces',
+12 verbose rebuild   'braces@1.8.5' ]
+13 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/expand-range',
+13 verbose rebuild   'expand-range@1.8.2' ]
+14 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/fill-range',
+14 verbose rebuild   'fill-range@2.2.3' ]
+15 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/is-number',
+15 verbose rebuild   'is-number@2.1.0' ]
+16 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/kind-of',
+16 verbose rebuild   'kind-of@3.0.3' ]
+17 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/is-buffer',
+17 verbose rebuild   'is-buffer@1.1.3' ]
+18 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/isobject',
+18 verbose rebuild   'isobject@2.1.0' ]
+19 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/isarray',
+19 verbose rebuild   'isarray@1.0.0' ]
+20 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/randomatic',
+20 verbose rebuild   'randomatic@1.1.5' ]
+21 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/repeat-element',
+21 verbose rebuild   'repeat-element@1.1.2' ]
+22 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/repeat-string',
+22 verbose rebuild   'repeat-string@1.5.4' ]
+23 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/preserve',
+23 verbose rebuild   'preserve@0.2.0' ]
+24 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/expand-brackets',
+24 verbose rebuild   'expand-brackets@0.1.5' ]
+25 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/is-posix-bracket',
+25 verbose rebuild   'is-posix-bracket@0.1.1' ]
+26 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/extglob',
+26 verbose rebuild   'extglob@0.3.2' ]
+27 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/is-extglob',
+27 verbose rebuild   'is-extglob@1.0.0' ]
+28 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/filename-regex',
+28 verbose rebuild   'filename-regex@2.0.0' ]
+29 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/is-glob',
+29 verbose rebuild   'is-glob@2.0.1' ]
+30 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/normalize-path',
+30 verbose rebuild   'normalize-path@2.0.1' ]
+31 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/object.omit',
+31 verbose rebuild   'object.omit@2.0.0' ]
+32 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/for-own',
+32 verbose rebuild   'for-own@0.1.4' ]
+33 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/for-in',
+33 verbose rebuild   'for-in@0.1.5' ]
+34 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/is-extendable',
+34 verbose rebuild   'is-extendable@0.1.1' ]
+35 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/parse-glob',
+35 verbose rebuild   'parse-glob@3.0.4' ]
+36 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/glob-base',
+36 verbose rebuild   'glob-base@0.3.0' ]
+37 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/glob-parent',
+37 verbose rebuild   'glob-parent@2.0.0' ]
+38 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/is-dotfile',
+38 verbose rebuild   'is-dotfile@1.0.2' ]
+39 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/regex-cache',
+39 verbose rebuild   'regex-cache@0.4.3' ]
+40 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/is-equal-shallow',
+40 verbose rebuild   'is-equal-shallow@0.1.3' ]
+41 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/is-primitive',
+41 verbose rebuild   'is-primitive@2.0.0' ]
+42 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/after',
+42 verbose rebuild   'after@0.8.1' ]
+43 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/array-slice',
+43 verbose rebuild   'array-slice@0.2.3' ]
+44 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/array-to-sentence',
+44 verbose rebuild   'array-to-sentence@1.1.0' ]
+45 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/arraybuffer.slice',
+45 verbose rebuild   'arraybuffer.slice@0.0.6' ]
+46 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/assertion-error',
+46 verbose rebuild   'assertion-error@1.0.2' ]
+47 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/async-each',
+47 verbose rebuild   'async-each@1.0.0' ]
+48 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/async',
+48 verbose rebuild   'async@1.5.2' ]
+49 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/backo2',
+49 verbose rebuild   'backo2@1.0.2' ]
+50 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/balanced-match',
+50 verbose rebuild   'balanced-match@0.4.2' ]
+51 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/base64-arraybuffer',
+51 verbose rebuild   'base64-arraybuffer@0.1.2' ]
+52 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/base64id',
+52 verbose rebuild   'base64id@0.1.0' ]
+53 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/benchmark',
+53 verbose rebuild   'benchmark@1.0.0' ]
+54 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/better-assert',
+54 verbose rebuild   'better-assert@1.0.2' ]
+55 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/callsite',
+55 verbose rebuild   'callsite@1.0.0' ]
+56 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/binary-extensions',
+56 verbose rebuild   'binary-extensions@1.5.0' ]
+57 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/bluebird',
+57 verbose rebuild   'bluebird@3.4.1' ]
+58 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/blob',
+58 verbose rebuild   'blob@0.0.4' ]
+59 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/brace-expansion',
+59 verbose rebuild   'brace-expansion@1.1.6' ]
+60 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/concat-map',
+60 verbose rebuild   'concat-map@0.0.1' ]
+61 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/buffer-shims',
+61 verbose rebuild   'buffer-shims@1.0.0' ]
+62 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/bytes',
+62 verbose rebuild   'bytes@2.4.0' ]
+63 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/chai',
+63 verbose rebuild   'chai@3.5.0' ]
+64 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/deep-eql',
+64 verbose rebuild   'deep-eql@0.1.3' ]
+65 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/deep-eql/node_modules/type-detect',
+65 verbose rebuild   'type-detect@0.1.1' ]
+66 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/type-detect',
+66 verbose rebuild   'type-detect@1.0.0' ]
+67 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/chokidar',
+67 verbose rebuild   'chokidar@1.6.0' ]
+68 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/inherits',
+68 verbose rebuild   'inherits@2.0.1' ]
+69 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/is-binary-path',
+69 verbose rebuild   'is-binary-path@1.0.1' ]
+70 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/path-is-absolute',
+70 verbose rebuild   'path-is-absolute@1.0.0' ]
+71 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/readdirp',
+71 verbose rebuild   'readdirp@2.1.0' ]
+72 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/graceful-fs',
+72 verbose rebuild   'graceful-fs@4.1.4' ]
+73 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/readdirp/node_modules/minimatch',
+73 verbose rebuild   'minimatch@3.0.2' ]
+74 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/readdirp/node_modules/readable-stream',
+74 verbose rebuild   'readable-stream@2.1.4' ]
+75 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/core-util-is',
+75 verbose rebuild   'core-util-is@1.0.2' ]
+76 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/process-nextick-args',
+76 verbose rebuild   'process-nextick-args@1.0.7' ]
+77 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/string_decoder',
+77 verbose rebuild   'string_decoder@0.10.31' ]
+78 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/util-deprecate',
+78 verbose rebuild   'util-deprecate@1.0.2' ]
+79 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/set-immediate-shim',
+79 verbose rebuild   'set-immediate-shim@1.0.1' ]
+80 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/cli',
+80 verbose rebuild   'cli@0.6.6' ]
+81 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/exit',
+81 verbose rebuild   'exit@0.1.2' ]
+82 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/glob',
+82 verbose rebuild   'glob@3.2.11' ]
+83 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/glob/node_modules/minimatch',
+83 verbose rebuild   'minimatch@0.3.0' ]
+84 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/lru-cache',
+84 verbose rebuild   'lru-cache@2.7.3' ]
+85 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/sigmund',
+85 verbose rebuild   'sigmund@1.0.1' ]
+86 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/commander',
+86 verbose rebuild   'commander@2.3.0' ]
+87 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/component-emitter',
+87 verbose rebuild   'component-emitter@1.1.2' ]
+88 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/content-type',
+88 verbose rebuild   'content-type@1.0.2' ]
+89 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/console-browserify',
+89 verbose rebuild   'console-browserify@1.1.0' ]
+90 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/date-now',
+90 verbose rebuild   'date-now@0.1.4' ]
+91 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/connect',
+91 verbose rebuild   'connect@3.4.1' ]
+92 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/debug',
+92 verbose rebuild   'debug@2.2.0' ]
+93 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/ms',
+93 verbose rebuild   'ms@0.7.1' ]
+94 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/finalhandler',
+94 verbose rebuild   'finalhandler@0.4.1' ]
+95 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/escape-html',
+95 verbose rebuild   'escape-html@1.0.3' ]
+96 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/on-finished',
+96 verbose rebuild   'on-finished@2.3.0' ]
+97 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/ee-first',
+97 verbose rebuild   'ee-first@1.1.1' ]
+98 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/unpipe',
+98 verbose rebuild   'unpipe@1.0.0' ]
+99 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/parseurl',
+99 verbose rebuild   'parseurl@1.3.1' ]
+100 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/utils-merge',
+100 verbose rebuild   'utils-merge@1.0.0' ]
+101 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/corser',
+101 verbose rebuild   'corser@2.0.0' ]
+102 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/component-bind',
+102 verbose rebuild   'component-bind@1.0.0' ]
+103 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/colors',
+103 verbose rebuild   'colors@1.0.3' ]
+104 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/core-js',
+104 verbose rebuild   'core-js@2.4.1' ]
+105 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/custom-event',
+105 verbose rebuild   'custom-event@1.0.0' ]
+106 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/component-inherit',
+106 verbose rebuild   'component-inherit@0.0.3' ]
+107 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/depd',
+107 verbose rebuild   'depd@1.1.0' ]
+108 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/di',
+108 verbose rebuild   'di@0.0.1' ]
+109 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/diff',
+109 verbose rebuild   'diff@1.4.0' ]
+110 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/dom-serialize',
+110 verbose rebuild   'dom-serialize@2.2.1' ]
+111 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/ent',
+111 verbose rebuild   'ent@2.2.0' ]
+112 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/extend',
+112 verbose rebuild   'extend@3.0.0' ]
+113 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/void-elements',
+113 verbose rebuild   'void-elements@2.0.1' ]
+114 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/domelementtype',
+114 verbose rebuild   'domelementtype@1.3.0' ]
+115 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/domhandler',
+115 verbose rebuild   'domhandler@2.3.0' ]
+116 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/domutils',
+116 verbose rebuild   'domutils@1.5.1' ]
+117 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/dom-serializer',
+117 verbose rebuild   'dom-serializer@0.1.0' ]
+118 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/dom-serializer/node_modules/domelementtype',
+118 verbose rebuild   'domelementtype@1.1.3' ]
+119 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/dom-serializer/node_modules/entities',
+119 verbose rebuild   'entities@1.1.1' ]
+120 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/ecstatic',
+120 verbose rebuild   'ecstatic@1.4.1' ]
+121 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/he',
+121 verbose rebuild   'he@0.5.0' ]
+122 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/mime',
+122 verbose rebuild   'mime@1.3.4' ]
+123 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/minimist',
+123 verbose rebuild   'minimist@1.2.0' ]
+124 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/url-join',
+124 verbose rebuild   'url-join@1.1.0' ]
+125 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/engine.io',
+125 verbose rebuild   'engine.io@1.6.10' ]
+126 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/accepts',
+126 verbose rebuild   'accepts@1.1.4' ]
+127 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/accepts/node_modules/mime-types',
+127 verbose rebuild   'mime-types@2.0.14' ]
+128 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/accepts/node_modules/mime-db',
+128 verbose rebuild   'mime-db@1.12.0' ]
+129 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/negotiator',
+129 verbose rebuild   'negotiator@0.4.9' ]
+130 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/engine.io-parser',
+130 verbose rebuild   'engine.io-parser@1.2.4' ]
+131 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/engine.io-parser/node_modules/has-binary',
+131 verbose rebuild   'has-binary@0.1.6' ]
+132 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/engine.io-parser/node_modules/isarray',
+132 verbose rebuild   'isarray@0.0.1' ]
+133 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/utf8',
+133 verbose rebuild   'utf8@2.1.0' ]
+134 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/ws',
+134 verbose rebuild   'ws@1.0.1' ]
+135 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/options',
+135 verbose rebuild   'options@0.0.6' ]
+136 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/ultron',
+136 verbose rebuild   'ultron@1.0.2' ]
+137 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/engine.io-client',
+137 verbose rebuild   'engine.io-client@1.6.9' ]
+138 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/has-cors',
+138 verbose rebuild   'has-cors@1.1.0' ]
+139 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/indexof',
+139 verbose rebuild   'indexof@0.0.1' ]
+140 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/parsejson',
+140 verbose rebuild   'parsejson@0.0.1' ]
+141 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/parseqs',
+141 verbose rebuild   'parseqs@0.0.2' ]
+142 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/parseuri',
+142 verbose rebuild   'parseuri@0.0.4' ]
+143 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/xmlhttprequest-ssl',
+143 verbose rebuild   'xmlhttprequest-ssl@1.5.1' ]
+144 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/yeast',
+144 verbose rebuild   'yeast@0.1.2' ]
+145 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/entities',
+145 verbose rebuild   'entities@1.0.0' ]
+146 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/escape-string-regexp',
+146 verbose rebuild   'escape-string-regexp@1.0.2' ]
+147 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/errno',
+147 verbose rebuild   'errno@0.1.4' ]
+148 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/prr',
+148 verbose rebuild   'prr@0.0.0' ]
+149 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/eventemitter3',
+149 verbose rebuild   'eventemitter3@1.2.0' ]
+150 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/fsevents',
+150 verbose rebuild   'fsevents@1.0.14' ]
+151 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/nan',
+151 verbose rebuild   'nan@2.4.0' ]
+152 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/fs.realpath',
+152 verbose rebuild   'fs.realpath@1.0.0' ]
+153 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/growl',
+153 verbose rebuild   'growl@1.9.2' ]
+154 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/http-errors',
+154 verbose rebuild   'http-errors@1.5.0' ]
+155 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/setprototypeof',
+155 verbose rebuild   'setprototypeof@1.0.1' ]
+156 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/statuses',
+156 verbose rebuild   'statuses@1.3.0' ]
+157 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/htmlparser2',
+157 verbose rebuild   'htmlparser2@3.8.3' ]
+158 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/readable-stream',
+158 verbose rebuild   'readable-stream@1.1.14' ]
+159 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/readable-stream/node_modules/isarray',
+159 verbose rebuild   'isarray@0.0.1' ]
+160 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/http-proxy',
+160 verbose rebuild   'http-proxy@1.14.0' ]
+161 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/requires-port',
+161 verbose rebuild   'requires-port@1.0.0' ]
+162 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/http-server',
+162 verbose rebuild   'http-server@0.9.0' ]
+163 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/opener',
+163 verbose rebuild   'opener@1.4.1' ]
+164 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/optimist',
+164 verbose rebuild   'optimist@0.6.1' ]
+165 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/optimist/node_modules/minimist',
+165 verbose rebuild   'minimist@0.0.10' ]
+166 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/wordwrap',
+166 verbose rebuild   'wordwrap@0.0.3' ]
+167 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/portfinder',
+167 verbose rebuild   'portfinder@0.4.0' ]
+168 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/portfinder/node_modules/async',
+168 verbose rebuild   'async@0.9.0' ]
+169 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/mkdirp',
+169 verbose rebuild   'mkdirp@0.5.1' ]
+170 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/mkdirp/node_modules/minimist',
+170 verbose rebuild   'minimist@0.0.8' ]
+171 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/union',
+171 verbose rebuild   'union@0.4.4' ]
+172 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/qs',
+172 verbose rebuild   'qs@2.3.3' ]
+173 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/iconv-lite',
+173 verbose rebuild   'iconv-lite@0.4.13' ]
+174 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/inflight',
+174 verbose rebuild   'inflight@1.0.5' ]
+175 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/once',
+175 verbose rebuild   'once@1.3.3' ]
+176 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/wrappy',
+176 verbose rebuild   'wrappy@1.0.2' ]
+177 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/isbinaryfile',
+177 verbose rebuild   'isbinaryfile@3.0.0' ]
+178 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/jshint',
+178 verbose rebuild   'jshint@2.9.2' ]
+179 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/lodash',
+179 verbose rebuild   'lodash@3.7.0' ]
+180 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/minimatch',
+180 verbose rebuild   'minimatch@2.0.10' ]
+181 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/shelljs',
+181 verbose rebuild   'shelljs@0.3.0' ]
+182 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/strip-json-comments',
+182 verbose rebuild   'strip-json-comments@1.0.4' ]
+183 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/json3',
+183 verbose rebuild   'json3@3.2.6' ]
+184 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/media-typer',
+184 verbose rebuild   'media-typer@0.3.0' ]
+185 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/mime-db',
+185 verbose rebuild   'mime-db@1.23.0' ]
+186 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/mime-types',
+186 verbose rebuild   'mime-types@2.1.11' ]
+187 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/mocha',
+187 verbose rebuild   'mocha@2.5.3' ]
+188 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/jade',
+188 verbose rebuild   'jade@0.26.3' ]
+189 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/jade/node_modules/commander',
+189 verbose rebuild   'commander@0.6.1' ]
+190 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/jade/node_modules/mkdirp',
+190 verbose rebuild   'mkdirp@0.3.0' ]
+191 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/supports-color',
+191 verbose rebuild   'supports-color@1.2.0' ]
+192 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/to-iso-string',
+192 verbose rebuild   'to-iso-string@0.0.2' ]
+193 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/object-assign',
+193 verbose rebuild   'object-assign@4.1.0' ]
+194 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/object-component',
+194 verbose rebuild   'object-component@0.0.3' ]
+195 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/os-tmpdir',
+195 verbose rebuild   'os-tmpdir@1.0.1' ]
+196 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/q',
+196 verbose rebuild   'q@0.9.7' ]
+197 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/qjobs',
+197 verbose rebuild   'qjobs@1.1.4' ]
+198 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/raw-body',
+198 verbose rebuild   'raw-body@2.1.7' ]
+199 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/semver',
+199 verbose rebuild   'semver@5.1.1' ]
+200 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/simplebuild',
+200 verbose rebuild   'simplebuild@0.5.0' ]
+201 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/socket.io',
+201 verbose rebuild   'socket.io@1.4.7' ]
+202 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/has-binary',
+202 verbose rebuild   'has-binary@0.1.7' ]
+203 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/has-binary/node_modules/isarray',
+203 verbose rebuild   'isarray@0.0.1' ]
+204 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/socket.io-adapter',
+204 verbose rebuild   'socket.io-adapter@0.4.0' ]
+205 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/socket.io-adapter/node_modules/socket.io-parser',
+205 verbose rebuild   'socket.io-parser@2.2.2' ]
+206 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/socket.io-adapter/node_modules/socket.io-parser/node_modules/debug',
+206 verbose rebuild   'debug@0.7.4' ]
+207 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/socket.io-adapter/node_modules/isarray',
+207 verbose rebuild   'isarray@0.0.1' ]
+208 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/socket.io-client',
+208 verbose rebuild   'socket.io-client@1.4.6' ]
+209 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/socket.io-client/node_modules/component-emitter',
+209 verbose rebuild   'component-emitter@1.2.0' ]
+210 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/socket.io-parser',
+210 verbose rebuild   'socket.io-parser@2.2.6' ]
+211 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/socket.io-parser/node_modules/isarray',
+211 verbose rebuild   'isarray@0.0.1' ]
+212 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/socket.io-parser/node_modules/json3',
+212 verbose rebuild   'json3@3.3.2' ]
+213 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/to-array',
+213 verbose rebuild   'to-array@0.1.4' ]
+214 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/simplebuild-jshint',
+214 verbose rebuild   'simplebuild-jshint@1.3.0' ]
+215 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/worker-farm',
+215 verbose rebuild   'worker-farm@1.3.1' ]
+216 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/xtend',
+216 verbose rebuild   'xtend@4.0.1' ]
+217 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/source-map',
+217 verbose rebuild   'source-map@0.5.6' ]
+218 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/tmp',
+218 verbose rebuild   'tmp@0.0.28' ]
+219 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/type-is',
+219 verbose rebuild   'type-is@1.6.13' ]
+220 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/body-parser',
+220 verbose rebuild   'body-parser@1.15.2' ]
+221 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/body-parser/node_modules/qs',
+221 verbose rebuild   'qs@6.2.0' ]
+222 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/combine-lists',
+222 verbose rebuild   'combine-lists@1.0.0' ]
+223 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/combine-lists/node_modules/lodash',
+223 verbose rebuild   'lodash@4.13.1' ]
+224 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/filelist',
+224 verbose rebuild   'filelist@0.0.4' ]
+225 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/filelist/node_modules/minimatch',
+225 verbose rebuild   'minimatch@0.3.0' ]
+226 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/filelist/node_modules/lru-cache',
+226 verbose rebuild   'lru-cache@2.7.3' ]
+227 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/filelist/node_modules/sigmund',
+227 verbose rebuild   'sigmund@1.0.1' ]
+228 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/filelist/node_modules/utilities',
+228 verbose rebuild   'utilities@0.0.37' ]
+229 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/expand-braces',
+229 verbose rebuild   'expand-braces@0.1.2' ]
+230 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/expand-braces/node_modules/braces',
+230 verbose rebuild   'braces@0.1.5' ]
+231 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/expand-braces/node_modules/expand-range',
+231 verbose rebuild   'expand-range@0.1.1' ]
+232 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/expand-braces/node_modules/is-number',
+232 verbose rebuild   'is-number@0.1.1' ]
+233 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/expand-braces/node_modules/repeat-string',
+233 verbose rebuild   'repeat-string@0.2.2' ]
+234 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/jake',
+234 verbose rebuild   'jake@8.0.12' ]
+235 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/jake/node_modules/async',
+235 verbose rebuild   'async@0.9.2' ]
+236 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/jake/node_modules/chalk',
+236 verbose rebuild   'chalk@0.4.0' ]
+237 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/jake/node_modules/ansi-styles',
+237 verbose rebuild   'ansi-styles@1.0.0' ]
+238 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/jake/node_modules/has-color',
+238 verbose rebuild   'has-color@0.1.7' ]
+239 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/jake/node_modules/strip-ansi',
+239 verbose rebuild   'strip-ansi@0.1.1' ]
+240 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/jake/node_modules/minimatch',
+240 verbose rebuild   'minimatch@0.2.14' ]
+241 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/jake/node_modules/lru-cache',
+241 verbose rebuild   'lru-cache@2.7.3' ]
+242 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/jake/node_modules/sigmund',
+242 verbose rebuild   'sigmund@1.0.1' ]
+243 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/jake/node_modules/utilities',
+243 verbose rebuild   'utilities@1.0.4' ]
+244 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/log4js',
+244 verbose rebuild   'log4js@0.6.38' ]
+245 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/log4js/node_modules/readable-stream',
+245 verbose rebuild   'readable-stream@1.0.34' ]
+246 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/log4js/node_modules/isarray',
+246 verbose rebuild   'isarray@0.0.1' ]
+247 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/log4js/node_modules/semver',
+247 verbose rebuild   'semver@4.3.6' ]
+248 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/rimraf',
+248 verbose rebuild   'rimraf@2.5.3' ]
+249 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/rimraf/node_modules/glob',
+249 verbose rebuild   'glob@7.0.5' ]
+250 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/rimraf/node_modules/minimatch',
+250 verbose rebuild   'minimatch@3.0.2' ]
+251 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/useragent',
+251 verbose rebuild   'useragent@2.1.9' ]
+252 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/useragent/node_modules/lru-cache',
+252 verbose rebuild   'lru-cache@2.2.4' ]
+253 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/karma',
+253 verbose rebuild   'karma@1.1.1' ]
+254 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/karma/node_modules/colors',
+254 verbose rebuild   'colors@1.1.2' ]
+255 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/karma/node_modules/glob',
+255 verbose rebuild   'glob@7.0.5' ]
+256 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/karma/node_modules/minimatch',
+256 verbose rebuild   'minimatch@3.0.2' ]
+257 verbose rebuild path, id [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/karma/node_modules/lodash',
+257 verbose rebuild   'lodash@3.10.1' ]
+258 silly rebuild set [ '/Applications/MAMP/htdocs/letscodejavascript/node_modules/arr-diff',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/arr-flatten',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/anymatch',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/arrify',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/micromatch',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/array-unique',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/braces',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/expand-range',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/fill-range',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/is-number',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/kind-of',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/is-buffer',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/isobject',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/isarray',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/randomatic',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/repeat-element',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/repeat-string',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/preserve',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/expand-brackets',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/is-posix-bracket',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/extglob',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/is-extglob',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/filename-regex',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/is-glob',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/normalize-path',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/object.omit',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/for-own',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/for-in',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/is-extendable',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/parse-glob',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/glob-base',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/glob-parent',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/is-dotfile',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/regex-cache',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/is-equal-shallow',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/is-primitive',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/after',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/array-slice',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/array-to-sentence',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/arraybuffer.slice',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/assertion-error',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/async-each',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/async',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/backo2',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/balanced-match',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/base64-arraybuffer',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/base64id',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/benchmark',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/better-assert',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/callsite',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/binary-extensions',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/bluebird',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/blob',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/brace-expansion',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/concat-map',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/buffer-shims',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/bytes',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/chai',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/deep-eql',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/deep-eql/node_modules/type-detect',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/type-detect',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/chokidar',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/inherits',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/is-binary-path',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/path-is-absolute',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/readdirp',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/graceful-fs',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/readdirp/node_modules/minimatch',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/readdirp/node_modules/readable-stream',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/core-util-is',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/process-nextick-args',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/string_decoder',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/util-deprecate',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/set-immediate-shim',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/cli',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/exit',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/glob',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/glob/node_modules/minimatch',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/lru-cache',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/sigmund',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/commander',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/component-emitter',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/content-type',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/console-browserify',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/date-now',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/connect',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/debug',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/ms',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/finalhandler',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/escape-html',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/on-finished',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/ee-first',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/unpipe',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/parseurl',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/utils-merge',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/corser',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/component-bind',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/colors',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/core-js',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/custom-event',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/component-inherit',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/depd',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/di',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/diff',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/dom-serialize',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/ent',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/extend',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/void-elements',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/domelementtype',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/domhandler',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/domutils',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/dom-serializer',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/dom-serializer/node_modules/domelementtype',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/dom-serializer/node_modules/entities',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/ecstatic',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/he',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/mime',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/minimist',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/url-join',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/engine.io',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/accepts',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/accepts/node_modules/mime-types',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/accepts/node_modules/mime-db',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/negotiator',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/engine.io-parser',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/engine.io-parser/node_modules/has-binary',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/engine.io-parser/node_modules/isarray',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/utf8',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/ws',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/options',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/ultron',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/engine.io-client',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/has-cors',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/indexof',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/parsejson',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/parseqs',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/parseuri',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/xmlhttprequest-ssl',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/yeast',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/entities',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/escape-string-regexp',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/errno',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/prr',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/eventemitter3',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/fsevents',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/nan',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/fs.realpath',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/growl',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/http-errors',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/setprototypeof',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/statuses',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/htmlparser2',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/readable-stream',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/readable-stream/node_modules/isarray',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/http-proxy',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/requires-port',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/http-server',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/opener',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/optimist',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/optimist/node_modules/minimist',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/wordwrap',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/portfinder',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/portfinder/node_modules/async',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/mkdirp',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/mkdirp/node_modules/minimist',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/union',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/qs',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/iconv-lite',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/inflight',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/once',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/wrappy',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/isbinaryfile',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/jshint',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/lodash',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/minimatch',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/shelljs',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/strip-json-comments',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/json3',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/media-typer',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/mime-db',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/mime-types',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/mocha',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/jade',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/jade/node_modules/commander',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/jade/node_modules/mkdirp',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/supports-color',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/to-iso-string',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/object-assign',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/object-component',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/os-tmpdir',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/q',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/qjobs',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/raw-body',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/semver',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/simplebuild',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/socket.io',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/has-binary',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/has-binary/node_modules/isarray',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/socket.io-adapter',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/socket.io-adapter/node_modules/socket.io-parser',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/socket.io-adapter/node_modules/socket.io-parser/node_modules/debug',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/socket.io-adapter/node_modules/isarray',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/socket.io-client',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/socket.io-client/node_modules/component-emitter',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/socket.io-parser',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/socket.io-parser/node_modules/isarray',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/socket.io-parser/node_modules/json3',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/to-array',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/simplebuild-jshint',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/worker-farm',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/xtend',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/source-map',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/tmp',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/type-is',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/body-parser',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/body-parser/node_modules/qs',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/combine-lists',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/combine-lists/node_modules/lodash',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/filelist',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/filelist/node_modules/minimatch',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/filelist/node_modules/lru-cache',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/filelist/node_modules/sigmund',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/filelist/node_modules/utilities',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/expand-braces',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/expand-braces/node_modules/braces',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/expand-braces/node_modules/expand-range',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/expand-braces/node_modules/is-number',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/expand-braces/node_modules/repeat-string',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/jake',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/jake/node_modules/async',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/jake/node_modules/chalk',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/jake/node_modules/ansi-styles',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/jake/node_modules/has-color',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/jake/node_modules/strip-ansi',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/jake/node_modules/minimatch',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/jake/node_modules/lru-cache',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/jake/node_modules/sigmund',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/jake/node_modules/utilities',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/log4js',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/log4js/node_modules/readable-stream',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/log4js/node_modules/isarray',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/log4js/node_modules/semver',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/rimraf',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/rimraf/node_modules/glob',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/rimraf/node_modules/minimatch',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/useragent',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/useragent/node_modules/lru-cache',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/karma',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/karma/node_modules/colors',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/karma/node_modules/glob',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/karma/node_modules/minimatch',
+258 silly rebuild set   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/karma/node_modules/lodash' ]
+259 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/arr-diff
+260 info lifecycle arr-diff@2.0.0~preinstall: arr-diff@2.0.0
+261 silly lifecycle arr-diff@2.0.0~preinstall: no script for preinstall, continuing
+262 info linkStuff arr-diff@2.0.0
+263 silly linkStuff arr-diff@2.0.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+264 verbose linkBins arr-diff@2.0.0
+265 verbose linkMans arr-diff@2.0.0
+266 verbose rebuildBundles arr-diff@2.0.0
+267 info lifecycle arr-diff@2.0.0~install: arr-diff@2.0.0
+268 silly lifecycle arr-diff@2.0.0~install: no script for install, continuing
+269 info lifecycle arr-diff@2.0.0~postinstall: arr-diff@2.0.0
+270 silly lifecycle arr-diff@2.0.0~postinstall: no script for postinstall, continuing
+271 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/arr-flatten
+272 info lifecycle arr-flatten@1.0.1~preinstall: arr-flatten@1.0.1
+273 silly lifecycle arr-flatten@1.0.1~preinstall: no script for preinstall, continuing
+274 info linkStuff arr-flatten@1.0.1
+275 silly linkStuff arr-flatten@1.0.1 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+276 verbose linkBins arr-flatten@1.0.1
+277 verbose linkMans arr-flatten@1.0.1
+278 verbose rebuildBundles arr-flatten@1.0.1
+279 info lifecycle arr-flatten@1.0.1~install: arr-flatten@1.0.1
+280 silly lifecycle arr-flatten@1.0.1~install: no script for install, continuing
+281 info lifecycle arr-flatten@1.0.1~postinstall: arr-flatten@1.0.1
+282 silly lifecycle arr-flatten@1.0.1~postinstall: no script for postinstall, continuing
+283 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/anymatch
+284 info lifecycle anymatch@1.3.0~preinstall: anymatch@1.3.0
+285 silly lifecycle anymatch@1.3.0~preinstall: no script for preinstall, continuing
+286 info linkStuff anymatch@1.3.0
+287 silly linkStuff anymatch@1.3.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+288 verbose linkBins anymatch@1.3.0
+289 verbose linkMans anymatch@1.3.0
+290 verbose rebuildBundles anymatch@1.3.0
+291 info lifecycle anymatch@1.3.0~install: anymatch@1.3.0
+292 silly lifecycle anymatch@1.3.0~install: no script for install, continuing
+293 info lifecycle anymatch@1.3.0~postinstall: anymatch@1.3.0
+294 silly lifecycle anymatch@1.3.0~postinstall: no script for postinstall, continuing
+295 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/arrify
+296 info lifecycle arrify@1.0.1~preinstall: arrify@1.0.1
+297 silly lifecycle arrify@1.0.1~preinstall: no script for preinstall, continuing
+298 info linkStuff arrify@1.0.1
+299 silly linkStuff arrify@1.0.1 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+300 verbose linkBins arrify@1.0.1
+301 verbose linkMans arrify@1.0.1
+302 verbose rebuildBundles arrify@1.0.1
+303 info lifecycle arrify@1.0.1~install: arrify@1.0.1
+304 silly lifecycle arrify@1.0.1~install: no script for install, continuing
+305 info lifecycle arrify@1.0.1~postinstall: arrify@1.0.1
+306 silly lifecycle arrify@1.0.1~postinstall: no script for postinstall, continuing
+307 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/micromatch
+308 info lifecycle micromatch@2.3.11~preinstall: micromatch@2.3.11
+309 silly lifecycle micromatch@2.3.11~preinstall: no script for preinstall, continuing
+310 info linkStuff micromatch@2.3.11
+311 silly linkStuff micromatch@2.3.11 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+312 verbose linkBins micromatch@2.3.11
+313 verbose linkMans micromatch@2.3.11
+314 verbose rebuildBundles micromatch@2.3.11
+315 info lifecycle micromatch@2.3.11~install: micromatch@2.3.11
+316 silly lifecycle micromatch@2.3.11~install: no script for install, continuing
+317 info lifecycle micromatch@2.3.11~postinstall: micromatch@2.3.11
+318 silly lifecycle micromatch@2.3.11~postinstall: no script for postinstall, continuing
+319 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/array-unique
+320 info lifecycle array-unique@0.2.1~preinstall: array-unique@0.2.1
+321 silly lifecycle array-unique@0.2.1~preinstall: no script for preinstall, continuing
+322 info linkStuff array-unique@0.2.1
+323 silly linkStuff array-unique@0.2.1 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+324 verbose linkBins array-unique@0.2.1
+325 verbose linkMans array-unique@0.2.1
+326 verbose rebuildBundles array-unique@0.2.1
+327 info lifecycle array-unique@0.2.1~install: array-unique@0.2.1
+328 silly lifecycle array-unique@0.2.1~install: no script for install, continuing
+329 info lifecycle array-unique@0.2.1~postinstall: array-unique@0.2.1
+330 silly lifecycle array-unique@0.2.1~postinstall: no script for postinstall, continuing
+331 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/braces
+332 info lifecycle braces@1.8.5~preinstall: braces@1.8.5
+333 silly lifecycle braces@1.8.5~preinstall: no script for preinstall, continuing
+334 info linkStuff braces@1.8.5
+335 silly linkStuff braces@1.8.5 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+336 verbose linkBins braces@1.8.5
+337 verbose linkMans braces@1.8.5
+338 verbose rebuildBundles braces@1.8.5
+339 info lifecycle braces@1.8.5~install: braces@1.8.5
+340 silly lifecycle braces@1.8.5~install: no script for install, continuing
+341 info lifecycle braces@1.8.5~postinstall: braces@1.8.5
+342 silly lifecycle braces@1.8.5~postinstall: no script for postinstall, continuing
+343 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/expand-range
+344 info lifecycle expand-range@1.8.2~preinstall: expand-range@1.8.2
+345 silly lifecycle expand-range@1.8.2~preinstall: no script for preinstall, continuing
+346 info linkStuff expand-range@1.8.2
+347 silly linkStuff expand-range@1.8.2 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+348 verbose linkBins expand-range@1.8.2
+349 verbose linkMans expand-range@1.8.2
+350 verbose rebuildBundles expand-range@1.8.2
+351 info lifecycle expand-range@1.8.2~install: expand-range@1.8.2
+352 silly lifecycle expand-range@1.8.2~install: no script for install, continuing
+353 info lifecycle expand-range@1.8.2~postinstall: expand-range@1.8.2
+354 silly lifecycle expand-range@1.8.2~postinstall: no script for postinstall, continuing
+355 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/fill-range
+356 info lifecycle fill-range@2.2.3~preinstall: fill-range@2.2.3
+357 silly lifecycle fill-range@2.2.3~preinstall: no script for preinstall, continuing
+358 info linkStuff fill-range@2.2.3
+359 silly linkStuff fill-range@2.2.3 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+360 verbose linkBins fill-range@2.2.3
+361 verbose linkMans fill-range@2.2.3
+362 verbose rebuildBundles fill-range@2.2.3
+363 info lifecycle fill-range@2.2.3~install: fill-range@2.2.3
+364 silly lifecycle fill-range@2.2.3~install: no script for install, continuing
+365 info lifecycle fill-range@2.2.3~postinstall: fill-range@2.2.3
+366 silly lifecycle fill-range@2.2.3~postinstall: no script for postinstall, continuing
+367 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/is-number
+368 info lifecycle is-number@2.1.0~preinstall: is-number@2.1.0
+369 silly lifecycle is-number@2.1.0~preinstall: no script for preinstall, continuing
+370 info linkStuff is-number@2.1.0
+371 silly linkStuff is-number@2.1.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+372 verbose linkBins is-number@2.1.0
+373 verbose linkMans is-number@2.1.0
+374 verbose rebuildBundles is-number@2.1.0
+375 info lifecycle is-number@2.1.0~install: is-number@2.1.0
+376 silly lifecycle is-number@2.1.0~install: no script for install, continuing
+377 info lifecycle is-number@2.1.0~postinstall: is-number@2.1.0
+378 silly lifecycle is-number@2.1.0~postinstall: no script for postinstall, continuing
+379 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/kind-of
+380 info lifecycle kind-of@3.0.3~preinstall: kind-of@3.0.3
+381 silly lifecycle kind-of@3.0.3~preinstall: no script for preinstall, continuing
+382 info linkStuff kind-of@3.0.3
+383 silly linkStuff kind-of@3.0.3 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+384 verbose linkBins kind-of@3.0.3
+385 verbose linkMans kind-of@3.0.3
+386 verbose rebuildBundles kind-of@3.0.3
+387 info lifecycle kind-of@3.0.3~install: kind-of@3.0.3
+388 silly lifecycle kind-of@3.0.3~install: no script for install, continuing
+389 info lifecycle kind-of@3.0.3~postinstall: kind-of@3.0.3
+390 silly lifecycle kind-of@3.0.3~postinstall: no script for postinstall, continuing
+391 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/is-buffer
+392 info lifecycle is-buffer@1.1.3~preinstall: is-buffer@1.1.3
+393 silly lifecycle is-buffer@1.1.3~preinstall: no script for preinstall, continuing
+394 info linkStuff is-buffer@1.1.3
+395 silly linkStuff is-buffer@1.1.3 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+396 verbose linkBins is-buffer@1.1.3
+397 verbose linkMans is-buffer@1.1.3
+398 verbose rebuildBundles is-buffer@1.1.3
+399 info lifecycle is-buffer@1.1.3~install: is-buffer@1.1.3
+400 silly lifecycle is-buffer@1.1.3~install: no script for install, continuing
+401 info lifecycle is-buffer@1.1.3~postinstall: is-buffer@1.1.3
+402 silly lifecycle is-buffer@1.1.3~postinstall: no script for postinstall, continuing
+403 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/isobject
+404 info lifecycle isobject@2.1.0~preinstall: isobject@2.1.0
+405 silly lifecycle isobject@2.1.0~preinstall: no script for preinstall, continuing
+406 info linkStuff isobject@2.1.0
+407 silly linkStuff isobject@2.1.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+408 verbose linkBins isobject@2.1.0
+409 verbose linkMans isobject@2.1.0
+410 verbose rebuildBundles isobject@2.1.0
+411 info lifecycle isobject@2.1.0~install: isobject@2.1.0
+412 silly lifecycle isobject@2.1.0~install: no script for install, continuing
+413 info lifecycle isobject@2.1.0~postinstall: isobject@2.1.0
+414 silly lifecycle isobject@2.1.0~postinstall: no script for postinstall, continuing
+415 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/isarray
+416 info lifecycle isarray@1.0.0~preinstall: isarray@1.0.0
+417 silly lifecycle isarray@1.0.0~preinstall: no script for preinstall, continuing
+418 info linkStuff isarray@1.0.0
+419 silly linkStuff isarray@1.0.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+420 verbose linkBins isarray@1.0.0
+421 verbose linkMans isarray@1.0.0
+422 verbose rebuildBundles isarray@1.0.0
+423 info lifecycle isarray@1.0.0~install: isarray@1.0.0
+424 silly lifecycle isarray@1.0.0~install: no script for install, continuing
+425 info lifecycle isarray@1.0.0~postinstall: isarray@1.0.0
+426 silly lifecycle isarray@1.0.0~postinstall: no script for postinstall, continuing
+427 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/randomatic
+428 info lifecycle randomatic@1.1.5~preinstall: randomatic@1.1.5
+429 silly lifecycle randomatic@1.1.5~preinstall: no script for preinstall, continuing
+430 info linkStuff randomatic@1.1.5
+431 silly linkStuff randomatic@1.1.5 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+432 verbose linkBins randomatic@1.1.5
+433 verbose linkMans randomatic@1.1.5
+434 verbose rebuildBundles randomatic@1.1.5
+435 info lifecycle randomatic@1.1.5~install: randomatic@1.1.5
+436 silly lifecycle randomatic@1.1.5~install: no script for install, continuing
+437 info lifecycle randomatic@1.1.5~postinstall: randomatic@1.1.5
+438 silly lifecycle randomatic@1.1.5~postinstall: no script for postinstall, continuing
+439 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/repeat-element
+440 info lifecycle repeat-element@1.1.2~preinstall: repeat-element@1.1.2
+441 silly lifecycle repeat-element@1.1.2~preinstall: no script for preinstall, continuing
+442 info linkStuff repeat-element@1.1.2
+443 silly linkStuff repeat-element@1.1.2 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+444 verbose linkBins repeat-element@1.1.2
+445 verbose linkMans repeat-element@1.1.2
+446 verbose rebuildBundles repeat-element@1.1.2
+447 info lifecycle repeat-element@1.1.2~install: repeat-element@1.1.2
+448 silly lifecycle repeat-element@1.1.2~install: no script for install, continuing
+449 info lifecycle repeat-element@1.1.2~postinstall: repeat-element@1.1.2
+450 silly lifecycle repeat-element@1.1.2~postinstall: no script for postinstall, continuing
+451 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/repeat-string
+452 info lifecycle repeat-string@1.5.4~preinstall: repeat-string@1.5.4
+453 silly lifecycle repeat-string@1.5.4~preinstall: no script for preinstall, continuing
+454 info linkStuff repeat-string@1.5.4
+455 silly linkStuff repeat-string@1.5.4 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+456 verbose linkBins repeat-string@1.5.4
+457 verbose linkMans repeat-string@1.5.4
+458 verbose rebuildBundles repeat-string@1.5.4
+459 info lifecycle repeat-string@1.5.4~install: repeat-string@1.5.4
+460 silly lifecycle repeat-string@1.5.4~install: no script for install, continuing
+461 info lifecycle repeat-string@1.5.4~postinstall: repeat-string@1.5.4
+462 silly lifecycle repeat-string@1.5.4~postinstall: no script for postinstall, continuing
+463 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/preserve
+464 info lifecycle preserve@0.2.0~preinstall: preserve@0.2.0
+465 silly lifecycle preserve@0.2.0~preinstall: no script for preinstall, continuing
+466 info linkStuff preserve@0.2.0
+467 silly linkStuff preserve@0.2.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+468 verbose linkBins preserve@0.2.0
+469 verbose linkMans preserve@0.2.0
+470 verbose rebuildBundles preserve@0.2.0
+471 info lifecycle preserve@0.2.0~install: preserve@0.2.0
+472 silly lifecycle preserve@0.2.0~install: no script for install, continuing
+473 info lifecycle preserve@0.2.0~postinstall: preserve@0.2.0
+474 silly lifecycle preserve@0.2.0~postinstall: no script for postinstall, continuing
+475 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/expand-brackets
+476 info lifecycle expand-brackets@0.1.5~preinstall: expand-brackets@0.1.5
+477 silly lifecycle expand-brackets@0.1.5~preinstall: no script for preinstall, continuing
+478 info linkStuff expand-brackets@0.1.5
+479 silly linkStuff expand-brackets@0.1.5 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+480 verbose linkBins expand-brackets@0.1.5
+481 verbose linkMans expand-brackets@0.1.5
+482 verbose rebuildBundles expand-brackets@0.1.5
+483 info lifecycle expand-brackets@0.1.5~install: expand-brackets@0.1.5
+484 silly lifecycle expand-brackets@0.1.5~install: no script for install, continuing
+485 info lifecycle expand-brackets@0.1.5~postinstall: expand-brackets@0.1.5
+486 silly lifecycle expand-brackets@0.1.5~postinstall: no script for postinstall, continuing
+487 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/is-posix-bracket
+488 info lifecycle is-posix-bracket@0.1.1~preinstall: is-posix-bracket@0.1.1
+489 silly lifecycle is-posix-bracket@0.1.1~preinstall: no script for preinstall, continuing
+490 info linkStuff is-posix-bracket@0.1.1
+491 silly linkStuff is-posix-bracket@0.1.1 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+492 verbose linkBins is-posix-bracket@0.1.1
+493 verbose linkMans is-posix-bracket@0.1.1
+494 verbose rebuildBundles is-posix-bracket@0.1.1
+495 info lifecycle is-posix-bracket@0.1.1~install: is-posix-bracket@0.1.1
+496 silly lifecycle is-posix-bracket@0.1.1~install: no script for install, continuing
+497 info lifecycle is-posix-bracket@0.1.1~postinstall: is-posix-bracket@0.1.1
+498 silly lifecycle is-posix-bracket@0.1.1~postinstall: no script for postinstall, continuing
+499 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/extglob
+500 info lifecycle extglob@0.3.2~preinstall: extglob@0.3.2
+501 silly lifecycle extglob@0.3.2~preinstall: no script for preinstall, continuing
+502 info linkStuff extglob@0.3.2
+503 silly linkStuff extglob@0.3.2 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+504 verbose linkBins extglob@0.3.2
+505 verbose linkMans extglob@0.3.2
+506 verbose rebuildBundles extglob@0.3.2
+507 info lifecycle extglob@0.3.2~install: extglob@0.3.2
+508 silly lifecycle extglob@0.3.2~install: no script for install, continuing
+509 info lifecycle extglob@0.3.2~postinstall: extglob@0.3.2
+510 silly lifecycle extglob@0.3.2~postinstall: no script for postinstall, continuing
+511 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/is-extglob
+512 info lifecycle is-extglob@1.0.0~preinstall: is-extglob@1.0.0
+513 silly lifecycle is-extglob@1.0.0~preinstall: no script for preinstall, continuing
+514 info linkStuff is-extglob@1.0.0
+515 silly linkStuff is-extglob@1.0.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+516 verbose linkBins is-extglob@1.0.0
+517 verbose linkMans is-extglob@1.0.0
+518 verbose rebuildBundles is-extglob@1.0.0
+519 info lifecycle is-extglob@1.0.0~install: is-extglob@1.0.0
+520 silly lifecycle is-extglob@1.0.0~install: no script for install, continuing
+521 info lifecycle is-extglob@1.0.0~postinstall: is-extglob@1.0.0
+522 silly lifecycle is-extglob@1.0.0~postinstall: no script for postinstall, continuing
+523 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/filename-regex
+524 info lifecycle filename-regex@2.0.0~preinstall: filename-regex@2.0.0
+525 silly lifecycle filename-regex@2.0.0~preinstall: no script for preinstall, continuing
+526 info linkStuff filename-regex@2.0.0
+527 silly linkStuff filename-regex@2.0.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+528 verbose linkBins filename-regex@2.0.0
+529 verbose linkMans filename-regex@2.0.0
+530 verbose rebuildBundles filename-regex@2.0.0
+531 info lifecycle filename-regex@2.0.0~install: filename-regex@2.0.0
+532 silly lifecycle filename-regex@2.0.0~install: no script for install, continuing
+533 info lifecycle filename-regex@2.0.0~postinstall: filename-regex@2.0.0
+534 silly lifecycle filename-regex@2.0.0~postinstall: no script for postinstall, continuing
+535 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/is-glob
+536 info lifecycle is-glob@2.0.1~preinstall: is-glob@2.0.1
+537 silly lifecycle is-glob@2.0.1~preinstall: no script for preinstall, continuing
+538 info linkStuff is-glob@2.0.1
+539 silly linkStuff is-glob@2.0.1 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+540 verbose linkBins is-glob@2.0.1
+541 verbose linkMans is-glob@2.0.1
+542 verbose rebuildBundles is-glob@2.0.1
+543 info lifecycle is-glob@2.0.1~install: is-glob@2.0.1
+544 silly lifecycle is-glob@2.0.1~install: no script for install, continuing
+545 info lifecycle is-glob@2.0.1~postinstall: is-glob@2.0.1
+546 silly lifecycle is-glob@2.0.1~postinstall: no script for postinstall, continuing
+547 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/normalize-path
+548 info lifecycle normalize-path@2.0.1~preinstall: normalize-path@2.0.1
+549 silly lifecycle normalize-path@2.0.1~preinstall: no script for preinstall, continuing
+550 info linkStuff normalize-path@2.0.1
+551 silly linkStuff normalize-path@2.0.1 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+552 verbose linkBins normalize-path@2.0.1
+553 verbose linkMans normalize-path@2.0.1
+554 verbose rebuildBundles normalize-path@2.0.1
+555 info lifecycle normalize-path@2.0.1~install: normalize-path@2.0.1
+556 silly lifecycle normalize-path@2.0.1~install: no script for install, continuing
+557 info lifecycle normalize-path@2.0.1~postinstall: normalize-path@2.0.1
+558 silly lifecycle normalize-path@2.0.1~postinstall: no script for postinstall, continuing
+559 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/object.omit
+560 info lifecycle object.omit@2.0.0~preinstall: object.omit@2.0.0
+561 silly lifecycle object.omit@2.0.0~preinstall: no script for preinstall, continuing
+562 info linkStuff object.omit@2.0.0
+563 silly linkStuff object.omit@2.0.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+564 verbose linkBins object.omit@2.0.0
+565 verbose linkMans object.omit@2.0.0
+566 verbose rebuildBundles object.omit@2.0.0
+567 info lifecycle object.omit@2.0.0~install: object.omit@2.0.0
+568 silly lifecycle object.omit@2.0.0~install: no script for install, continuing
+569 info lifecycle object.omit@2.0.0~postinstall: object.omit@2.0.0
+570 silly lifecycle object.omit@2.0.0~postinstall: no script for postinstall, continuing
+571 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/for-own
+572 info lifecycle for-own@0.1.4~preinstall: for-own@0.1.4
+573 silly lifecycle for-own@0.1.4~preinstall: no script for preinstall, continuing
+574 info linkStuff for-own@0.1.4
+575 silly linkStuff for-own@0.1.4 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+576 verbose linkBins for-own@0.1.4
+577 verbose linkMans for-own@0.1.4
+578 verbose rebuildBundles for-own@0.1.4
+579 info lifecycle for-own@0.1.4~install: for-own@0.1.4
+580 silly lifecycle for-own@0.1.4~install: no script for install, continuing
+581 info lifecycle for-own@0.1.4~postinstall: for-own@0.1.4
+582 silly lifecycle for-own@0.1.4~postinstall: no script for postinstall, continuing
+583 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/for-in
+584 info lifecycle for-in@0.1.5~preinstall: for-in@0.1.5
+585 silly lifecycle for-in@0.1.5~preinstall: no script for preinstall, continuing
+586 info linkStuff for-in@0.1.5
+587 silly linkStuff for-in@0.1.5 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+588 verbose linkBins for-in@0.1.5
+589 verbose linkMans for-in@0.1.5
+590 verbose rebuildBundles for-in@0.1.5
+591 info lifecycle for-in@0.1.5~install: for-in@0.1.5
+592 silly lifecycle for-in@0.1.5~install: no script for install, continuing
+593 info lifecycle for-in@0.1.5~postinstall: for-in@0.1.5
+594 silly lifecycle for-in@0.1.5~postinstall: no script for postinstall, continuing
+595 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/is-extendable
+596 info lifecycle is-extendable@0.1.1~preinstall: is-extendable@0.1.1
+597 silly lifecycle is-extendable@0.1.1~preinstall: no script for preinstall, continuing
+598 info linkStuff is-extendable@0.1.1
+599 silly linkStuff is-extendable@0.1.1 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+600 verbose linkBins is-extendable@0.1.1
+601 verbose linkMans is-extendable@0.1.1
+602 verbose rebuildBundles is-extendable@0.1.1
+603 info lifecycle is-extendable@0.1.1~install: is-extendable@0.1.1
+604 silly lifecycle is-extendable@0.1.1~install: no script for install, continuing
+605 info lifecycle is-extendable@0.1.1~postinstall: is-extendable@0.1.1
+606 silly lifecycle is-extendable@0.1.1~postinstall: no script for postinstall, continuing
+607 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/parse-glob
+608 info lifecycle parse-glob@3.0.4~preinstall: parse-glob@3.0.4
+609 silly lifecycle parse-glob@3.0.4~preinstall: no script for preinstall, continuing
+610 info linkStuff parse-glob@3.0.4
+611 silly linkStuff parse-glob@3.0.4 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+612 verbose linkBins parse-glob@3.0.4
+613 verbose linkMans parse-glob@3.0.4
+614 verbose rebuildBundles parse-glob@3.0.4
+615 info lifecycle parse-glob@3.0.4~install: parse-glob@3.0.4
+616 silly lifecycle parse-glob@3.0.4~install: no script for install, continuing
+617 info lifecycle parse-glob@3.0.4~postinstall: parse-glob@3.0.4
+618 silly lifecycle parse-glob@3.0.4~postinstall: no script for postinstall, continuing
+619 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/glob-base
+620 info lifecycle glob-base@0.3.0~preinstall: glob-base@0.3.0
+621 silly lifecycle glob-base@0.3.0~preinstall: no script for preinstall, continuing
+622 info linkStuff glob-base@0.3.0
+623 silly linkStuff glob-base@0.3.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+624 verbose linkBins glob-base@0.3.0
+625 verbose linkMans glob-base@0.3.0
+626 verbose rebuildBundles glob-base@0.3.0
+627 info lifecycle glob-base@0.3.0~install: glob-base@0.3.0
+628 silly lifecycle glob-base@0.3.0~install: no script for install, continuing
+629 info lifecycle glob-base@0.3.0~postinstall: glob-base@0.3.0
+630 silly lifecycle glob-base@0.3.0~postinstall: no script for postinstall, continuing
+631 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/glob-parent
+632 info lifecycle glob-parent@2.0.0~preinstall: glob-parent@2.0.0
+633 silly lifecycle glob-parent@2.0.0~preinstall: no script for preinstall, continuing
+634 info linkStuff glob-parent@2.0.0
+635 silly linkStuff glob-parent@2.0.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+636 verbose linkBins glob-parent@2.0.0
+637 verbose linkMans glob-parent@2.0.0
+638 verbose rebuildBundles glob-parent@2.0.0
+639 info lifecycle glob-parent@2.0.0~install: glob-parent@2.0.0
+640 silly lifecycle glob-parent@2.0.0~install: no script for install, continuing
+641 info lifecycle glob-parent@2.0.0~postinstall: glob-parent@2.0.0
+642 silly lifecycle glob-parent@2.0.0~postinstall: no script for postinstall, continuing
+643 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/is-dotfile
+644 info lifecycle is-dotfile@1.0.2~preinstall: is-dotfile@1.0.2
+645 silly lifecycle is-dotfile@1.0.2~preinstall: no script for preinstall, continuing
+646 info linkStuff is-dotfile@1.0.2
+647 silly linkStuff is-dotfile@1.0.2 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+648 verbose linkBins is-dotfile@1.0.2
+649 verbose linkMans is-dotfile@1.0.2
+650 verbose rebuildBundles is-dotfile@1.0.2
+651 info lifecycle is-dotfile@1.0.2~install: is-dotfile@1.0.2
+652 silly lifecycle is-dotfile@1.0.2~install: no script for install, continuing
+653 info lifecycle is-dotfile@1.0.2~postinstall: is-dotfile@1.0.2
+654 silly lifecycle is-dotfile@1.0.2~postinstall: no script for postinstall, continuing
+655 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/regex-cache
+656 info lifecycle regex-cache@0.4.3~preinstall: regex-cache@0.4.3
+657 silly lifecycle regex-cache@0.4.3~preinstall: no script for preinstall, continuing
+658 info linkStuff regex-cache@0.4.3
+659 silly linkStuff regex-cache@0.4.3 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+660 verbose linkBins regex-cache@0.4.3
+661 verbose linkMans regex-cache@0.4.3
+662 verbose rebuildBundles regex-cache@0.4.3
+663 info lifecycle regex-cache@0.4.3~install: regex-cache@0.4.3
+664 silly lifecycle regex-cache@0.4.3~install: no script for install, continuing
+665 info lifecycle regex-cache@0.4.3~postinstall: regex-cache@0.4.3
+666 silly lifecycle regex-cache@0.4.3~postinstall: no script for postinstall, continuing
+667 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/is-equal-shallow
+668 info lifecycle is-equal-shallow@0.1.3~preinstall: is-equal-shallow@0.1.3
+669 silly lifecycle is-equal-shallow@0.1.3~preinstall: no script for preinstall, continuing
+670 info linkStuff is-equal-shallow@0.1.3
+671 silly linkStuff is-equal-shallow@0.1.3 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+672 verbose linkBins is-equal-shallow@0.1.3
+673 verbose linkMans is-equal-shallow@0.1.3
+674 verbose rebuildBundles is-equal-shallow@0.1.3
+675 info lifecycle is-equal-shallow@0.1.3~install: is-equal-shallow@0.1.3
+676 silly lifecycle is-equal-shallow@0.1.3~install: no script for install, continuing
+677 info lifecycle is-equal-shallow@0.1.3~postinstall: is-equal-shallow@0.1.3
+678 silly lifecycle is-equal-shallow@0.1.3~postinstall: no script for postinstall, continuing
+679 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/is-primitive
+680 info lifecycle is-primitive@2.0.0~preinstall: is-primitive@2.0.0
+681 silly lifecycle is-primitive@2.0.0~preinstall: no script for preinstall, continuing
+682 info linkStuff is-primitive@2.0.0
+683 silly linkStuff is-primitive@2.0.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+684 verbose linkBins is-primitive@2.0.0
+685 verbose linkMans is-primitive@2.0.0
+686 verbose rebuildBundles is-primitive@2.0.0
+687 info lifecycle is-primitive@2.0.0~install: is-primitive@2.0.0
+688 silly lifecycle is-primitive@2.0.0~install: no script for install, continuing
+689 info lifecycle is-primitive@2.0.0~postinstall: is-primitive@2.0.0
+690 silly lifecycle is-primitive@2.0.0~postinstall: no script for postinstall, continuing
+691 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/after
+692 info lifecycle after@0.8.1~preinstall: after@0.8.1
+693 silly lifecycle after@0.8.1~preinstall: no script for preinstall, continuing
+694 info linkStuff after@0.8.1
+695 silly linkStuff after@0.8.1 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+696 verbose linkBins after@0.8.1
+697 verbose linkMans after@0.8.1
+698 verbose rebuildBundles after@0.8.1
+699 info lifecycle after@0.8.1~install: after@0.8.1
+700 silly lifecycle after@0.8.1~install: no script for install, continuing
+701 info lifecycle after@0.8.1~postinstall: after@0.8.1
+702 silly lifecycle after@0.8.1~postinstall: no script for postinstall, continuing
+703 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/array-slice
+704 info lifecycle array-slice@0.2.3~preinstall: array-slice@0.2.3
+705 silly lifecycle array-slice@0.2.3~preinstall: no script for preinstall, continuing
+706 info linkStuff array-slice@0.2.3
+707 silly linkStuff array-slice@0.2.3 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+708 verbose linkBins array-slice@0.2.3
+709 verbose linkMans array-slice@0.2.3
+710 verbose rebuildBundles array-slice@0.2.3
+711 info lifecycle array-slice@0.2.3~install: array-slice@0.2.3
+712 silly lifecycle array-slice@0.2.3~install: no script for install, continuing
+713 info lifecycle array-slice@0.2.3~postinstall: array-slice@0.2.3
+714 silly lifecycle array-slice@0.2.3~postinstall: no script for postinstall, continuing
+715 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/array-to-sentence
+716 info lifecycle array-to-sentence@1.1.0~preinstall: array-to-sentence@1.1.0
+717 silly lifecycle array-to-sentence@1.1.0~preinstall: no script for preinstall, continuing
+718 info linkStuff array-to-sentence@1.1.0
+719 silly linkStuff array-to-sentence@1.1.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+720 verbose linkBins array-to-sentence@1.1.0
+721 verbose linkMans array-to-sentence@1.1.0
+722 verbose rebuildBundles array-to-sentence@1.1.0
+723 info lifecycle array-to-sentence@1.1.0~install: array-to-sentence@1.1.0
+724 silly lifecycle array-to-sentence@1.1.0~install: no script for install, continuing
+725 info lifecycle array-to-sentence@1.1.0~postinstall: array-to-sentence@1.1.0
+726 silly lifecycle array-to-sentence@1.1.0~postinstall: no script for postinstall, continuing
+727 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/arraybuffer.slice
+728 info lifecycle arraybuffer.slice@0.0.6~preinstall: arraybuffer.slice@0.0.6
+729 silly lifecycle arraybuffer.slice@0.0.6~preinstall: no script for preinstall, continuing
+730 info linkStuff arraybuffer.slice@0.0.6
+731 silly linkStuff arraybuffer.slice@0.0.6 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+732 verbose linkBins arraybuffer.slice@0.0.6
+733 verbose linkMans arraybuffer.slice@0.0.6
+734 verbose rebuildBundles arraybuffer.slice@0.0.6
+735 info lifecycle arraybuffer.slice@0.0.6~install: arraybuffer.slice@0.0.6
+736 silly lifecycle arraybuffer.slice@0.0.6~install: no script for install, continuing
+737 info lifecycle arraybuffer.slice@0.0.6~postinstall: arraybuffer.slice@0.0.6
+738 silly lifecycle arraybuffer.slice@0.0.6~postinstall: no script for postinstall, continuing
+739 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/assertion-error
+740 info lifecycle assertion-error@1.0.2~preinstall: assertion-error@1.0.2
+741 silly lifecycle assertion-error@1.0.2~preinstall: no script for preinstall, continuing
+742 info linkStuff assertion-error@1.0.2
+743 silly linkStuff assertion-error@1.0.2 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+744 verbose linkBins assertion-error@1.0.2
+745 verbose linkMans assertion-error@1.0.2
+746 verbose rebuildBundles assertion-error@1.0.2
+747 info lifecycle assertion-error@1.0.2~install: assertion-error@1.0.2
+748 silly lifecycle assertion-error@1.0.2~install: no script for install, continuing
+749 info lifecycle assertion-error@1.0.2~postinstall: assertion-error@1.0.2
+750 silly lifecycle assertion-error@1.0.2~postinstall: no script for postinstall, continuing
+751 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/async-each
+752 info lifecycle async-each@1.0.0~preinstall: async-each@1.0.0
+753 silly lifecycle async-each@1.0.0~preinstall: no script for preinstall, continuing
+754 info linkStuff async-each@1.0.0
+755 silly linkStuff async-each@1.0.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+756 verbose linkBins async-each@1.0.0
+757 verbose linkMans async-each@1.0.0
+758 verbose rebuildBundles async-each@1.0.0
+759 info lifecycle async-each@1.0.0~install: async-each@1.0.0
+760 silly lifecycle async-each@1.0.0~install: no script for install, continuing
+761 info lifecycle async-each@1.0.0~postinstall: async-each@1.0.0
+762 silly lifecycle async-each@1.0.0~postinstall: no script for postinstall, continuing
+763 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/async
+764 info lifecycle async@1.5.2~preinstall: async@1.5.2
+765 silly lifecycle async@1.5.2~preinstall: no script for preinstall, continuing
+766 info linkStuff async@1.5.2
+767 silly linkStuff async@1.5.2 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+768 verbose linkBins async@1.5.2
+769 verbose linkMans async@1.5.2
+770 verbose rebuildBundles async@1.5.2
+771 info lifecycle async@1.5.2~install: async@1.5.2
+772 silly lifecycle async@1.5.2~install: no script for install, continuing
+773 info lifecycle async@1.5.2~postinstall: async@1.5.2
+774 silly lifecycle async@1.5.2~postinstall: no script for postinstall, continuing
+775 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/backo2
+776 info lifecycle backo2@1.0.2~preinstall: backo2@1.0.2
+777 silly lifecycle backo2@1.0.2~preinstall: no script for preinstall, continuing
+778 info linkStuff backo2@1.0.2
+779 silly linkStuff backo2@1.0.2 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+780 verbose linkBins backo2@1.0.2
+781 verbose linkMans backo2@1.0.2
+782 verbose rebuildBundles backo2@1.0.2
+783 info lifecycle backo2@1.0.2~install: backo2@1.0.2
+784 silly lifecycle backo2@1.0.2~install: no script for install, continuing
+785 info lifecycle backo2@1.0.2~postinstall: backo2@1.0.2
+786 silly lifecycle backo2@1.0.2~postinstall: no script for postinstall, continuing
+787 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/balanced-match
+788 info lifecycle balanced-match@0.4.2~preinstall: balanced-match@0.4.2
+789 silly lifecycle balanced-match@0.4.2~preinstall: no script for preinstall, continuing
+790 info linkStuff balanced-match@0.4.2
+791 silly linkStuff balanced-match@0.4.2 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+792 verbose linkBins balanced-match@0.4.2
+793 verbose linkMans balanced-match@0.4.2
+794 verbose rebuildBundles balanced-match@0.4.2
+795 info lifecycle balanced-match@0.4.2~install: balanced-match@0.4.2
+796 silly lifecycle balanced-match@0.4.2~install: no script for install, continuing
+797 info lifecycle balanced-match@0.4.2~postinstall: balanced-match@0.4.2
+798 silly lifecycle balanced-match@0.4.2~postinstall: no script for postinstall, continuing
+799 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/base64-arraybuffer
+800 info lifecycle base64-arraybuffer@0.1.2~preinstall: base64-arraybuffer@0.1.2
+801 silly lifecycle base64-arraybuffer@0.1.2~preinstall: no script for preinstall, continuing
+802 info linkStuff base64-arraybuffer@0.1.2
+803 silly linkStuff base64-arraybuffer@0.1.2 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+804 verbose linkBins base64-arraybuffer@0.1.2
+805 verbose linkMans base64-arraybuffer@0.1.2
+806 verbose rebuildBundles base64-arraybuffer@0.1.2
+807 info lifecycle base64-arraybuffer@0.1.2~install: base64-arraybuffer@0.1.2
+808 silly lifecycle base64-arraybuffer@0.1.2~install: no script for install, continuing
+809 info lifecycle base64-arraybuffer@0.1.2~postinstall: base64-arraybuffer@0.1.2
+810 silly lifecycle base64-arraybuffer@0.1.2~postinstall: no script for postinstall, continuing
+811 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/base64id
+812 info lifecycle base64id@0.1.0~preinstall: base64id@0.1.0
+813 silly lifecycle base64id@0.1.0~preinstall: no script for preinstall, continuing
+814 info linkStuff base64id@0.1.0
+815 silly linkStuff base64id@0.1.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+816 verbose linkBins base64id@0.1.0
+817 verbose linkMans base64id@0.1.0
+818 verbose rebuildBundles base64id@0.1.0
+819 info lifecycle base64id@0.1.0~install: base64id@0.1.0
+820 silly lifecycle base64id@0.1.0~install: no script for install, continuing
+821 info lifecycle base64id@0.1.0~postinstall: base64id@0.1.0
+822 silly lifecycle base64id@0.1.0~postinstall: no script for postinstall, continuing
+823 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/benchmark
+824 info lifecycle benchmark@1.0.0~preinstall: benchmark@1.0.0
+825 silly lifecycle benchmark@1.0.0~preinstall: no script for preinstall, continuing
+826 info linkStuff benchmark@1.0.0
+827 silly linkStuff benchmark@1.0.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+828 verbose linkBins benchmark@1.0.0
+829 verbose linkMans benchmark@1.0.0
+830 verbose rebuildBundles benchmark@1.0.0
+831 info lifecycle benchmark@1.0.0~install: benchmark@1.0.0
+832 silly lifecycle benchmark@1.0.0~install: no script for install, continuing
+833 info lifecycle benchmark@1.0.0~postinstall: benchmark@1.0.0
+834 silly lifecycle benchmark@1.0.0~postinstall: no script for postinstall, continuing
+835 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/better-assert
+836 info lifecycle better-assert@1.0.2~preinstall: better-assert@1.0.2
+837 silly lifecycle better-assert@1.0.2~preinstall: no script for preinstall, continuing
+838 info linkStuff better-assert@1.0.2
+839 silly linkStuff better-assert@1.0.2 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+840 verbose linkBins better-assert@1.0.2
+841 verbose linkMans better-assert@1.0.2
+842 verbose rebuildBundles better-assert@1.0.2
+843 info lifecycle better-assert@1.0.2~install: better-assert@1.0.2
+844 silly lifecycle better-assert@1.0.2~install: no script for install, continuing
+845 info lifecycle better-assert@1.0.2~postinstall: better-assert@1.0.2
+846 silly lifecycle better-assert@1.0.2~postinstall: no script for postinstall, continuing
+847 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/callsite
+848 info lifecycle callsite@1.0.0~preinstall: callsite@1.0.0
+849 silly lifecycle callsite@1.0.0~preinstall: no script for preinstall, continuing
+850 info linkStuff callsite@1.0.0
+851 silly linkStuff callsite@1.0.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+852 verbose linkBins callsite@1.0.0
+853 verbose linkMans callsite@1.0.0
+854 verbose rebuildBundles callsite@1.0.0
+855 info lifecycle callsite@1.0.0~install: callsite@1.0.0
+856 silly lifecycle callsite@1.0.0~install: no script for install, continuing
+857 info lifecycle callsite@1.0.0~postinstall: callsite@1.0.0
+858 silly lifecycle callsite@1.0.0~postinstall: no script for postinstall, continuing
+859 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/binary-extensions
+860 info lifecycle binary-extensions@1.5.0~preinstall: binary-extensions@1.5.0
+861 silly lifecycle binary-extensions@1.5.0~preinstall: no script for preinstall, continuing
+862 info linkStuff binary-extensions@1.5.0
+863 silly linkStuff binary-extensions@1.5.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+864 verbose linkBins binary-extensions@1.5.0
+865 verbose linkMans binary-extensions@1.5.0
+866 verbose rebuildBundles binary-extensions@1.5.0
+867 info lifecycle binary-extensions@1.5.0~install: binary-extensions@1.5.0
+868 silly lifecycle binary-extensions@1.5.0~install: no script for install, continuing
+869 info lifecycle binary-extensions@1.5.0~postinstall: binary-extensions@1.5.0
+870 silly lifecycle binary-extensions@1.5.0~postinstall: no script for postinstall, continuing
+871 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/bluebird
+872 info lifecycle bluebird@3.4.1~preinstall: bluebird@3.4.1
+873 silly lifecycle bluebird@3.4.1~preinstall: no script for preinstall, continuing
+874 info linkStuff bluebird@3.4.1
+875 silly linkStuff bluebird@3.4.1 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+876 verbose linkBins bluebird@3.4.1
+877 verbose linkMans bluebird@3.4.1
+878 verbose rebuildBundles bluebird@3.4.1
+879 info lifecycle bluebird@3.4.1~install: bluebird@3.4.1
+880 silly lifecycle bluebird@3.4.1~install: no script for install, continuing
+881 info lifecycle bluebird@3.4.1~postinstall: bluebird@3.4.1
+882 silly lifecycle bluebird@3.4.1~postinstall: no script for postinstall, continuing
+883 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/blob
+884 info lifecycle blob@0.0.4~preinstall: blob@0.0.4
+885 silly lifecycle blob@0.0.4~preinstall: no script for preinstall, continuing
+886 info linkStuff blob@0.0.4
+887 silly linkStuff blob@0.0.4 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+888 verbose linkBins blob@0.0.4
+889 verbose linkMans blob@0.0.4
+890 verbose rebuildBundles blob@0.0.4
+891 info lifecycle blob@0.0.4~install: blob@0.0.4
+892 silly lifecycle blob@0.0.4~install: no script for install, continuing
+893 info lifecycle blob@0.0.4~postinstall: blob@0.0.4
+894 silly lifecycle blob@0.0.4~postinstall: no script for postinstall, continuing
+895 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/brace-expansion
+896 info lifecycle brace-expansion@1.1.6~preinstall: brace-expansion@1.1.6
+897 silly lifecycle brace-expansion@1.1.6~preinstall: no script for preinstall, continuing
+898 info linkStuff brace-expansion@1.1.6
+899 silly linkStuff brace-expansion@1.1.6 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+900 verbose linkBins brace-expansion@1.1.6
+901 verbose linkMans brace-expansion@1.1.6
+902 verbose rebuildBundles brace-expansion@1.1.6
+903 info lifecycle brace-expansion@1.1.6~install: brace-expansion@1.1.6
+904 silly lifecycle brace-expansion@1.1.6~install: no script for install, continuing
+905 info lifecycle brace-expansion@1.1.6~postinstall: brace-expansion@1.1.6
+906 silly lifecycle brace-expansion@1.1.6~postinstall: no script for postinstall, continuing
+907 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/concat-map
+908 info lifecycle concat-map@0.0.1~preinstall: concat-map@0.0.1
+909 silly lifecycle concat-map@0.0.1~preinstall: no script for preinstall, continuing
+910 info linkStuff concat-map@0.0.1
+911 silly linkStuff concat-map@0.0.1 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+912 verbose linkBins concat-map@0.0.1
+913 verbose linkMans concat-map@0.0.1
+914 verbose rebuildBundles concat-map@0.0.1
+915 info lifecycle concat-map@0.0.1~install: concat-map@0.0.1
+916 silly lifecycle concat-map@0.0.1~install: no script for install, continuing
+917 info lifecycle concat-map@0.0.1~postinstall: concat-map@0.0.1
+918 silly lifecycle concat-map@0.0.1~postinstall: no script for postinstall, continuing
+919 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/buffer-shims
+920 info lifecycle buffer-shims@1.0.0~preinstall: buffer-shims@1.0.0
+921 silly lifecycle buffer-shims@1.0.0~preinstall: no script for preinstall, continuing
+922 info linkStuff buffer-shims@1.0.0
+923 silly linkStuff buffer-shims@1.0.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+924 verbose linkBins buffer-shims@1.0.0
+925 verbose linkMans buffer-shims@1.0.0
+926 verbose rebuildBundles buffer-shims@1.0.0
+927 info lifecycle buffer-shims@1.0.0~install: buffer-shims@1.0.0
+928 silly lifecycle buffer-shims@1.0.0~install: no script for install, continuing
+929 info lifecycle buffer-shims@1.0.0~postinstall: buffer-shims@1.0.0
+930 silly lifecycle buffer-shims@1.0.0~postinstall: no script for postinstall, continuing
+931 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/bytes
+932 info lifecycle bytes@2.4.0~preinstall: bytes@2.4.0
+933 silly lifecycle bytes@2.4.0~preinstall: no script for preinstall, continuing
+934 info linkStuff bytes@2.4.0
+935 silly linkStuff bytes@2.4.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+936 verbose linkBins bytes@2.4.0
+937 verbose linkMans bytes@2.4.0
+938 verbose rebuildBundles bytes@2.4.0
+939 info lifecycle bytes@2.4.0~install: bytes@2.4.0
+940 silly lifecycle bytes@2.4.0~install: no script for install, continuing
+941 info lifecycle bytes@2.4.0~postinstall: bytes@2.4.0
+942 silly lifecycle bytes@2.4.0~postinstall: no script for postinstall, continuing
+943 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/chai
+944 info lifecycle chai@3.5.0~preinstall: chai@3.5.0
+945 silly lifecycle chai@3.5.0~preinstall: no script for preinstall, continuing
+946 info linkStuff chai@3.5.0
+947 silly linkStuff chai@3.5.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+948 verbose linkBins chai@3.5.0
+949 verbose linkMans chai@3.5.0
+950 verbose rebuildBundles chai@3.5.0
+951 info lifecycle chai@3.5.0~install: chai@3.5.0
+952 silly lifecycle chai@3.5.0~install: no script for install, continuing
+953 info lifecycle chai@3.5.0~postinstall: chai@3.5.0
+954 silly lifecycle chai@3.5.0~postinstall: no script for postinstall, continuing
+955 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/deep-eql
+956 info lifecycle deep-eql@0.1.3~preinstall: deep-eql@0.1.3
+957 silly lifecycle deep-eql@0.1.3~preinstall: no script for preinstall, continuing
+958 info linkStuff deep-eql@0.1.3
+959 silly linkStuff deep-eql@0.1.3 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+960 verbose linkBins deep-eql@0.1.3
+961 verbose linkMans deep-eql@0.1.3
+962 verbose rebuildBundles deep-eql@0.1.3
+963 verbose rebuildBundles [ 'type-detect' ]
+964 info lifecycle deep-eql@0.1.3~install: deep-eql@0.1.3
+965 silly lifecycle deep-eql@0.1.3~install: no script for install, continuing
+966 info lifecycle deep-eql@0.1.3~postinstall: deep-eql@0.1.3
+967 silly lifecycle deep-eql@0.1.3~postinstall: no script for postinstall, continuing
+968 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/deep-eql/node_modules/type-detect
+969 info lifecycle type-detect@0.1.1~preinstall: type-detect@0.1.1
+970 silly lifecycle type-detect@0.1.1~preinstall: no script for preinstall, continuing
+971 info linkStuff type-detect@0.1.1
+972 silly linkStuff type-detect@0.1.1 has /Applications/MAMP/htdocs/letscodejavascript/node_modules/deep-eql/node_modules as its parent node_modules
+973 verbose linkBins type-detect@0.1.1
+974 verbose linkMans type-detect@0.1.1
+975 verbose rebuildBundles type-detect@0.1.1
+976 info lifecycle type-detect@0.1.1~install: type-detect@0.1.1
+977 silly lifecycle type-detect@0.1.1~install: no script for install, continuing
+978 info lifecycle type-detect@0.1.1~postinstall: type-detect@0.1.1
+979 silly lifecycle type-detect@0.1.1~postinstall: no script for postinstall, continuing
+980 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/type-detect
+981 info lifecycle type-detect@1.0.0~preinstall: type-detect@1.0.0
+982 silly lifecycle type-detect@1.0.0~preinstall: no script for preinstall, continuing
+983 info linkStuff type-detect@1.0.0
+984 silly linkStuff type-detect@1.0.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+985 verbose linkBins type-detect@1.0.0
+986 verbose linkMans type-detect@1.0.0
+987 verbose rebuildBundles type-detect@1.0.0
+988 info lifecycle type-detect@1.0.0~install: type-detect@1.0.0
+989 silly lifecycle type-detect@1.0.0~install: no script for install, continuing
+990 info lifecycle type-detect@1.0.0~postinstall: type-detect@1.0.0
+991 silly lifecycle type-detect@1.0.0~postinstall: no script for postinstall, continuing
+992 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/chokidar
+993 info lifecycle chokidar@1.6.0~preinstall: chokidar@1.6.0
+994 silly lifecycle chokidar@1.6.0~preinstall: no script for preinstall, continuing
+995 info linkStuff chokidar@1.6.0
+996 silly linkStuff chokidar@1.6.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+997 verbose linkBins chokidar@1.6.0
+998 verbose linkMans chokidar@1.6.0
+999 verbose rebuildBundles chokidar@1.6.0
+1000 info lifecycle chokidar@1.6.0~install: chokidar@1.6.0
+1001 silly lifecycle chokidar@1.6.0~install: no script for install, continuing
+1002 info lifecycle chokidar@1.6.0~postinstall: chokidar@1.6.0
+1003 silly lifecycle chokidar@1.6.0~postinstall: no script for postinstall, continuing
+1004 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/inherits
+1005 info lifecycle inherits@2.0.1~preinstall: inherits@2.0.1
+1006 silly lifecycle inherits@2.0.1~preinstall: no script for preinstall, continuing
+1007 info linkStuff inherits@2.0.1
+1008 silly linkStuff inherits@2.0.1 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1009 verbose linkBins inherits@2.0.1
+1010 verbose linkMans inherits@2.0.1
+1011 verbose rebuildBundles inherits@2.0.1
+1012 info lifecycle inherits@2.0.1~install: inherits@2.0.1
+1013 silly lifecycle inherits@2.0.1~install: no script for install, continuing
+1014 info lifecycle inherits@2.0.1~postinstall: inherits@2.0.1
+1015 silly lifecycle inherits@2.0.1~postinstall: no script for postinstall, continuing
+1016 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/is-binary-path
+1017 info lifecycle is-binary-path@1.0.1~preinstall: is-binary-path@1.0.1
+1018 silly lifecycle is-binary-path@1.0.1~preinstall: no script for preinstall, continuing
+1019 info linkStuff is-binary-path@1.0.1
+1020 silly linkStuff is-binary-path@1.0.1 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1021 verbose linkBins is-binary-path@1.0.1
+1022 verbose linkMans is-binary-path@1.0.1
+1023 verbose rebuildBundles is-binary-path@1.0.1
+1024 info lifecycle is-binary-path@1.0.1~install: is-binary-path@1.0.1
+1025 silly lifecycle is-binary-path@1.0.1~install: no script for install, continuing
+1026 info lifecycle is-binary-path@1.0.1~postinstall: is-binary-path@1.0.1
+1027 silly lifecycle is-binary-path@1.0.1~postinstall: no script for postinstall, continuing
+1028 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/path-is-absolute
+1029 info lifecycle path-is-absolute@1.0.0~preinstall: path-is-absolute@1.0.0
+1030 silly lifecycle path-is-absolute@1.0.0~preinstall: no script for preinstall, continuing
+1031 info linkStuff path-is-absolute@1.0.0
+1032 silly linkStuff path-is-absolute@1.0.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1033 verbose linkBins path-is-absolute@1.0.0
+1034 verbose linkMans path-is-absolute@1.0.0
+1035 verbose rebuildBundles path-is-absolute@1.0.0
+1036 info lifecycle path-is-absolute@1.0.0~install: path-is-absolute@1.0.0
+1037 silly lifecycle path-is-absolute@1.0.0~install: no script for install, continuing
+1038 info lifecycle path-is-absolute@1.0.0~postinstall: path-is-absolute@1.0.0
+1039 silly lifecycle path-is-absolute@1.0.0~postinstall: no script for postinstall, continuing
+1040 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/readdirp
+1041 info lifecycle readdirp@2.1.0~preinstall: readdirp@2.1.0
+1042 silly lifecycle readdirp@2.1.0~preinstall: no script for preinstall, continuing
+1043 info linkStuff readdirp@2.1.0
+1044 silly linkStuff readdirp@2.1.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1045 verbose linkBins readdirp@2.1.0
+1046 verbose linkMans readdirp@2.1.0
+1047 verbose rebuildBundles readdirp@2.1.0
+1048 verbose rebuildBundles [ 'minimatch', 'readable-stream' ]
+1049 info lifecycle readdirp@2.1.0~install: readdirp@2.1.0
+1050 silly lifecycle readdirp@2.1.0~install: no script for install, continuing
+1051 info lifecycle readdirp@2.1.0~postinstall: readdirp@2.1.0
+1052 silly lifecycle readdirp@2.1.0~postinstall: no script for postinstall, continuing
+1053 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/graceful-fs
+1054 info lifecycle graceful-fs@4.1.4~preinstall: graceful-fs@4.1.4
+1055 silly lifecycle graceful-fs@4.1.4~preinstall: no script for preinstall, continuing
+1056 info linkStuff graceful-fs@4.1.4
+1057 silly linkStuff graceful-fs@4.1.4 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1058 verbose linkBins graceful-fs@4.1.4
+1059 verbose linkMans graceful-fs@4.1.4
+1060 verbose rebuildBundles graceful-fs@4.1.4
+1061 info lifecycle graceful-fs@4.1.4~install: graceful-fs@4.1.4
+1062 silly lifecycle graceful-fs@4.1.4~install: no script for install, continuing
+1063 info lifecycle graceful-fs@4.1.4~postinstall: graceful-fs@4.1.4
+1064 silly lifecycle graceful-fs@4.1.4~postinstall: no script for postinstall, continuing
+1065 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/readdirp/node_modules/minimatch
+1066 info lifecycle minimatch@3.0.2~preinstall: minimatch@3.0.2
+1067 silly lifecycle minimatch@3.0.2~preinstall: no script for preinstall, continuing
+1068 info linkStuff minimatch@3.0.2
+1069 silly linkStuff minimatch@3.0.2 has /Applications/MAMP/htdocs/letscodejavascript/node_modules/readdirp/node_modules as its parent node_modules
+1070 verbose linkBins minimatch@3.0.2
+1071 verbose linkMans minimatch@3.0.2
+1072 verbose rebuildBundles minimatch@3.0.2
+1073 info lifecycle minimatch@3.0.2~install: minimatch@3.0.2
+1074 silly lifecycle minimatch@3.0.2~install: no script for install, continuing
+1075 info lifecycle minimatch@3.0.2~postinstall: minimatch@3.0.2
+1076 silly lifecycle minimatch@3.0.2~postinstall: no script for postinstall, continuing
+1077 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/readdirp/node_modules/readable-stream
+1078 info lifecycle readable-stream@2.1.4~preinstall: readable-stream@2.1.4
+1079 silly lifecycle readable-stream@2.1.4~preinstall: no script for preinstall, continuing
+1080 info linkStuff readable-stream@2.1.4
+1081 silly linkStuff readable-stream@2.1.4 has /Applications/MAMP/htdocs/letscodejavascript/node_modules/readdirp/node_modules as its parent node_modules
+1082 verbose linkBins readable-stream@2.1.4
+1083 verbose linkMans readable-stream@2.1.4
+1084 verbose rebuildBundles readable-stream@2.1.4
+1085 info lifecycle readable-stream@2.1.4~install: readable-stream@2.1.4
+1086 silly lifecycle readable-stream@2.1.4~install: no script for install, continuing
+1087 info lifecycle readable-stream@2.1.4~postinstall: readable-stream@2.1.4
+1088 silly lifecycle readable-stream@2.1.4~postinstall: no script for postinstall, continuing
+1089 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/core-util-is
+1090 info lifecycle core-util-is@1.0.2~preinstall: core-util-is@1.0.2
+1091 silly lifecycle core-util-is@1.0.2~preinstall: no script for preinstall, continuing
+1092 info linkStuff core-util-is@1.0.2
+1093 silly linkStuff core-util-is@1.0.2 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1094 verbose linkBins core-util-is@1.0.2
+1095 verbose linkMans core-util-is@1.0.2
+1096 verbose rebuildBundles core-util-is@1.0.2
+1097 info lifecycle core-util-is@1.0.2~install: core-util-is@1.0.2
+1098 silly lifecycle core-util-is@1.0.2~install: no script for install, continuing
+1099 info lifecycle core-util-is@1.0.2~postinstall: core-util-is@1.0.2
+1100 silly lifecycle core-util-is@1.0.2~postinstall: no script for postinstall, continuing
+1101 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/process-nextick-args
+1102 info lifecycle process-nextick-args@1.0.7~preinstall: process-nextick-args@1.0.7
+1103 silly lifecycle process-nextick-args@1.0.7~preinstall: no script for preinstall, continuing
+1104 info linkStuff process-nextick-args@1.0.7
+1105 silly linkStuff process-nextick-args@1.0.7 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1106 verbose linkBins process-nextick-args@1.0.7
+1107 verbose linkMans process-nextick-args@1.0.7
+1108 verbose rebuildBundles process-nextick-args@1.0.7
+1109 info lifecycle process-nextick-args@1.0.7~install: process-nextick-args@1.0.7
+1110 silly lifecycle process-nextick-args@1.0.7~install: no script for install, continuing
+1111 info lifecycle process-nextick-args@1.0.7~postinstall: process-nextick-args@1.0.7
+1112 silly lifecycle process-nextick-args@1.0.7~postinstall: no script for postinstall, continuing
+1113 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/string_decoder
+1114 info lifecycle string_decoder@0.10.31~preinstall: string_decoder@0.10.31
+1115 silly lifecycle string_decoder@0.10.31~preinstall: no script for preinstall, continuing
+1116 info linkStuff string_decoder@0.10.31
+1117 silly linkStuff string_decoder@0.10.31 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1118 verbose linkBins string_decoder@0.10.31
+1119 verbose linkMans string_decoder@0.10.31
+1120 verbose rebuildBundles string_decoder@0.10.31
+1121 info lifecycle string_decoder@0.10.31~install: string_decoder@0.10.31
+1122 silly lifecycle string_decoder@0.10.31~install: no script for install, continuing
+1123 info lifecycle string_decoder@0.10.31~postinstall: string_decoder@0.10.31
+1124 silly lifecycle string_decoder@0.10.31~postinstall: no script for postinstall, continuing
+1125 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/util-deprecate
+1126 info lifecycle util-deprecate@1.0.2~preinstall: util-deprecate@1.0.2
+1127 silly lifecycle util-deprecate@1.0.2~preinstall: no script for preinstall, continuing
+1128 info linkStuff util-deprecate@1.0.2
+1129 silly linkStuff util-deprecate@1.0.2 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1130 verbose linkBins util-deprecate@1.0.2
+1131 verbose linkMans util-deprecate@1.0.2
+1132 verbose rebuildBundles util-deprecate@1.0.2
+1133 info lifecycle util-deprecate@1.0.2~install: util-deprecate@1.0.2
+1134 silly lifecycle util-deprecate@1.0.2~install: no script for install, continuing
+1135 info lifecycle util-deprecate@1.0.2~postinstall: util-deprecate@1.0.2
+1136 silly lifecycle util-deprecate@1.0.2~postinstall: no script for postinstall, continuing
+1137 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/set-immediate-shim
+1138 info lifecycle set-immediate-shim@1.0.1~preinstall: set-immediate-shim@1.0.1
+1139 silly lifecycle set-immediate-shim@1.0.1~preinstall: no script for preinstall, continuing
+1140 info linkStuff set-immediate-shim@1.0.1
+1141 silly linkStuff set-immediate-shim@1.0.1 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1142 verbose linkBins set-immediate-shim@1.0.1
+1143 verbose linkMans set-immediate-shim@1.0.1
+1144 verbose rebuildBundles set-immediate-shim@1.0.1
+1145 info lifecycle set-immediate-shim@1.0.1~install: set-immediate-shim@1.0.1
+1146 silly lifecycle set-immediate-shim@1.0.1~install: no script for install, continuing
+1147 info lifecycle set-immediate-shim@1.0.1~postinstall: set-immediate-shim@1.0.1
+1148 silly lifecycle set-immediate-shim@1.0.1~postinstall: no script for postinstall, continuing
+1149 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/cli
+1150 info lifecycle cli@0.6.6~preinstall: cli@0.6.6
+1151 silly lifecycle cli@0.6.6~preinstall: no script for preinstall, continuing
+1152 info linkStuff cli@0.6.6
+1153 silly linkStuff cli@0.6.6 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1154 verbose linkBins cli@0.6.6
+1155 verbose linkMans cli@0.6.6
+1156 verbose rebuildBundles cli@0.6.6
+1157 info lifecycle cli@0.6.6~install: cli@0.6.6
+1158 silly lifecycle cli@0.6.6~install: no script for install, continuing
+1159 info lifecycle cli@0.6.6~postinstall: cli@0.6.6
+1160 silly lifecycle cli@0.6.6~postinstall: no script for postinstall, continuing
+1161 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/exit
+1162 info lifecycle exit@0.1.2~preinstall: exit@0.1.2
+1163 silly lifecycle exit@0.1.2~preinstall: no script for preinstall, continuing
+1164 info linkStuff exit@0.1.2
+1165 silly linkStuff exit@0.1.2 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1166 verbose linkBins exit@0.1.2
+1167 verbose linkMans exit@0.1.2
+1168 verbose rebuildBundles exit@0.1.2
+1169 info lifecycle exit@0.1.2~install: exit@0.1.2
+1170 silly lifecycle exit@0.1.2~install: no script for install, continuing
+1171 info lifecycle exit@0.1.2~postinstall: exit@0.1.2
+1172 silly lifecycle exit@0.1.2~postinstall: no script for postinstall, continuing
+1173 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/glob
+1174 info lifecycle glob@3.2.11~preinstall: glob@3.2.11
+1175 silly lifecycle glob@3.2.11~preinstall: no script for preinstall, continuing
+1176 info linkStuff glob@3.2.11
+1177 silly linkStuff glob@3.2.11 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1178 verbose linkBins glob@3.2.11
+1179 verbose linkMans glob@3.2.11
+1180 verbose rebuildBundles glob@3.2.11
+1181 verbose rebuildBundles [ 'minimatch' ]
+1182 info lifecycle glob@3.2.11~install: glob@3.2.11
+1183 silly lifecycle glob@3.2.11~install: no script for install, continuing
+1184 info lifecycle glob@3.2.11~postinstall: glob@3.2.11
+1185 silly lifecycle glob@3.2.11~postinstall: no script for postinstall, continuing
+1186 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/glob/node_modules/minimatch
+1187 info lifecycle minimatch@0.3.0~preinstall: minimatch@0.3.0
+1188 silly lifecycle minimatch@0.3.0~preinstall: no script for preinstall, continuing
+1189 info linkStuff minimatch@0.3.0
+1190 silly linkStuff minimatch@0.3.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules/glob/node_modules as its parent node_modules
+1191 verbose linkBins minimatch@0.3.0
+1192 verbose linkMans minimatch@0.3.0
+1193 verbose rebuildBundles minimatch@0.3.0
+1194 info lifecycle minimatch@0.3.0~install: minimatch@0.3.0
+1195 silly lifecycle minimatch@0.3.0~install: no script for install, continuing
+1196 info lifecycle minimatch@0.3.0~postinstall: minimatch@0.3.0
+1197 silly lifecycle minimatch@0.3.0~postinstall: no script for postinstall, continuing
+1198 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/lru-cache
+1199 info lifecycle lru-cache@2.7.3~preinstall: lru-cache@2.7.3
+1200 silly lifecycle lru-cache@2.7.3~preinstall: no script for preinstall, continuing
+1201 info linkStuff lru-cache@2.7.3
+1202 silly linkStuff lru-cache@2.7.3 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1203 verbose linkBins lru-cache@2.7.3
+1204 verbose linkMans lru-cache@2.7.3
+1205 verbose rebuildBundles lru-cache@2.7.3
+1206 info lifecycle lru-cache@2.7.3~install: lru-cache@2.7.3
+1207 silly lifecycle lru-cache@2.7.3~install: no script for install, continuing
+1208 info lifecycle lru-cache@2.7.3~postinstall: lru-cache@2.7.3
+1209 silly lifecycle lru-cache@2.7.3~postinstall: no script for postinstall, continuing
+1210 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/sigmund
+1211 info lifecycle sigmund@1.0.1~preinstall: sigmund@1.0.1
+1212 silly lifecycle sigmund@1.0.1~preinstall: no script for preinstall, continuing
+1213 info linkStuff sigmund@1.0.1
+1214 silly linkStuff sigmund@1.0.1 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1215 verbose linkBins sigmund@1.0.1
+1216 verbose linkMans sigmund@1.0.1
+1217 verbose rebuildBundles sigmund@1.0.1
+1218 info lifecycle sigmund@1.0.1~install: sigmund@1.0.1
+1219 silly lifecycle sigmund@1.0.1~install: no script for install, continuing
+1220 info lifecycle sigmund@1.0.1~postinstall: sigmund@1.0.1
+1221 silly lifecycle sigmund@1.0.1~postinstall: no script for postinstall, continuing
+1222 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/commander
+1223 info lifecycle commander@2.3.0~preinstall: commander@2.3.0
+1224 silly lifecycle commander@2.3.0~preinstall: no script for preinstall, continuing
+1225 info linkStuff commander@2.3.0
+1226 silly linkStuff commander@2.3.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1227 verbose linkBins commander@2.3.0
+1228 verbose linkMans commander@2.3.0
+1229 verbose rebuildBundles commander@2.3.0
+1230 info lifecycle commander@2.3.0~install: commander@2.3.0
+1231 silly lifecycle commander@2.3.0~install: no script for install, continuing
+1232 info lifecycle commander@2.3.0~postinstall: commander@2.3.0
+1233 silly lifecycle commander@2.3.0~postinstall: no script for postinstall, continuing
+1234 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/component-emitter
+1235 info lifecycle component-emitter@1.1.2~preinstall: component-emitter@1.1.2
+1236 silly lifecycle component-emitter@1.1.2~preinstall: no script for preinstall, continuing
+1237 info linkStuff component-emitter@1.1.2
+1238 silly linkStuff component-emitter@1.1.2 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1239 verbose linkBins component-emitter@1.1.2
+1240 verbose linkMans component-emitter@1.1.2
+1241 verbose rebuildBundles component-emitter@1.1.2
+1242 info lifecycle component-emitter@1.1.2~install: component-emitter@1.1.2
+1243 silly lifecycle component-emitter@1.1.2~install: no script for install, continuing
+1244 info lifecycle component-emitter@1.1.2~postinstall: component-emitter@1.1.2
+1245 silly lifecycle component-emitter@1.1.2~postinstall: no script for postinstall, continuing
+1246 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/content-type
+1247 info lifecycle content-type@1.0.2~preinstall: content-type@1.0.2
+1248 silly lifecycle content-type@1.0.2~preinstall: no script for preinstall, continuing
+1249 info linkStuff content-type@1.0.2
+1250 silly linkStuff content-type@1.0.2 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1251 verbose linkBins content-type@1.0.2
+1252 verbose linkMans content-type@1.0.2
+1253 verbose rebuildBundles content-type@1.0.2
+1254 info lifecycle content-type@1.0.2~install: content-type@1.0.2
+1255 silly lifecycle content-type@1.0.2~install: no script for install, continuing
+1256 info lifecycle content-type@1.0.2~postinstall: content-type@1.0.2
+1257 silly lifecycle content-type@1.0.2~postinstall: no script for postinstall, continuing
+1258 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/console-browserify
+1259 info lifecycle console-browserify@1.1.0~preinstall: console-browserify@1.1.0
+1260 silly lifecycle console-browserify@1.1.0~preinstall: no script for preinstall, continuing
+1261 info linkStuff console-browserify@1.1.0
+1262 silly linkStuff console-browserify@1.1.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1263 verbose linkBins console-browserify@1.1.0
+1264 verbose linkMans console-browserify@1.1.0
+1265 verbose rebuildBundles console-browserify@1.1.0
+1266 info lifecycle console-browserify@1.1.0~install: console-browserify@1.1.0
+1267 silly lifecycle console-browserify@1.1.0~install: no script for install, continuing
+1268 info lifecycle console-browserify@1.1.0~postinstall: console-browserify@1.1.0
+1269 silly lifecycle console-browserify@1.1.0~postinstall: no script for postinstall, continuing
+1270 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/date-now
+1271 info lifecycle date-now@0.1.4~preinstall: date-now@0.1.4
+1272 silly lifecycle date-now@0.1.4~preinstall: no script for preinstall, continuing
+1273 info linkStuff date-now@0.1.4
+1274 silly linkStuff date-now@0.1.4 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1275 verbose linkBins date-now@0.1.4
+1276 verbose linkMans date-now@0.1.4
+1277 verbose rebuildBundles date-now@0.1.4
+1278 info lifecycle date-now@0.1.4~install: date-now@0.1.4
+1279 silly lifecycle date-now@0.1.4~install: no script for install, continuing
+1280 info lifecycle date-now@0.1.4~postinstall: date-now@0.1.4
+1281 silly lifecycle date-now@0.1.4~postinstall: no script for postinstall, continuing
+1282 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/connect
+1283 info lifecycle connect@3.4.1~preinstall: connect@3.4.1
+1284 silly lifecycle connect@3.4.1~preinstall: no script for preinstall, continuing
+1285 info linkStuff connect@3.4.1
+1286 silly linkStuff connect@3.4.1 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1287 verbose linkBins connect@3.4.1
+1288 verbose linkMans connect@3.4.1
+1289 verbose rebuildBundles connect@3.4.1
+1290 info lifecycle connect@3.4.1~install: connect@3.4.1
+1291 silly lifecycle connect@3.4.1~install: no script for install, continuing
+1292 info lifecycle connect@3.4.1~postinstall: connect@3.4.1
+1293 silly lifecycle connect@3.4.1~postinstall: no script for postinstall, continuing
+1294 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/debug
+1295 info lifecycle debug@2.2.0~preinstall: debug@2.2.0
+1296 silly lifecycle debug@2.2.0~preinstall: no script for preinstall, continuing
+1297 info linkStuff debug@2.2.0
+1298 silly linkStuff debug@2.2.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1299 verbose linkBins debug@2.2.0
+1300 verbose linkMans debug@2.2.0
+1301 verbose rebuildBundles debug@2.2.0
+1302 info lifecycle debug@2.2.0~install: debug@2.2.0
+1303 silly lifecycle debug@2.2.0~install: no script for install, continuing
+1304 info lifecycle debug@2.2.0~postinstall: debug@2.2.0
+1305 silly lifecycle debug@2.2.0~postinstall: no script for postinstall, continuing
+1306 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/ms
+1307 info lifecycle ms@0.7.1~preinstall: ms@0.7.1
+1308 silly lifecycle ms@0.7.1~preinstall: no script for preinstall, continuing
+1309 info linkStuff ms@0.7.1
+1310 silly linkStuff ms@0.7.1 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1311 verbose linkBins ms@0.7.1
+1312 verbose linkMans ms@0.7.1
+1313 verbose rebuildBundles ms@0.7.1
+1314 info lifecycle ms@0.7.1~install: ms@0.7.1
+1315 silly lifecycle ms@0.7.1~install: no script for install, continuing
+1316 info lifecycle ms@0.7.1~postinstall: ms@0.7.1
+1317 silly lifecycle ms@0.7.1~postinstall: no script for postinstall, continuing
+1318 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/finalhandler
+1319 info lifecycle finalhandler@0.4.1~preinstall: finalhandler@0.4.1
+1320 silly lifecycle finalhandler@0.4.1~preinstall: no script for preinstall, continuing
+1321 info linkStuff finalhandler@0.4.1
+1322 silly linkStuff finalhandler@0.4.1 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1323 verbose linkBins finalhandler@0.4.1
+1324 verbose linkMans finalhandler@0.4.1
+1325 verbose rebuildBundles finalhandler@0.4.1
+1326 info lifecycle finalhandler@0.4.1~install: finalhandler@0.4.1
+1327 silly lifecycle finalhandler@0.4.1~install: no script for install, continuing
+1328 info lifecycle finalhandler@0.4.1~postinstall: finalhandler@0.4.1
+1329 silly lifecycle finalhandler@0.4.1~postinstall: no script for postinstall, continuing
+1330 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/escape-html
+1331 info lifecycle escape-html@1.0.3~preinstall: escape-html@1.0.3
+1332 silly lifecycle escape-html@1.0.3~preinstall: no script for preinstall, continuing
+1333 info linkStuff escape-html@1.0.3
+1334 silly linkStuff escape-html@1.0.3 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1335 verbose linkBins escape-html@1.0.3
+1336 verbose linkMans escape-html@1.0.3
+1337 verbose rebuildBundles escape-html@1.0.3
+1338 info lifecycle escape-html@1.0.3~install: escape-html@1.0.3
+1339 silly lifecycle escape-html@1.0.3~install: no script for install, continuing
+1340 info lifecycle escape-html@1.0.3~postinstall: escape-html@1.0.3
+1341 silly lifecycle escape-html@1.0.3~postinstall: no script for postinstall, continuing
+1342 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/on-finished
+1343 info lifecycle on-finished@2.3.0~preinstall: on-finished@2.3.0
+1344 silly lifecycle on-finished@2.3.0~preinstall: no script for preinstall, continuing
+1345 info linkStuff on-finished@2.3.0
+1346 silly linkStuff on-finished@2.3.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1347 verbose linkBins on-finished@2.3.0
+1348 verbose linkMans on-finished@2.3.0
+1349 verbose rebuildBundles on-finished@2.3.0
+1350 info lifecycle on-finished@2.3.0~install: on-finished@2.3.0
+1351 silly lifecycle on-finished@2.3.0~install: no script for install, continuing
+1352 info lifecycle on-finished@2.3.0~postinstall: on-finished@2.3.0
+1353 silly lifecycle on-finished@2.3.0~postinstall: no script for postinstall, continuing
+1354 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/ee-first
+1355 info lifecycle ee-first@1.1.1~preinstall: ee-first@1.1.1
+1356 silly lifecycle ee-first@1.1.1~preinstall: no script for preinstall, continuing
+1357 info linkStuff ee-first@1.1.1
+1358 silly linkStuff ee-first@1.1.1 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1359 verbose linkBins ee-first@1.1.1
+1360 verbose linkMans ee-first@1.1.1
+1361 verbose rebuildBundles ee-first@1.1.1
+1362 info lifecycle ee-first@1.1.1~install: ee-first@1.1.1
+1363 silly lifecycle ee-first@1.1.1~install: no script for install, continuing
+1364 info lifecycle ee-first@1.1.1~postinstall: ee-first@1.1.1
+1365 silly lifecycle ee-first@1.1.1~postinstall: no script for postinstall, continuing
+1366 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/unpipe
+1367 info lifecycle unpipe@1.0.0~preinstall: unpipe@1.0.0
+1368 silly lifecycle unpipe@1.0.0~preinstall: no script for preinstall, continuing
+1369 info linkStuff unpipe@1.0.0
+1370 silly linkStuff unpipe@1.0.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1371 verbose linkBins unpipe@1.0.0
+1372 verbose linkMans unpipe@1.0.0
+1373 verbose rebuildBundles unpipe@1.0.0
+1374 info lifecycle unpipe@1.0.0~install: unpipe@1.0.0
+1375 silly lifecycle unpipe@1.0.0~install: no script for install, continuing
+1376 info lifecycle unpipe@1.0.0~postinstall: unpipe@1.0.0
+1377 silly lifecycle unpipe@1.0.0~postinstall: no script for postinstall, continuing
+1378 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/parseurl
+1379 info lifecycle parseurl@1.3.1~preinstall: parseurl@1.3.1
+1380 silly lifecycle parseurl@1.3.1~preinstall: no script for preinstall, continuing
+1381 info linkStuff parseurl@1.3.1
+1382 silly linkStuff parseurl@1.3.1 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1383 verbose linkBins parseurl@1.3.1
+1384 verbose linkMans parseurl@1.3.1
+1385 verbose rebuildBundles parseurl@1.3.1
+1386 info lifecycle parseurl@1.3.1~install: parseurl@1.3.1
+1387 silly lifecycle parseurl@1.3.1~install: no script for install, continuing
+1388 info lifecycle parseurl@1.3.1~postinstall: parseurl@1.3.1
+1389 silly lifecycle parseurl@1.3.1~postinstall: no script for postinstall, continuing
+1390 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/utils-merge
+1391 info lifecycle utils-merge@1.0.0~preinstall: utils-merge@1.0.0
+1392 silly lifecycle utils-merge@1.0.0~preinstall: no script for preinstall, continuing
+1393 info linkStuff utils-merge@1.0.0
+1394 silly linkStuff utils-merge@1.0.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1395 verbose linkBins utils-merge@1.0.0
+1396 verbose linkMans utils-merge@1.0.0
+1397 verbose rebuildBundles utils-merge@1.0.0
+1398 info lifecycle utils-merge@1.0.0~install: utils-merge@1.0.0
+1399 silly lifecycle utils-merge@1.0.0~install: no script for install, continuing
+1400 info lifecycle utils-merge@1.0.0~postinstall: utils-merge@1.0.0
+1401 silly lifecycle utils-merge@1.0.0~postinstall: no script for postinstall, continuing
+1402 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/corser
+1403 info lifecycle corser@2.0.0~preinstall: corser@2.0.0
+1404 silly lifecycle corser@2.0.0~preinstall: no script for preinstall, continuing
+1405 info linkStuff corser@2.0.0
+1406 silly linkStuff corser@2.0.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1407 verbose linkBins corser@2.0.0
+1408 verbose linkMans corser@2.0.0
+1409 verbose rebuildBundles corser@2.0.0
+1410 info lifecycle corser@2.0.0~install: corser@2.0.0
+1411 silly lifecycle corser@2.0.0~install: no script for install, continuing
+1412 info lifecycle corser@2.0.0~postinstall: corser@2.0.0
+1413 silly lifecycle corser@2.0.0~postinstall: no script for postinstall, continuing
+1414 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/component-bind
+1415 info lifecycle component-bind@1.0.0~preinstall: component-bind@1.0.0
+1416 silly lifecycle component-bind@1.0.0~preinstall: no script for preinstall, continuing
+1417 info linkStuff component-bind@1.0.0
+1418 silly linkStuff component-bind@1.0.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1419 verbose linkBins component-bind@1.0.0
+1420 verbose linkMans component-bind@1.0.0
+1421 verbose rebuildBundles component-bind@1.0.0
+1422 info lifecycle component-bind@1.0.0~install: component-bind@1.0.0
+1423 silly lifecycle component-bind@1.0.0~install: no script for install, continuing
+1424 info lifecycle component-bind@1.0.0~postinstall: component-bind@1.0.0
+1425 silly lifecycle component-bind@1.0.0~postinstall: no script for postinstall, continuing
+1426 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/colors
+1427 info lifecycle colors@1.0.3~preinstall: colors@1.0.3
+1428 silly lifecycle colors@1.0.3~preinstall: no script for preinstall, continuing
+1429 info linkStuff colors@1.0.3
+1430 silly linkStuff colors@1.0.3 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1431 verbose linkBins colors@1.0.3
+1432 verbose linkMans colors@1.0.3
+1433 verbose rebuildBundles colors@1.0.3
+1434 info lifecycle colors@1.0.3~install: colors@1.0.3
+1435 silly lifecycle colors@1.0.3~install: no script for install, continuing
+1436 info lifecycle colors@1.0.3~postinstall: colors@1.0.3
+1437 silly lifecycle colors@1.0.3~postinstall: no script for postinstall, continuing
+1438 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/core-js
+1439 info lifecycle core-js@2.4.1~preinstall: core-js@2.4.1
+1440 silly lifecycle core-js@2.4.1~preinstall: no script for preinstall, continuing
+1441 info linkStuff core-js@2.4.1
+1442 silly linkStuff core-js@2.4.1 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1443 verbose linkBins core-js@2.4.1
+1444 verbose linkMans core-js@2.4.1
+1445 verbose rebuildBundles core-js@2.4.1
+1446 info lifecycle core-js@2.4.1~install: core-js@2.4.1
+1447 silly lifecycle core-js@2.4.1~install: no script for install, continuing
+1448 info lifecycle core-js@2.4.1~postinstall: core-js@2.4.1
+1449 silly lifecycle core-js@2.4.1~postinstall: no script for postinstall, continuing
+1450 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/custom-event
+1451 info lifecycle custom-event@1.0.0~preinstall: custom-event@1.0.0
+1452 silly lifecycle custom-event@1.0.0~preinstall: no script for preinstall, continuing
+1453 info linkStuff custom-event@1.0.0
+1454 silly linkStuff custom-event@1.0.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1455 verbose linkBins custom-event@1.0.0
+1456 verbose linkMans custom-event@1.0.0
+1457 verbose rebuildBundles custom-event@1.0.0
+1458 info lifecycle custom-event@1.0.0~install: custom-event@1.0.0
+1459 silly lifecycle custom-event@1.0.0~install: no script for install, continuing
+1460 info lifecycle custom-event@1.0.0~postinstall: custom-event@1.0.0
+1461 silly lifecycle custom-event@1.0.0~postinstall: no script for postinstall, continuing
+1462 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/component-inherit
+1463 info lifecycle component-inherit@0.0.3~preinstall: component-inherit@0.0.3
+1464 silly lifecycle component-inherit@0.0.3~preinstall: no script for preinstall, continuing
+1465 info linkStuff component-inherit@0.0.3
+1466 silly linkStuff component-inherit@0.0.3 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1467 verbose linkBins component-inherit@0.0.3
+1468 verbose linkMans component-inherit@0.0.3
+1469 verbose rebuildBundles component-inherit@0.0.3
+1470 info lifecycle component-inherit@0.0.3~install: component-inherit@0.0.3
+1471 silly lifecycle component-inherit@0.0.3~install: no script for install, continuing
+1472 info lifecycle component-inherit@0.0.3~postinstall: component-inherit@0.0.3
+1473 silly lifecycle component-inherit@0.0.3~postinstall: no script for postinstall, continuing
+1474 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/depd
+1475 info lifecycle depd@1.1.0~preinstall: depd@1.1.0
+1476 silly lifecycle depd@1.1.0~preinstall: no script for preinstall, continuing
+1477 info linkStuff depd@1.1.0
+1478 silly linkStuff depd@1.1.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1479 verbose linkBins depd@1.1.0
+1480 verbose linkMans depd@1.1.0
+1481 verbose rebuildBundles depd@1.1.0
+1482 info lifecycle depd@1.1.0~install: depd@1.1.0
+1483 silly lifecycle depd@1.1.0~install: no script for install, continuing
+1484 info lifecycle depd@1.1.0~postinstall: depd@1.1.0
+1485 silly lifecycle depd@1.1.0~postinstall: no script for postinstall, continuing
+1486 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/di
+1487 info lifecycle di@0.0.1~preinstall: di@0.0.1
+1488 silly lifecycle di@0.0.1~preinstall: no script for preinstall, continuing
+1489 info linkStuff di@0.0.1
+1490 silly linkStuff di@0.0.1 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1491 verbose linkBins di@0.0.1
+1492 verbose linkMans di@0.0.1
+1493 verbose rebuildBundles di@0.0.1
+1494 info lifecycle di@0.0.1~install: di@0.0.1
+1495 silly lifecycle di@0.0.1~install: no script for install, continuing
+1496 info lifecycle di@0.0.1~postinstall: di@0.0.1
+1497 silly lifecycle di@0.0.1~postinstall: no script for postinstall, continuing
+1498 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/diff
+1499 info lifecycle diff@1.4.0~preinstall: diff@1.4.0
+1500 silly lifecycle diff@1.4.0~preinstall: no script for preinstall, continuing
+1501 info linkStuff diff@1.4.0
+1502 silly linkStuff diff@1.4.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1503 verbose linkBins diff@1.4.0
+1504 verbose linkMans diff@1.4.0
+1505 verbose rebuildBundles diff@1.4.0
+1506 info lifecycle diff@1.4.0~install: diff@1.4.0
+1507 silly lifecycle diff@1.4.0~install: no script for install, continuing
+1508 info lifecycle diff@1.4.0~postinstall: diff@1.4.0
+1509 silly lifecycle diff@1.4.0~postinstall: no script for postinstall, continuing
+1510 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/dom-serialize
+1511 info lifecycle dom-serialize@2.2.1~preinstall: dom-serialize@2.2.1
+1512 silly lifecycle dom-serialize@2.2.1~preinstall: no script for preinstall, continuing
+1513 info linkStuff dom-serialize@2.2.1
+1514 silly linkStuff dom-serialize@2.2.1 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1515 verbose linkBins dom-serialize@2.2.1
+1516 verbose linkMans dom-serialize@2.2.1
+1517 verbose rebuildBundles dom-serialize@2.2.1
+1518 info lifecycle dom-serialize@2.2.1~install: dom-serialize@2.2.1
+1519 silly lifecycle dom-serialize@2.2.1~install: no script for install, continuing
+1520 info lifecycle dom-serialize@2.2.1~postinstall: dom-serialize@2.2.1
+1521 silly lifecycle dom-serialize@2.2.1~postinstall: no script for postinstall, continuing
+1522 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/ent
+1523 info lifecycle ent@2.2.0~preinstall: ent@2.2.0
+1524 silly lifecycle ent@2.2.0~preinstall: no script for preinstall, continuing
+1525 info linkStuff ent@2.2.0
+1526 silly linkStuff ent@2.2.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1527 verbose linkBins ent@2.2.0
+1528 verbose linkMans ent@2.2.0
+1529 verbose rebuildBundles ent@2.2.0
+1530 info lifecycle ent@2.2.0~install: ent@2.2.0
+1531 silly lifecycle ent@2.2.0~install: no script for install, continuing
+1532 info lifecycle ent@2.2.0~postinstall: ent@2.2.0
+1533 silly lifecycle ent@2.2.0~postinstall: no script for postinstall, continuing
+1534 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/extend
+1535 info lifecycle extend@3.0.0~preinstall: extend@3.0.0
+1536 silly lifecycle extend@3.0.0~preinstall: no script for preinstall, continuing
+1537 info linkStuff extend@3.0.0
+1538 silly linkStuff extend@3.0.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1539 verbose linkBins extend@3.0.0
+1540 verbose linkMans extend@3.0.0
+1541 verbose rebuildBundles extend@3.0.0
+1542 info lifecycle extend@3.0.0~install: extend@3.0.0
+1543 silly lifecycle extend@3.0.0~install: no script for install, continuing
+1544 info lifecycle extend@3.0.0~postinstall: extend@3.0.0
+1545 silly lifecycle extend@3.0.0~postinstall: no script for postinstall, continuing
+1546 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/void-elements
+1547 info lifecycle void-elements@2.0.1~preinstall: void-elements@2.0.1
+1548 silly lifecycle void-elements@2.0.1~preinstall: no script for preinstall, continuing
+1549 info linkStuff void-elements@2.0.1
+1550 silly linkStuff void-elements@2.0.1 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1551 verbose linkBins void-elements@2.0.1
+1552 verbose linkMans void-elements@2.0.1
+1553 verbose rebuildBundles void-elements@2.0.1
+1554 info lifecycle void-elements@2.0.1~install: void-elements@2.0.1
+1555 silly lifecycle void-elements@2.0.1~install: no script for install, continuing
+1556 info lifecycle void-elements@2.0.1~postinstall: void-elements@2.0.1
+1557 silly lifecycle void-elements@2.0.1~postinstall: no script for postinstall, continuing
+1558 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/domelementtype
+1559 info lifecycle domelementtype@1.3.0~preinstall: domelementtype@1.3.0
+1560 silly lifecycle domelementtype@1.3.0~preinstall: no script for preinstall, continuing
+1561 info linkStuff domelementtype@1.3.0
+1562 silly linkStuff domelementtype@1.3.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1563 verbose linkBins domelementtype@1.3.0
+1564 verbose linkMans domelementtype@1.3.0
+1565 verbose rebuildBundles domelementtype@1.3.0
+1566 info lifecycle domelementtype@1.3.0~install: domelementtype@1.3.0
+1567 silly lifecycle domelementtype@1.3.0~install: no script for install, continuing
+1568 info lifecycle domelementtype@1.3.0~postinstall: domelementtype@1.3.0
+1569 silly lifecycle domelementtype@1.3.0~postinstall: no script for postinstall, continuing
+1570 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/domhandler
+1571 info lifecycle domhandler@2.3.0~preinstall: domhandler@2.3.0
+1572 silly lifecycle domhandler@2.3.0~preinstall: no script for preinstall, continuing
+1573 info linkStuff domhandler@2.3.0
+1574 silly linkStuff domhandler@2.3.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1575 verbose linkBins domhandler@2.3.0
+1576 verbose linkMans domhandler@2.3.0
+1577 verbose rebuildBundles domhandler@2.3.0
+1578 info lifecycle domhandler@2.3.0~install: domhandler@2.3.0
+1579 silly lifecycle domhandler@2.3.0~install: no script for install, continuing
+1580 info lifecycle domhandler@2.3.0~postinstall: domhandler@2.3.0
+1581 silly lifecycle domhandler@2.3.0~postinstall: no script for postinstall, continuing
+1582 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/domutils
+1583 info lifecycle domutils@1.5.1~preinstall: domutils@1.5.1
+1584 silly lifecycle domutils@1.5.1~preinstall: no script for preinstall, continuing
+1585 info linkStuff domutils@1.5.1
+1586 silly linkStuff domutils@1.5.1 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1587 verbose linkBins domutils@1.5.1
+1588 verbose linkMans domutils@1.5.1
+1589 verbose rebuildBundles domutils@1.5.1
+1590 info lifecycle domutils@1.5.1~install: domutils@1.5.1
+1591 silly lifecycle domutils@1.5.1~install: no script for install, continuing
+1592 info lifecycle domutils@1.5.1~postinstall: domutils@1.5.1
+1593 silly lifecycle domutils@1.5.1~postinstall: no script for postinstall, continuing
+1594 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/dom-serializer
+1595 info lifecycle dom-serializer@0.1.0~preinstall: dom-serializer@0.1.0
+1596 silly lifecycle dom-serializer@0.1.0~preinstall: no script for preinstall, continuing
+1597 info linkStuff dom-serializer@0.1.0
+1598 silly linkStuff dom-serializer@0.1.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1599 verbose linkBins dom-serializer@0.1.0
+1600 verbose linkMans dom-serializer@0.1.0
+1601 verbose rebuildBundles dom-serializer@0.1.0
+1602 verbose rebuildBundles [ 'domelementtype', 'entities' ]
+1603 info lifecycle dom-serializer@0.1.0~install: dom-serializer@0.1.0
+1604 silly lifecycle dom-serializer@0.1.0~install: no script for install, continuing
+1605 info lifecycle dom-serializer@0.1.0~postinstall: dom-serializer@0.1.0
+1606 silly lifecycle dom-serializer@0.1.0~postinstall: no script for postinstall, continuing
+1607 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/dom-serializer/node_modules/domelementtype
+1608 info lifecycle domelementtype@1.1.3~preinstall: domelementtype@1.1.3
+1609 silly lifecycle domelementtype@1.1.3~preinstall: no script for preinstall, continuing
+1610 info linkStuff domelementtype@1.1.3
+1611 silly linkStuff domelementtype@1.1.3 has /Applications/MAMP/htdocs/letscodejavascript/node_modules/dom-serializer/node_modules as its parent node_modules
+1612 verbose linkBins domelementtype@1.1.3
+1613 verbose linkMans domelementtype@1.1.3
+1614 verbose rebuildBundles domelementtype@1.1.3
+1615 info lifecycle domelementtype@1.1.3~install: domelementtype@1.1.3
+1616 silly lifecycle domelementtype@1.1.3~install: no script for install, continuing
+1617 info lifecycle domelementtype@1.1.3~postinstall: domelementtype@1.1.3
+1618 silly lifecycle domelementtype@1.1.3~postinstall: no script for postinstall, continuing
+1619 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/dom-serializer/node_modules/entities
+1620 info lifecycle entities@1.1.1~preinstall: entities@1.1.1
+1621 silly lifecycle entities@1.1.1~preinstall: no script for preinstall, continuing
+1622 info linkStuff entities@1.1.1
+1623 silly linkStuff entities@1.1.1 has /Applications/MAMP/htdocs/letscodejavascript/node_modules/dom-serializer/node_modules as its parent node_modules
+1624 verbose linkBins entities@1.1.1
+1625 verbose linkMans entities@1.1.1
+1626 verbose rebuildBundles entities@1.1.1
+1627 info lifecycle entities@1.1.1~install: entities@1.1.1
+1628 silly lifecycle entities@1.1.1~install: no script for install, continuing
+1629 info lifecycle entities@1.1.1~postinstall: entities@1.1.1
+1630 silly lifecycle entities@1.1.1~postinstall: no script for postinstall, continuing
+1631 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/ecstatic
+1632 info lifecycle ecstatic@1.4.1~preinstall: ecstatic@1.4.1
+1633 silly lifecycle ecstatic@1.4.1~preinstall: no script for preinstall, continuing
+1634 info linkStuff ecstatic@1.4.1
+1635 silly linkStuff ecstatic@1.4.1 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1636 verbose linkBins ecstatic@1.4.1
+1637 verbose link bins [ { ecstatic: './lib/ecstatic.js' },
+1637 verbose link bins   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/.bin',
+1637 verbose link bins   false ]
+1638 verbose linkMans ecstatic@1.4.1
+1639 verbose rebuildBundles ecstatic@1.4.1
+1640 info lifecycle ecstatic@1.4.1~install: ecstatic@1.4.1
+1641 silly lifecycle ecstatic@1.4.1~install: no script for install, continuing
+1642 info lifecycle ecstatic@1.4.1~postinstall: ecstatic@1.4.1
+1643 silly lifecycle ecstatic@1.4.1~postinstall: no script for postinstall, continuing
+1644 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/he
+1645 info lifecycle he@0.5.0~preinstall: he@0.5.0
+1646 silly lifecycle he@0.5.0~preinstall: no script for preinstall, continuing
+1647 info linkStuff he@0.5.0
+1648 silly linkStuff he@0.5.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1649 verbose linkBins he@0.5.0
+1650 verbose link bins [ { he: 'bin/he' },
+1650 verbose link bins   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/.bin',
+1650 verbose link bins   false ]
+1651 verbose linkMans he@0.5.0
+1652 verbose rebuildBundles he@0.5.0
+1653 info lifecycle he@0.5.0~install: he@0.5.0
+1654 silly lifecycle he@0.5.0~install: no script for install, continuing
+1655 info lifecycle he@0.5.0~postinstall: he@0.5.0
+1656 silly lifecycle he@0.5.0~postinstall: no script for postinstall, continuing
+1657 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/mime
+1658 info lifecycle mime@1.3.4~preinstall: mime@1.3.4
+1659 silly lifecycle mime@1.3.4~preinstall: no script for preinstall, continuing
+1660 info linkStuff mime@1.3.4
+1661 silly linkStuff mime@1.3.4 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1662 verbose linkBins mime@1.3.4
+1663 verbose link bins [ { mime: 'cli.js' },
+1663 verbose link bins   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/.bin',
+1663 verbose link bins   false ]
+1664 verbose linkMans mime@1.3.4
+1665 verbose rebuildBundles mime@1.3.4
+1666 info lifecycle mime@1.3.4~install: mime@1.3.4
+1667 silly lifecycle mime@1.3.4~install: no script for install, continuing
+1668 info lifecycle mime@1.3.4~postinstall: mime@1.3.4
+1669 silly lifecycle mime@1.3.4~postinstall: no script for postinstall, continuing
+1670 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/minimist
+1671 info lifecycle minimist@1.2.0~preinstall: minimist@1.2.0
+1672 silly lifecycle minimist@1.2.0~preinstall: no script for preinstall, continuing
+1673 info linkStuff minimist@1.2.0
+1674 silly linkStuff minimist@1.2.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1675 verbose linkBins minimist@1.2.0
+1676 verbose linkMans minimist@1.2.0
+1677 verbose rebuildBundles minimist@1.2.0
+1678 info lifecycle minimist@1.2.0~install: minimist@1.2.0
+1679 silly lifecycle minimist@1.2.0~install: no script for install, continuing
+1680 info lifecycle minimist@1.2.0~postinstall: minimist@1.2.0
+1681 silly lifecycle minimist@1.2.0~postinstall: no script for postinstall, continuing
+1682 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/url-join
+1683 info lifecycle url-join@1.1.0~preinstall: url-join@1.1.0
+1684 silly lifecycle url-join@1.1.0~preinstall: no script for preinstall, continuing
+1685 info linkStuff url-join@1.1.0
+1686 silly linkStuff url-join@1.1.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1687 verbose linkBins url-join@1.1.0
+1688 verbose linkMans url-join@1.1.0
+1689 verbose rebuildBundles url-join@1.1.0
+1690 info lifecycle url-join@1.1.0~install: url-join@1.1.0
+1691 silly lifecycle url-join@1.1.0~install: no script for install, continuing
+1692 info lifecycle url-join@1.1.0~postinstall: url-join@1.1.0
+1693 silly lifecycle url-join@1.1.0~postinstall: no script for postinstall, continuing
+1694 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/engine.io
+1695 info lifecycle engine.io@1.6.10~preinstall: engine.io@1.6.10
+1696 silly lifecycle engine.io@1.6.10~preinstall: no script for preinstall, continuing
+1697 info linkStuff engine.io@1.6.10
+1698 silly linkStuff engine.io@1.6.10 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1699 verbose linkBins engine.io@1.6.10
+1700 verbose linkMans engine.io@1.6.10
+1701 verbose rebuildBundles engine.io@1.6.10
+1702 info lifecycle engine.io@1.6.10~install: engine.io@1.6.10
+1703 silly lifecycle engine.io@1.6.10~install: no script for install, continuing
+1704 info lifecycle engine.io@1.6.10~postinstall: engine.io@1.6.10
+1705 silly lifecycle engine.io@1.6.10~postinstall: no script for postinstall, continuing
+1706 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/accepts
+1707 info lifecycle accepts@1.1.4~preinstall: accepts@1.1.4
+1708 silly lifecycle accepts@1.1.4~preinstall: no script for preinstall, continuing
+1709 info linkStuff accepts@1.1.4
+1710 silly linkStuff accepts@1.1.4 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1711 verbose linkBins accepts@1.1.4
+1712 verbose linkMans accepts@1.1.4
+1713 verbose rebuildBundles accepts@1.1.4
+1714 verbose rebuildBundles [ 'mime-db', 'mime-types' ]
+1715 verbose rebuild bundle /Applications/MAMP/htdocs/letscodejavascript/node_modules/accepts/node_modules/mime-db
+1716 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/accepts/node_modules/mime-db
+1717 info lifecycle mime-db@1.12.0~preinstall: mime-db@1.12.0
+1718 silly lifecycle mime-db@1.12.0~preinstall: no script for preinstall, continuing
+1719 info linkStuff mime-db@1.12.0
+1720 silly linkStuff mime-db@1.12.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules/accepts/node_modules as its parent node_modules
+1721 verbose linkBins mime-db@1.12.0
+1722 verbose linkMans mime-db@1.12.0
+1723 verbose rebuildBundles mime-db@1.12.0
+1724 info lifecycle mime-db@1.12.0~install: mime-db@1.12.0
+1725 silly lifecycle mime-db@1.12.0~install: no script for install, continuing
+1726 info lifecycle mime-db@1.12.0~postinstall: mime-db@1.12.0
+1727 silly lifecycle mime-db@1.12.0~postinstall: no script for postinstall, continuing
+1728 info lifecycle accepts@1.1.4~install: accepts@1.1.4
+1729 silly lifecycle accepts@1.1.4~install: no script for install, continuing
+1730 info lifecycle accepts@1.1.4~postinstall: accepts@1.1.4
+1731 silly lifecycle accepts@1.1.4~postinstall: no script for postinstall, continuing
+1732 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/accepts/node_modules/mime-types
+1733 info lifecycle mime-types@2.0.14~preinstall: mime-types@2.0.14
+1734 silly lifecycle mime-types@2.0.14~preinstall: no script for preinstall, continuing
+1735 info linkStuff mime-types@2.0.14
+1736 silly linkStuff mime-types@2.0.14 has /Applications/MAMP/htdocs/letscodejavascript/node_modules/accepts/node_modules as its parent node_modules
+1737 verbose linkBins mime-types@2.0.14
+1738 verbose linkMans mime-types@2.0.14
+1739 verbose rebuildBundles mime-types@2.0.14
+1740 info lifecycle mime-types@2.0.14~install: mime-types@2.0.14
+1741 silly lifecycle mime-types@2.0.14~install: no script for install, continuing
+1742 info lifecycle mime-types@2.0.14~postinstall: mime-types@2.0.14
+1743 silly lifecycle mime-types@2.0.14~postinstall: no script for postinstall, continuing
+1744 info build already built /Applications/MAMP/htdocs/letscodejavascript/node_modules/accepts/node_modules/mime-db
+1745 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/accepts/node_modules/mime-db
+1746 info lifecycle mime-db@1.12.0~preinstall: mime-db@1.12.0
+1747 silly lifecycle mime-db@1.12.0~preinstall: no script for preinstall, continuing
+1748 info linkStuff mime-db@1.12.0
+1749 silly linkStuff mime-db@1.12.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules/accepts/node_modules as its parent node_modules
+1750 verbose linkBins mime-db@1.12.0
+1751 verbose linkMans mime-db@1.12.0
+1752 verbose rebuildBundles mime-db@1.12.0
+1753 info lifecycle mime-db@1.12.0~install: mime-db@1.12.0
+1754 silly lifecycle mime-db@1.12.0~install: no script for install, continuing
+1755 info lifecycle mime-db@1.12.0~postinstall: mime-db@1.12.0
+1756 silly lifecycle mime-db@1.12.0~postinstall: no script for postinstall, continuing
+1757 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/negotiator
+1758 info lifecycle negotiator@0.4.9~preinstall: negotiator@0.4.9
+1759 silly lifecycle negotiator@0.4.9~preinstall: no script for preinstall, continuing
+1760 info linkStuff negotiator@0.4.9
+1761 silly linkStuff negotiator@0.4.9 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1762 verbose linkBins negotiator@0.4.9
+1763 verbose linkMans negotiator@0.4.9
+1764 verbose rebuildBundles negotiator@0.4.9
+1765 info lifecycle negotiator@0.4.9~install: negotiator@0.4.9
+1766 silly lifecycle negotiator@0.4.9~install: no script for install, continuing
+1767 info lifecycle negotiator@0.4.9~postinstall: negotiator@0.4.9
+1768 silly lifecycle negotiator@0.4.9~postinstall: no script for postinstall, continuing
+1769 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/engine.io-parser
+1770 info lifecycle engine.io-parser@1.2.4~preinstall: engine.io-parser@1.2.4
+1771 silly lifecycle engine.io-parser@1.2.4~preinstall: no script for preinstall, continuing
+1772 info linkStuff engine.io-parser@1.2.4
+1773 silly linkStuff engine.io-parser@1.2.4 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1774 verbose linkBins engine.io-parser@1.2.4
+1775 verbose linkMans engine.io-parser@1.2.4
+1776 verbose rebuildBundles engine.io-parser@1.2.4
+1777 verbose rebuildBundles [ 'has-binary', 'isarray' ]
+1778 verbose rebuild bundle /Applications/MAMP/htdocs/letscodejavascript/node_modules/engine.io-parser/node_modules/isarray
+1779 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/engine.io-parser/node_modules/isarray
+1780 info lifecycle isarray@0.0.1~preinstall: isarray@0.0.1
+1781 silly lifecycle isarray@0.0.1~preinstall: no script for preinstall, continuing
+1782 info linkStuff isarray@0.0.1
+1783 silly linkStuff isarray@0.0.1 has /Applications/MAMP/htdocs/letscodejavascript/node_modules/engine.io-parser/node_modules as its parent node_modules
+1784 verbose linkBins isarray@0.0.1
+1785 verbose linkMans isarray@0.0.1
+1786 verbose rebuildBundles isarray@0.0.1
+1787 info lifecycle isarray@0.0.1~install: isarray@0.0.1
+1788 silly lifecycle isarray@0.0.1~install: no script for install, continuing
+1789 info lifecycle isarray@0.0.1~postinstall: isarray@0.0.1
+1790 silly lifecycle isarray@0.0.1~postinstall: no script for postinstall, continuing
+1791 info lifecycle engine.io-parser@1.2.4~install: engine.io-parser@1.2.4
+1792 silly lifecycle engine.io-parser@1.2.4~install: no script for install, continuing
+1793 info lifecycle engine.io-parser@1.2.4~postinstall: engine.io-parser@1.2.4
+1794 silly lifecycle engine.io-parser@1.2.4~postinstall: no script for postinstall, continuing
+1795 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/engine.io-parser/node_modules/has-binary
+1796 info lifecycle has-binary@0.1.6~preinstall: has-binary@0.1.6
+1797 silly lifecycle has-binary@0.1.6~preinstall: no script for preinstall, continuing
+1798 info linkStuff has-binary@0.1.6
+1799 silly linkStuff has-binary@0.1.6 has /Applications/MAMP/htdocs/letscodejavascript/node_modules/engine.io-parser/node_modules as its parent node_modules
+1800 verbose linkBins has-binary@0.1.6
+1801 verbose linkMans has-binary@0.1.6
+1802 verbose rebuildBundles has-binary@0.1.6
+1803 info lifecycle has-binary@0.1.6~install: has-binary@0.1.6
+1804 silly lifecycle has-binary@0.1.6~install: no script for install, continuing
+1805 info lifecycle has-binary@0.1.6~postinstall: has-binary@0.1.6
+1806 silly lifecycle has-binary@0.1.6~postinstall: no script for postinstall, continuing
+1807 info build already built /Applications/MAMP/htdocs/letscodejavascript/node_modules/engine.io-parser/node_modules/isarray
+1808 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/engine.io-parser/node_modules/isarray
+1809 info lifecycle isarray@0.0.1~preinstall: isarray@0.0.1
+1810 silly lifecycle isarray@0.0.1~preinstall: no script for preinstall, continuing
+1811 info linkStuff isarray@0.0.1
+1812 silly linkStuff isarray@0.0.1 has /Applications/MAMP/htdocs/letscodejavascript/node_modules/engine.io-parser/node_modules as its parent node_modules
+1813 verbose linkBins isarray@0.0.1
+1814 verbose linkMans isarray@0.0.1
+1815 verbose rebuildBundles isarray@0.0.1
+1816 info lifecycle isarray@0.0.1~install: isarray@0.0.1
+1817 silly lifecycle isarray@0.0.1~install: no script for install, continuing
+1818 info lifecycle isarray@0.0.1~postinstall: isarray@0.0.1
+1819 silly lifecycle isarray@0.0.1~postinstall: no script for postinstall, continuing
+1820 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/utf8
+1821 info lifecycle utf8@2.1.0~preinstall: utf8@2.1.0
+1822 silly lifecycle utf8@2.1.0~preinstall: no script for preinstall, continuing
+1823 info linkStuff utf8@2.1.0
+1824 silly linkStuff utf8@2.1.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1825 verbose linkBins utf8@2.1.0
+1826 verbose linkMans utf8@2.1.0
+1827 verbose rebuildBundles utf8@2.1.0
+1828 info lifecycle utf8@2.1.0~install: utf8@2.1.0
+1829 silly lifecycle utf8@2.1.0~install: no script for install, continuing
+1830 info lifecycle utf8@2.1.0~postinstall: utf8@2.1.0
+1831 silly lifecycle utf8@2.1.0~postinstall: no script for postinstall, continuing
+1832 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/ws
+1833 info lifecycle ws@1.0.1~preinstall: ws@1.0.1
+1834 silly lifecycle ws@1.0.1~preinstall: no script for preinstall, continuing
+1835 info linkStuff ws@1.0.1
+1836 silly linkStuff ws@1.0.1 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1837 verbose linkBins ws@1.0.1
+1838 verbose linkMans ws@1.0.1
+1839 verbose rebuildBundles ws@1.0.1
+1840 info lifecycle ws@1.0.1~install: ws@1.0.1
+1841 silly lifecycle ws@1.0.1~install: no script for install, continuing
+1842 info lifecycle ws@1.0.1~postinstall: ws@1.0.1
+1843 silly lifecycle ws@1.0.1~postinstall: no script for postinstall, continuing
+1844 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/options
+1845 info lifecycle options@0.0.6~preinstall: options@0.0.6
+1846 silly lifecycle options@0.0.6~preinstall: no script for preinstall, continuing
+1847 info linkStuff options@0.0.6
+1848 silly linkStuff options@0.0.6 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1849 verbose linkBins options@0.0.6
+1850 verbose linkMans options@0.0.6
+1851 verbose rebuildBundles options@0.0.6
+1852 info lifecycle options@0.0.6~install: options@0.0.6
+1853 silly lifecycle options@0.0.6~install: no script for install, continuing
+1854 info lifecycle options@0.0.6~postinstall: options@0.0.6
+1855 silly lifecycle options@0.0.6~postinstall: no script for postinstall, continuing
+1856 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/ultron
+1857 info lifecycle ultron@1.0.2~preinstall: ultron@1.0.2
+1858 silly lifecycle ultron@1.0.2~preinstall: no script for preinstall, continuing
+1859 info linkStuff ultron@1.0.2
+1860 silly linkStuff ultron@1.0.2 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1861 verbose linkBins ultron@1.0.2
+1862 verbose linkMans ultron@1.0.2
+1863 verbose rebuildBundles ultron@1.0.2
+1864 info lifecycle ultron@1.0.2~install: ultron@1.0.2
+1865 silly lifecycle ultron@1.0.2~install: no script for install, continuing
+1866 info lifecycle ultron@1.0.2~postinstall: ultron@1.0.2
+1867 silly lifecycle ultron@1.0.2~postinstall: no script for postinstall, continuing
+1868 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/engine.io-client
+1869 info lifecycle engine.io-client@1.6.9~preinstall: engine.io-client@1.6.9
+1870 silly lifecycle engine.io-client@1.6.9~preinstall: no script for preinstall, continuing
+1871 info linkStuff engine.io-client@1.6.9
+1872 silly linkStuff engine.io-client@1.6.9 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1873 verbose linkBins engine.io-client@1.6.9
+1874 verbose linkMans engine.io-client@1.6.9
+1875 verbose rebuildBundles engine.io-client@1.6.9
+1876 info lifecycle engine.io-client@1.6.9~install: engine.io-client@1.6.9
+1877 silly lifecycle engine.io-client@1.6.9~install: no script for install, continuing
+1878 info lifecycle engine.io-client@1.6.9~postinstall: engine.io-client@1.6.9
+1879 silly lifecycle engine.io-client@1.6.9~postinstall: no script for postinstall, continuing
+1880 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/has-cors
+1881 info lifecycle has-cors@1.1.0~preinstall: has-cors@1.1.0
+1882 silly lifecycle has-cors@1.1.0~preinstall: no script for preinstall, continuing
+1883 info linkStuff has-cors@1.1.0
+1884 silly linkStuff has-cors@1.1.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1885 verbose linkBins has-cors@1.1.0
+1886 verbose linkMans has-cors@1.1.0
+1887 verbose rebuildBundles has-cors@1.1.0
+1888 info lifecycle has-cors@1.1.0~install: has-cors@1.1.0
+1889 silly lifecycle has-cors@1.1.0~install: no script for install, continuing
+1890 info lifecycle has-cors@1.1.0~postinstall: has-cors@1.1.0
+1891 silly lifecycle has-cors@1.1.0~postinstall: no script for postinstall, continuing
+1892 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/indexof
+1893 info lifecycle indexof@0.0.1~preinstall: indexof@0.0.1
+1894 silly lifecycle indexof@0.0.1~preinstall: no script for preinstall, continuing
+1895 info linkStuff indexof@0.0.1
+1896 silly linkStuff indexof@0.0.1 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1897 verbose linkBins indexof@0.0.1
+1898 verbose linkMans indexof@0.0.1
+1899 verbose rebuildBundles indexof@0.0.1
+1900 info lifecycle indexof@0.0.1~install: indexof@0.0.1
+1901 silly lifecycle indexof@0.0.1~install: no script for install, continuing
+1902 info lifecycle indexof@0.0.1~postinstall: indexof@0.0.1
+1903 silly lifecycle indexof@0.0.1~postinstall: no script for postinstall, continuing
+1904 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/parsejson
+1905 info lifecycle parsejson@0.0.1~preinstall: parsejson@0.0.1
+1906 silly lifecycle parsejson@0.0.1~preinstall: no script for preinstall, continuing
+1907 info linkStuff parsejson@0.0.1
+1908 silly linkStuff parsejson@0.0.1 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1909 verbose linkBins parsejson@0.0.1
+1910 verbose linkMans parsejson@0.0.1
+1911 verbose rebuildBundles parsejson@0.0.1
+1912 info lifecycle parsejson@0.0.1~install: parsejson@0.0.1
+1913 silly lifecycle parsejson@0.0.1~install: no script for install, continuing
+1914 info lifecycle parsejson@0.0.1~postinstall: parsejson@0.0.1
+1915 silly lifecycle parsejson@0.0.1~postinstall: no script for postinstall, continuing
+1916 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/parseqs
+1917 info lifecycle parseqs@0.0.2~preinstall: parseqs@0.0.2
+1918 silly lifecycle parseqs@0.0.2~preinstall: no script for preinstall, continuing
+1919 info linkStuff parseqs@0.0.2
+1920 silly linkStuff parseqs@0.0.2 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1921 verbose linkBins parseqs@0.0.2
+1922 verbose linkMans parseqs@0.0.2
+1923 verbose rebuildBundles parseqs@0.0.2
+1924 info lifecycle parseqs@0.0.2~install: parseqs@0.0.2
+1925 silly lifecycle parseqs@0.0.2~install: no script for install, continuing
+1926 info lifecycle parseqs@0.0.2~postinstall: parseqs@0.0.2
+1927 silly lifecycle parseqs@0.0.2~postinstall: no script for postinstall, continuing
+1928 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/parseuri
+1929 info lifecycle parseuri@0.0.4~preinstall: parseuri@0.0.4
+1930 silly lifecycle parseuri@0.0.4~preinstall: no script for preinstall, continuing
+1931 info linkStuff parseuri@0.0.4
+1932 silly linkStuff parseuri@0.0.4 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1933 verbose linkBins parseuri@0.0.4
+1934 verbose linkMans parseuri@0.0.4
+1935 verbose rebuildBundles parseuri@0.0.4
+1936 info lifecycle parseuri@0.0.4~install: parseuri@0.0.4
+1937 silly lifecycle parseuri@0.0.4~install: no script for install, continuing
+1938 info lifecycle parseuri@0.0.4~postinstall: parseuri@0.0.4
+1939 silly lifecycle parseuri@0.0.4~postinstall: no script for postinstall, continuing
+1940 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/xmlhttprequest-ssl
+1941 info lifecycle xmlhttprequest-ssl@1.5.1~preinstall: xmlhttprequest-ssl@1.5.1
+1942 silly lifecycle xmlhttprequest-ssl@1.5.1~preinstall: no script for preinstall, continuing
+1943 info linkStuff xmlhttprequest-ssl@1.5.1
+1944 silly linkStuff xmlhttprequest-ssl@1.5.1 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1945 verbose linkBins xmlhttprequest-ssl@1.5.1
+1946 verbose linkMans xmlhttprequest-ssl@1.5.1
+1947 verbose rebuildBundles xmlhttprequest-ssl@1.5.1
+1948 info lifecycle xmlhttprequest-ssl@1.5.1~install: xmlhttprequest-ssl@1.5.1
+1949 silly lifecycle xmlhttprequest-ssl@1.5.1~install: no script for install, continuing
+1950 info lifecycle xmlhttprequest-ssl@1.5.1~postinstall: xmlhttprequest-ssl@1.5.1
+1951 silly lifecycle xmlhttprequest-ssl@1.5.1~postinstall: no script for postinstall, continuing
+1952 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/yeast
+1953 info lifecycle yeast@0.1.2~preinstall: yeast@0.1.2
+1954 silly lifecycle yeast@0.1.2~preinstall: no script for preinstall, continuing
+1955 info linkStuff yeast@0.1.2
+1956 silly linkStuff yeast@0.1.2 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1957 verbose linkBins yeast@0.1.2
+1958 verbose linkMans yeast@0.1.2
+1959 verbose rebuildBundles yeast@0.1.2
+1960 info lifecycle yeast@0.1.2~install: yeast@0.1.2
+1961 silly lifecycle yeast@0.1.2~install: no script for install, continuing
+1962 info lifecycle yeast@0.1.2~postinstall: yeast@0.1.2
+1963 silly lifecycle yeast@0.1.2~postinstall: no script for postinstall, continuing
+1964 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/entities
+1965 info lifecycle entities@1.0.0~preinstall: entities@1.0.0
+1966 silly lifecycle entities@1.0.0~preinstall: no script for preinstall, continuing
+1967 info linkStuff entities@1.0.0
+1968 silly linkStuff entities@1.0.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1969 verbose linkBins entities@1.0.0
+1970 verbose linkMans entities@1.0.0
+1971 verbose rebuildBundles entities@1.0.0
+1972 info lifecycle entities@1.0.0~install: entities@1.0.0
+1973 silly lifecycle entities@1.0.0~install: no script for install, continuing
+1974 info lifecycle entities@1.0.0~postinstall: entities@1.0.0
+1975 silly lifecycle entities@1.0.0~postinstall: no script for postinstall, continuing
+1976 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/escape-string-regexp
+1977 info lifecycle escape-string-regexp@1.0.2~preinstall: escape-string-regexp@1.0.2
+1978 silly lifecycle escape-string-regexp@1.0.2~preinstall: no script for preinstall, continuing
+1979 info linkStuff escape-string-regexp@1.0.2
+1980 silly linkStuff escape-string-regexp@1.0.2 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1981 verbose linkBins escape-string-regexp@1.0.2
+1982 verbose linkMans escape-string-regexp@1.0.2
+1983 verbose rebuildBundles escape-string-regexp@1.0.2
+1984 info lifecycle escape-string-regexp@1.0.2~install: escape-string-regexp@1.0.2
+1985 silly lifecycle escape-string-regexp@1.0.2~install: no script for install, continuing
+1986 info lifecycle escape-string-regexp@1.0.2~postinstall: escape-string-regexp@1.0.2
+1987 silly lifecycle escape-string-regexp@1.0.2~postinstall: no script for postinstall, continuing
+1988 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/errno
+1989 info lifecycle errno@0.1.4~preinstall: errno@0.1.4
+1990 silly lifecycle errno@0.1.4~preinstall: no script for preinstall, continuing
+1991 info linkStuff errno@0.1.4
+1992 silly linkStuff errno@0.1.4 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+1993 verbose linkBins errno@0.1.4
+1994 verbose link bins [ { errno: './cli.js' },
+1994 verbose link bins   '/Applications/MAMP/htdocs/letscodejavascript/node_modules/.bin',
+1994 verbose link bins   false ]
+1995 verbose linkMans errno@0.1.4
+1996 verbose rebuildBundles errno@0.1.4
+1997 info lifecycle errno@0.1.4~install: errno@0.1.4
+1998 silly lifecycle errno@0.1.4~install: no script for install, continuing
+1999 info lifecycle errno@0.1.4~postinstall: errno@0.1.4
+2000 silly lifecycle errno@0.1.4~postinstall: no script for postinstall, continuing
+2001 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/prr
+2002 info lifecycle prr@0.0.0~preinstall: prr@0.0.0
+2003 silly lifecycle prr@0.0.0~preinstall: no script for preinstall, continuing
+2004 info linkStuff prr@0.0.0
+2005 silly linkStuff prr@0.0.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+2006 verbose linkBins prr@0.0.0
+2007 verbose linkMans prr@0.0.0
+2008 verbose rebuildBundles prr@0.0.0
+2009 info lifecycle prr@0.0.0~install: prr@0.0.0
+2010 silly lifecycle prr@0.0.0~install: no script for install, continuing
+2011 info lifecycle prr@0.0.0~postinstall: prr@0.0.0
+2012 silly lifecycle prr@0.0.0~postinstall: no script for postinstall, continuing
+2013 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/eventemitter3
+2014 info lifecycle eventemitter3@1.2.0~preinstall: eventemitter3@1.2.0
+2015 silly lifecycle eventemitter3@1.2.0~preinstall: no script for preinstall, continuing
+2016 info linkStuff eventemitter3@1.2.0
+2017 silly linkStuff eventemitter3@1.2.0 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+2018 verbose linkBins eventemitter3@1.2.0
+2019 verbose linkMans eventemitter3@1.2.0
+2020 verbose rebuildBundles eventemitter3@1.2.0
+2021 info lifecycle eventemitter3@1.2.0~install: eventemitter3@1.2.0
+2022 silly lifecycle eventemitter3@1.2.0~install: no script for install, continuing
+2023 info lifecycle eventemitter3@1.2.0~postinstall: eventemitter3@1.2.0
+2024 silly lifecycle eventemitter3@1.2.0~postinstall: no script for postinstall, continuing
+2025 info build /Applications/MAMP/htdocs/letscodejavascript/node_modules/fsevents
+2026 info lifecycle fsevents@1.0.14~preinstall: fsevents@1.0.14
+2027 silly lifecycle fsevents@1.0.14~preinstall: no script for preinstall, continuing
+2028 info linkStuff fsevents@1.0.14
+2029 silly linkStuff fsevents@1.0.14 has /Applications/MAMP/htdocs/letscodejavascript/node_modules as its parent node_modules
+2030 verbose linkBins fsevents@1.0.14
+2031 verbose linkMans fsevents@1.0.14
+2032 verbose rebuildBundles fsevents@1.0.14
+2033 info lifecycle fsevents@1.0.14~install: fsevents@1.0.14
+2034 verbose lifecycle fsevents@1.0.14~install: unsafe-perm in lifecycle true
+2035 verbose lifecycle fsevents@1.0.14~install: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Applications/MAMP/htdocs/letscodejavascript/node_modules/fsevents/node_modules/.bin:/Applications/MAMP/htdocs/letscodejavascript/node_modules/.bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+2036 verbose lifecycle fsevents@1.0.14~install: CWD: /Applications/MAMP/htdocs/letscodejavascript/node_modules/fsevents
+2037 silly lifecycle fsevents@1.0.14~install: Args: [ '-c', 'node-pre-gyp install --fallback-to-build' ]
+2038 info lifecycle fsevents@1.0.14~install: Failed to exec install script
+2039 verbose stack Error: fsevents@1.0.14 install: `node-pre-gyp install --fallback-to-build`
+2039 verbose stack spawn ENOENT
+2039 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:17:16)
+2039 verbose stack     at emitTwo (events.js:100:13)
+2039 verbose stack     at ChildProcess.emit (events.js:185:7)
+2039 verbose stack     at maybeClose (internal/child_process.js:821:16)
+2039 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+2040 verbose pkgid fsevents@1.0.14
+2041 verbose cwd /Applications/MAMP/htdocs/letscodejavascript
+2042 error Darwin 15.5.0
+2043 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "rebuild"
+2044 error node v5.5.0
+2045 error npm  v3.3.12
+2046 error file sh
+2047 error code ELIFECYCLE
+2048 error errno ENOENT
+2049 error syscall spawn
+2050 error fsevents@1.0.14 install: `node-pre-gyp install --fallback-to-build`
+2050 error spawn ENOENT
+2051 error Failed at the fsevents@1.0.14 install script 'node-pre-gyp install --fallback-to-build'.
+2051 error Make sure you have the latest version of node.js and npm installed.
+2051 error If you do, this is most likely a problem with the fsevents package,
+2051 error not with npm itself.
+2051 error Tell the author that this fails on your system:
+2051 error     node-pre-gyp install --fallback-to-build
+2051 error You can get their info via:
+2051 error     npm owner ls fsevents
+2051 error There is likely additional logging output above.
+2052 verbose exit [ 1, true ]

@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3181fd9-da49-45da-9216-c5f7be218bbe" name="Default" comment="" />
+    <list default="true" id="e3181fd9-da49-45da-9216-c5f7be218bbe" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="letscodejavascript.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,11 +34,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
               <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="145" selection-start-line="16" selection-start-column="0" selection-end-line="22" selection-end-column="145" />
               <folding />
             </state>
           </provider>
@@ -67,11 +80,11 @@
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding>
-                <marker date="1469034488000" expanded="true" signature="0:323" placeholder="{&quot;name&quot;: &quot;letscodejavascript&quot;...}" />
-                <marker date="1469034488000" expanded="true" signature="88:113" placeholder="{&quot;node&quot;: &quot;5.5.0&quot;...}" />
-                <marker date="1469034488000" expanded="true" signature="136:321" placeholder="{&quot;jake&quot;: &quot;^8.0.12&quot;...}" />
+                <marker date="1469049456000" expanded="true" signature="0:346" placeholder="{&quot;name&quot;: &quot;letscodejavascript&quot;...}" />
+                <marker date="1469049456000" expanded="true" signature="88:113" placeholder="{&quot;node&quot;: &quot;5.5.0&quot;...}" />
+                <marker date="1469049456000" expanded="true" signature="136:344" placeholder="{&quot;jake&quot;: &quot;^8.0.12&quot;...}" />
               </folding>
             </state>
           </provider>
@@ -114,7 +127,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/build.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/jake.sh" />
         <option value="$PROJECT_DIR$/jake.cmd" />
         <option value="$PROJECT_DIR$/package.json" />
@@ -122,6 +134,7 @@
         <option value="$PROJECT_DIR$/Jakefile.js" />
         <option value="$PROJECT_DIR$/src/test.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -306,12 +319,12 @@
       <workItem from="1467070604311" duration="6589000" />
       <workItem from="1467243186624" duration="731000" />
       <workItem from="1467395974896" duration="858000" />
-      <workItem from="1468866180864" duration="10743000" />
+      <workItem from="1468866180864" duration="12202000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37331000" />
+    <option name="totallyTimeSpent" value="38790000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="475" y="-1201" width="1182" height="1199" extended-state="0" />
@@ -380,9 +393,9 @@
         <state relative-caret-position="210">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <marker date="1469034488000" expanded="true" signature="0:323" placeholder="{&quot;name&quot;: &quot;letscodejavascript&quot;...}" />
-            <marker date="1469034488000" expanded="true" signature="88:113" placeholder="{&quot;node&quot;: &quot;5.5.0&quot;...}" />
-            <marker date="1469034488000" expanded="true" signature="136:321" placeholder="{&quot;jake&quot;: &quot;^8.0.12&quot;...}" />
+            <marker date="1469049456000" expanded="true" signature="0:346" placeholder="{&quot;name&quot;: &quot;letscodejavascript&quot;...}" />
+            <marker date="1469049456000" expanded="true" signature="88:113" placeholder="{&quot;node&quot;: &quot;5.5.0&quot;...}" />
+            <marker date="1469049456000" expanded="true" signature="136:344" placeholder="{&quot;jake&quot;: &quot;^8.0.12&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -492,9 +505,9 @@
         <state relative-caret-position="120">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
           <folding>
-            <marker date="1469034488000" expanded="true" signature="0:323" placeholder="{&quot;name&quot;: &quot;letscodejavascript&quot;...}" />
-            <marker date="1469034488000" expanded="true" signature="88:113" placeholder="{&quot;node&quot;: &quot;5.5.0&quot;...}" />
-            <marker date="1469034488000" expanded="true" signature="136:321" placeholder="{&quot;jake&quot;: &quot;^8.0.12&quot;...}" />
+            <marker date="1469049456000" expanded="true" signature="0:346" placeholder="{&quot;name&quot;: &quot;letscodejavascript&quot;...}" />
+            <marker date="1469049456000" expanded="true" signature="88:113" placeholder="{&quot;node&quot;: &quot;5.5.0&quot;...}" />
+            <marker date="1469049456000" expanded="true" signature="136:344" placeholder="{&quot;jake&quot;: &quot;^8.0.12&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -526,14 +539,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="21" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/jake.cmd">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -553,11 +558,11 @@
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <marker date="1469034488000" expanded="true" signature="0:323" placeholder="{&quot;name&quot;: &quot;letscodejavascript&quot;...}" />
-            <marker date="1469034488000" expanded="true" signature="88:113" placeholder="{&quot;node&quot;: &quot;5.5.0&quot;...}" />
-            <marker date="1469034488000" expanded="true" signature="136:321" placeholder="{&quot;jake&quot;: &quot;^8.0.12&quot;...}" />
+            <marker date="1469049456000" expanded="true" signature="0:346" placeholder="{&quot;name&quot;: &quot;letscodejavascript&quot;...}" />
+            <marker date="1469049456000" expanded="true" signature="88:113" placeholder="{&quot;node&quot;: &quot;5.5.0&quot;...}" />
+            <marker date="1469049456000" expanded="true" signature="136:344" placeholder="{&quot;jake&quot;: &quot;^8.0.12&quot;...}" />
           </folding>
         </state>
       </provider>
@@ -592,6 +597,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="145" selection-start-line="16" selection-start-column="0" selection-end-line="22" selection-end-column="145" />
           <folding />
         </state>
       </provider>
