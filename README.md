@@ -582,6 +582,31 @@ Ht11: Assertions - Chai
         }());
 
 
+Ht12: Test frameworks - Mocha
+============================================================
+1.	A popular JavaScript test framework Mocha https://mochajs.org/
+o	sudo npm install mocha --ignore-scripts --save-dev
+o	sudo git add . , sudo git commit –am “message”, sudo npm rebuild
+o	Instead of using
+        - sudo node src/test.js,
+        - use sudo node_modules/.bin/mocha src/test.js
+o	Group all the test cases within describe
+
+        describe("Addition", function(){ //use "describe" to group all the test cases
+            it("adds positive numbers", function(){ //use "it" for test case, and write the   comment in the code
+                assert.equal(add(3,4),7);// Chai
+            });
+            it("IEEE 754 floating point", function(){
+                assert.equal(add(0.1,0.2), 0.30000000000000004); //Chai
+            });
+        });
+
+o	sudo node_modules/.bin/mocha src/test.js
+    - When there is no error
+
+    - When there are errors (function add()   ,change to a - b)
+
+2.	Mocha is TDD (Test-Driven development) framework. Another popular framework is Jasmine (BBD: Behavior-Driven development) http://jasmine.github.io/. TDD is more focus on programmer, BDD is more focus on communication for none programmer. It’s all about script differences, but they all doing the same thing.
 
 
 
