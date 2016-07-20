@@ -592,14 +592,14 @@ Ht12: Test frameworks - Mocha
         - use sudo node_modules/.bin/mocha src/test.js
     - Group all the test cases within describe
 
-        describe("Addition", function(){ //use "describe" to group all the test cases
-            it("adds positive numbers", function(){ //use "it" for test case, and write the   comment in the code
-                assert.equal(add(3,4),7);// Chai
+            describe("Addition", function(){ //use "describe" to group all the test cases
+                it("adds positive numbers", function(){ //use "it" for test case, and write the   comment in the code
+                    assert.equal(add(3,4),7);// Chai
+                });
+                it("IEEE 754 floating point", function(){
+                    assert.equal(add(0.1,0.2), 0.30000000000000004); //Chai
+                });
             });
-            it("IEEE 754 floating point", function(){
-                assert.equal(add(0.1,0.2), 0.30000000000000004); //Chai
-            });
-        });
 
     - sudo node_modules/.bin/mocha src/test.js
         - When there is no error
