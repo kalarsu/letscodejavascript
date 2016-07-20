@@ -10,11 +10,15 @@
 
     //******** General-purpose tasks ----------------------------
 
+    desc("Start the Karma server (run this first)");
+    task("karma", function(){
+        console.log("Starting Karma server:");
+    });
+
     desc("default build");//documentation for following task, >jake --tasks or >jake -T  will show all the tasks, this is what it meant self-documentation
     task("default", ["version", "lint"], function(){ //run "version","lint" task before running default
         console.log("\n\nBUILD OK");
     });
-
 
     desc("Run a localhost server");
     task("run", function(){
@@ -22,7 +26,6 @@
         //interactive:true , so we can see the output.
         //complete: to run complete function when it's done.
     });
-
 
 
     //******** Supporting tasks ---------------------------------
