@@ -6,17 +6,21 @@
 
     var semver = require("semver"); //semver is a parser for node for parsing version number
     var jshint = require("simplebuild-jshint");
-
+    var karma = require("simplebuild-karma");
+    var KARMA_CONFIG = "karma.conf.js";
 
     //******** General-purpose tasks ----------------------------
 
     desc("Start the Karma server (run this first)");
     task("karma", function(){
         console.log("Starting Karma server:");
-    });
+        karma.start({
+            configFile: KARMA_CONFIG
+        }, complete, fail);
+    }, {async: true});
 
     desc("default build");//documentation for following task, >jake --tasks or >jake -T  will show all the tasks, this is what it meant self-documentation
-    task("default", ["version", "lint"], function(){ //run "version","lint" task before running default
+    task("default", ["version", "lint", "test"], function(){ //run "version","lint" task before running default
         console.log("\n\nBUILD OK");
     });
 
@@ -52,6 +56,15 @@
             globals: lintGlobal()
         }, complete, fail);
     }, {async: true}); // async: true , tell jake not to end the task until the complete function is called.
+
+
+    desc("Run tests in Karma");
+    task("test", function(){
+        console.log("Testing Javascript:");
+        karma.run({
+            configFile: KARMA_CONFIG
+        }, complete, fail);
+    }, {async: true});
 
 
     function lintOptions(){
