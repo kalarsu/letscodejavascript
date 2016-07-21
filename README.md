@@ -690,6 +690,115 @@ Ht13: Cross-Browser Test Runner -Karma
 
 
 
+Ht14: Automating Karma
+==============================================================================
+
+1.	We were using Karma or Mocha to run test.js, but eventually we just want to use one commend which is jake.sh to automat everything.
+    -	Run  ./jake.sh
+    -	There are err because “describe”, and “it” were global variable by Mocha, so we need to use Karma to run it, otherwise Jake file can not recognize them. So we have to define them in Jakefile.js under global to prevent Mocha global from triggering lint errors.
+
+            globals: {
+            //for Mocha
+                describe: false, //false means we will never change it
+                it: false,
+                before: false,
+                after: false,
+                beforeEach: false,
+                afterEach: false
+            }
+
+    -	Run ./jake.sh again, and it works without errors. Check in the code.
+    -	Refactor Jakefile.js code so it looks cleaner. Cut data under lint options, and globals into a new lintOptions(), and lintGlobal() function:
+
+            options: lintOptions(),
+            globals: lintGlobal()
+
+
+            function lintOptions(){
+                return {
+                    bitwise: true,
+                    eqeqeq: true,
+                    forin: true,
+                    freeze: true,
+                    futurehostile: true,
+                    latedef: "nofunc",
+                    noarg: true,
+                    nocomma: true,
+                    nonbsp: true,
+                    nonew: true,
+                    strict: true,
+                    undef: true,
+
+                    node: true,
+                    browser: true
+                };
+            }
+
+            function lintGlobal(){
+                return{
+                    //Mocha
+                    describe: false, // false means , we will never change it
+                    it : false,
+                    before: false,
+                    after: false,
+                    beforeEach: false,
+                    afterEach: false
+                };
+            }
+
+2.	So now get Karma automated in Jakefile
+    -	Rather using node_modules/.bin/karma start, we should use ./jake.sh karma
+    -	Create a new task “karma” to start up the Karma Server, before default task, and check in the code.
+
+            desc("Start the Karma server (run this first)");
+            task("karma", function(){
+                console.log("Starting Karma server:");
+            });
+
+    -	sudo npm install simplebuild-karma --ignore-scripts --save-dev , so we don’t have to use jake.exec(“node node_modules/.bin/karma”) …
+    -	sudo git add . , sudo git commit –am “message”, sudo npm rebuild to see if there is any binary
+    -	Add following into Jakefile.js, so we don’t have to run sudo node_modules/.bin/karma start , to start Karma server:
+           var karma = require("simplebuild-karma");
+
+            desc("Start the Karma server (run this first)");
+            task("karma", function(){
+                console.log("Starting Karma Server:");
+                karma.start({
+                    configFile: "karma.conf.js"
+                }, complete, fail);
+            }, { async: true });
+    -	Run ./jake.sh karma to start up Karma Server
+    -	Add task “test” as following, , so we don’t have to run sudo node_modules/.bin/karma run , to run the test in Karma.
+            desc("Run tests for javascript in Karma");
+            task("test", function(){
+                console.log("Testing JavaScript");
+                karma.run({
+                    configFile: "karma.conf.js"
+                }, complete, fail);
+            }, {async: true});
+    -	Add task “test” to default task as :
+
+            task("default", ["version", "lint", "test"], ……
+    -	Another terminal run: sudo ./jake.sh , this will automatically run tasks that we set up in default task, including “test” which to test JavaScript if there is any error.
+    -	Karma.conf.js is written twice in Jakefile.js, so we use variable to contain it to refactor the code a better way.
+
+		    var KARMA_CONFIG = "karma.conf.js";
+
+		    configFile: KARMA_CONFIG
+
+    -	To make sure JavaScript been tested in different browser with correct version, add following with ”test” task:
+
+            expectedBrowsers: [ //this will check if JavaScript been test in both browsers
+                "Chrome 49.0.2623 (Mac OS X 10.10.5)",
+                "Firefox 45.0.0 (Mac OS X 10.10.0)"
+            ]
+
+    -	Open both browser : http://localhost:9876/, and run:  ./jake.sh again. In console, it will show JavaScript were being tested in both browsers.
+    -	strict: false  //so when browser version is wrong, jake won't abort
+    -	strict: !process.env.loose , and run sudo ./jake.sh loose=true , so even browser type is not match Jake won’t fail. If just run sudo ./jake.sh and browser type is not match jake will fail.
+
+
+
 
 
 

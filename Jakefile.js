@@ -62,9 +62,17 @@
     task("test", function(){
         console.log("Testing Javascript:");
         karma.run({
-            configFile: KARMA_CONFIG
+            configFile: KARMA_CONFIG,
+            expectedBrowsers: [
+                "Chrome 51.0.2704 (Mac OS X 10.11.5)",
+                "Firefox 47.0.0 (Mac OS X 10.11.0)",
+                "Safari 9.1.0 (Mac OS X 10.11.5)"
+            ],
+            strict: !process.env.loose  //run sudo ./jake.sh loose=true , so even browser type is not match Jake won’t fail. If just run sudo ./jake.sh and browser type is not match jake will fail.
         }, complete, fail);
     }, {async: true});
+
+
 
 
     function lintOptions(){
