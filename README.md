@@ -799,6 +799,16 @@ Ht14: Automating Karma
 
 
 
+Ht15: Testing Android, iOS, IE, and More
+======================================================================
+1.	http://dev.modern.ie/tools/vms/mac/  to download Virtual machine for IE11 on Win7 , platform: VirtualBox.
+2.	Download XCode for iPhone simulator
+3.	http://developer.android.com/sdk/index.html Download Android studio.
+    -	Configure  SDK Manager  Install packages.
+    -	New project  accept default setting  click on AVD Manager icon
+    -	Create Virtual Device  choose the default device and install necessary plugin click on play (green arrow) button.
+    -	In console dialog:  /Users/c.su/Library/Android/sdk/tools/emulator -netdelay none -netspeed full -avd Nexus_5_API_N     Copy and paste to launch simulator next time.
+
 
 
 
