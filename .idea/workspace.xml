@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e3181fd9-da49-45da-9216-c5f7be218bbe" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/test.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/karma-commonjs/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/karma-commonjs/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/karma-commonjs/client/commonjs_bridge.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/karma-commonjs/lib/plugin.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/karma-commonjs/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <ignored path="letscodejavascript.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -275,12 +279,12 @@
       <workItem from="1467395974896" duration="858000" />
       <workItem from="1468866180864" duration="19812000" />
       <workItem from="1469124144146" duration="708000" />
-      <workItem from="1469486861303" duration="1367000" />
+      <workItem from="1469486861303" duration="1515000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48475000" />
+    <option name="totallyTimeSpent" value="48623000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="475" y="-1309" width="1374" height="1307" extended-state="0" />
