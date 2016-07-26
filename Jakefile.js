@@ -84,6 +84,13 @@
 
         shell.rm("-rf", DIST_DIR + "/*"); //delete all the file under generated/dist, so it won't complain index.html already exist
         shell.cp("src/index.html", DIST_DIR); // copy index.html file into generated/dist
+
+        //run browserify to bundle the javascript
+        jake.exec(
+            "node node_modules/browserify/bin/cmd.js src/app.js -o " + DIST_DIR + "/bundle.js" ,
+            {interactive: true, async: true},
+            complete
+        );
     });
 
     directory( DIST_DIR );// this will create generated/dist folder
