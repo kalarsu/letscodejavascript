@@ -27,7 +27,7 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
-      'src/**/*.js': ['commonjs'] //tell Karma to process all the js files under /src to get processed by comminjs plugin
+      'src/javascript/**/*.js': ['commonjs'] //tell Karma to process all the js files under /src/javascript to get processed by comminjs plugin
     },
 
 

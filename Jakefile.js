@@ -60,7 +60,7 @@
         //console.log("Linting Javascript: ");
         process.stdout.write("Linting Javascript: "); //using global process instead of console.log
         jshint.checkFiles({
-            files: ["Jakefile.js", "src/**/*.js"],
+            files: ["Jakefile.js", "src/javascript/**/*.js"], //link under src/javascript all the sub fulder and all the files.
             options: lintOptions(),
             globals: lintGlobal()
         }, complete, fail);
@@ -83,11 +83,11 @@
         console.log("Building distribution directory: .");
 
         shell.rm("-rf", DIST_DIR + "/*"); //delete all the file under generated/dist, so it won't complain index.html already exist
-        shell.cp("src/index.html", DIST_DIR); // copy index.html file into generated/dist
+        shell.cp("src/content/*", DIST_DIR); // copy everything under /content into generated/dist
 
         //run browserify to bundle the javascript
         jake.exec(
-            "node node_modules/browserify/bin/cmd.js src/app.js -o " + DIST_DIR + "/bundle.js" ,
+            "node node_modules/browserify/bin/cmd.js src/javascript/app.js -o " + DIST_DIR + "/bundle.js" ,
             {interactive: true, async: true},
             complete
         );
