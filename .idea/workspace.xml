@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e3181fd9-da49-45da-9216-c5f7be218bbe" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/generated/dist/index.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Jakefile.js" afterPath="$PROJECT_DIR$/Jakefile.js" />
-    </list>
+    <list default="true" id="e3181fd9-da49-45da-9216-c5f7be218bbe" name="Default" comment="" />
     <ignored path="letscodejavascript.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,8 +24,8 @@
       <file leaf-file-name="Jakefile.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Jakefile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+            <state relative-caret-position="555">
+              <caret line="37" column="7" selection-start-line="34" selection-start-column="4" selection-end-line="37" selection-end-column="7" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -279,12 +275,12 @@
       <workItem from="1467395974896" duration="858000" />
       <workItem from="1468866180864" duration="19812000" />
       <workItem from="1469124144146" duration="708000" />
-      <workItem from="1469486861303" duration="5378000" />
+      <workItem from="1469486861303" duration="5444000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="52486000" />
+    <option name="totallyTimeSpent" value="52552000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="527" y="-1308" width="1374" height="1307" extended-state="0" />
@@ -651,8 +647,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Jakefile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+        <state relative-caret-position="555">
+          <caret line="37" column="7" selection-start-line="34" selection-start-column="4" selection-end-line="37" selection-end-column="7" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
