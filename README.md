@@ -846,6 +846,34 @@ Ht16: Modularity: Modular Tests
 
 
 
+Ht17: Modular in Production browserify
+============================================================
+1.	When running on browser, require in JavaScript still not been recognized by browser so we need to use following plugin. Browserify analysis all required files from all JavaScript files (modules) into one single bundled JavaScript file.
+    - browserify: http://browserify.org   Use this
+    - webpack: http://webpack.github.io
+
+2.	sudo npm install browserify --ignore-scripts --save-dev
+3.	sudo git add . , sudo git commit –am “message”, sudo npm rebuild
+4.	sudo node_modules/.bin/browserify to check out browserify usage information.
+5.	Create app.js under src/ , and type following. Under index.html, add <script src="app.js"></script>
+
+        (function () {
+            "use strict";
+
+            var addition = require("./addition.js");
+
+            console.log("Hello!");
+            console.log("42 + 13 =" + addition.add(42,13));
+        }());
+
+
+7.	Sudo ./jake.sh run, and http://localhost: 8080. Browser console will show require is not defined.
+
+8.	sudo node_modules/.bin/browserify src/app.js -o src/bundle.js. browserify will analysis app.js all the required files and bundle them into src/bundle.js.
+    - --outfile, -o: Write the browserify bundle to this file. If unspecified, browserify prints to stdout.
+9.	Change <script src = “bundle.js”></script> in index.html
+10.	Sudo ./jake.sh run, now http://localhost:8080 will console out the info without err message.
+
 
 
 
