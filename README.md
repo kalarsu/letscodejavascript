@@ -810,6 +810,38 @@ Ht15: Testing Android, iOS, IE, and More
     -	In console dialog:  /Users/c.su/Library/Android/sdk/tools/emulator -netdelay none -netspeed full -avd Nexus_5_API_N     Copy and paste to launch simulator next time.
 
 
+1.	Modular is multiple JavaScript files, each file called modular. So far 3/2016 JavaScript doesn’t support modularity. However, there are 3 different ways to convert multiple files (modular) into single JavaScript file.
+-	Common JS: ex: the one we use in test.js require(“semver”);   Use this one
+-	AMD (Asynchronous module definition)
+-	forthcoming AMPscript
+2.	Let’s break test.js into 2 files (moudlar), by creating _addition_test.js (test code start with underscore _) which contain test cases and addition.js which only contain add() function
+-	Under _addition_test.js file, use following to require addition.js. require paired up with exports.
+		var addition = require("./addition.js"); //.means current directory
+-	Under addition.js file, insert exports.add = add under add function; or exports.add = function add(a,b){….}. It will exports add() function for require to use.
+
+
+Ht16: Modularity: Modular Tests
+======================================================================
+1.	Modular is multiple JavaScript files, each file called modular. So far 3/2016 JavaScript doesn’t support modularity. However, there are 3 different ways to convert multiple files (modular) into single JavaScript file.
+    -	Common JS: ex: the one we use in test.js require(“semver”);   Use this one
+    -	AMD (Asynchronous module definition)
+    -	forthcoming AMPscript
+2.	Let’s break test.js into 2 files (moudlar), by creating _addition_test.js (test code start with underscore _) which contain test cases and addition.js which only contain add() function
+    -	Under _addition_test.js file, use following to require addition.js. require paired up with exports.
+            var addition = require("./addition.js"); //.means current directory
+    -	Under addition.js file, insert exports.add = add under add function; or exports.add = function add(a,b){….}. It will exports add() function for require to use.
+
+3.	When running ./jake.sh , require is not recognized by Karma. So we need to install karma-commonjs.
+    -	sudo npm install karma-commonjs --ignore-scripts --save-dev
+    -	sudo git add . , sudo git commit –am “message”, sudo npm rebuild
+4.	In karma.conf.js: add following:
+    -	frameworks: ['mocha','commonjs'], //tell Karma to load framework commjs
+            preprocessors: {
+                'src/**/*.js' : ['commonjs'] //tell Karma to process all js files under src to get processed by commonjs plugin
+            },
+5.	restart Karma server :  ./jake.sh karma
+6.	Another console to run ./jake.sh again, Karma can recognized require, no more error message.
+
 
 
 
