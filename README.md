@@ -836,9 +836,11 @@ Ht16: Modularity: Modular Tests
     -	sudo git add . , sudo git commit –am “message”, sudo npm rebuild
 4.	In karma.conf.js: add following:
     -	frameworks: ['mocha','commonjs'], //tell Karma to load framework commjs
+
             preprocessors: {
                 'src/**/*.js' : ['commonjs'] //tell Karma to process all js files under src to get processed by commonjs plugin
             },
+
 5.	restart Karma server :  ./jake.sh karma
 6.	Another console to run ./jake.sh again, Karma can recognized require, no more error message.
 
