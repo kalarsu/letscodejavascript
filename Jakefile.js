@@ -79,8 +79,11 @@
 
 
     desc("Build distribution directory");
-    task("build", [ DIST_DIR ], function(){  //  ["generated/dist"] as a task , see following directory("generated/dist")
-        console.log("Building distribution directory:");
+    task("build", [ DIST_DIR ], function(){  //  [ DIST_DIR ] as a task , see following directory(DIST_DIR)
+        console.log("Building distribution directory: .");
+
+        shell.rm("-rf", DIST_DIR + "/*"); //delete all the file under generated/dist, so it won't complain index.html already exist
+        shell.cp("src/index.html", DIST_DIR); // copy index.html file into generated/dist
     });
 
     directory( DIST_DIR );// this will create generated/dist folder
