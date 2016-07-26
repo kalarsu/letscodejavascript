@@ -877,3 +877,114 @@ Ht17: Modular in Production browserify
 
 
 
+Ht18: The Build Step: browserify
+==========================================================================================
+
+1.	Because bunle.js file is generated for machine to read, so when >./jake.sh , there will be lots error cause by lint. Therefore, we need to copy index.html and move bundle.js under new folder /generated/dist. To separated source and generated code, and tell jake file not to lint generated code.
+2.	node_modules/.bin/browserify src/app.js -o generated/dist/bundle.js to generated bundle.js again since the path had changed.
+3.	node_modules/.bin/http-server generated/dist then run http://localhost:8080
+4.	We don’t check in generated files, so under .gitignore file, type in following:
+
+        #generated files
+        generated/
+
+5.	Instead of running broswerify and server manually, add a task “build” in Jakefile.js
+
+        desc("Build distribution directory");
+        task("build", function(){
+           console.log("Building distribution directory:");
+        });
+
+6.	In Jakefile.js change task “run” update to:
+
+        desc("Run a localhost server");
+        task("run", ["build"], function(){  //run task “build” before run the server, so it will generate generated/dist folder first before running the server
+            jake.exec("node node_modules/http-server/bin/http-server generated/dist", {interactive: true}, complete);
+            //console.log("Run http-server here");
+        });
+
+    - Sudo ./jake.sh run, now http://localhost:8080 will console out the info without err message.
+
+7.	Delete folder “generated”
+8.	Under “build” task, modify as following:
+
+        desc("Build distribution directory");
+        task("build", ["generated/dist"], function(){  // ["generated/dist"] as a task which will run before “build” task , see following directory("generated/dist")
+            console.log("Building distribution directory:");
+        });
+        directory("generated/dist");// this will create generated/dist folder
+
+9.	To prevent repeat typing “generated/dist” , we create constant variable on the top as following and replace wherever contain this path with this variable.
+
+        var DIST_DIR = "generated/dist";
+
+10.	In Jakefile.js: Under //General-purpose tasks -------- section; create a new task to erase all the generated files as following:
+
+        desc("Erase all generated files");
+        task("clean", function(){
+            console.log("Erasing generated files");
+        });
+
+11.	In order to run simple shell command line in Jakefile.js, we need to install following plugin:
+    -	 sudo npm install shelljs --ignore-scripts --save-dev
+    -	sudo git add . , sudo git commit –am “message”, sudo npm rebuild
+
+12.	At the top of Jakefile.js, add
+
+        var shell = require("shelljs");
+
+13.	Under “clean” task, add following:
+	shell.rm("-rf", "generated"); //force to remove all the file under generated without any question
+
+
+14.	./jake.sh clean : this will delete all the files under /generated folder. Check in files.
+15.	Under “build” task add following, and check in files:
+
+        shell.rm("-rf", DIST_DIR + "/*"); //delete all the file under generated/dist, so it won't complain index.html already exist
+
+        shell.cp("src/index.html", DIST_DIR); // copy index.html file into generated/dist
+
+        //run browserify to bundle the javascript
+        jake.exec(
+            "node node_modules/browserify/bin/cmd.js src/app.js -o " + DIST_DIR + "/bundle.js" ,
+            {interactive: true, async: true},
+            complete
+        );
+
+16.	Now we run the server
+    -	./jake.sh run , and
+    -	http://localhost:8080
+    -	./jake.sh clean  , this will clean out all the file under /generated
+    -	./jake.sh run again , this will work again
+17.	Refactor directory as following:
+    -	Create /content under src , and move index.html under it.
+    -	Under build task, Change to  shell.cp("src/content/*", DIST_DIR); //copy everything under content
+    -	Create /javascript under src, and move all js file under it.
+    -	Under build task modify as following:
+
+        jake.exec(
+            "node node_modules/browserify/bin/cmd.js src/javascript/app.js -o " + DIST_DIR + "/bundle.js" ,
+            {interactive: true, async: true},
+            complete
+        );
+    -	./jake.sh clean    then    ./jake.sh run
+    -	Under lint task, change following:
+            files: ["Jakefile.js", "src/javascript/**/*.js"],
+
+    -	On very top of Jakefile.js add directory:false as global for Jake to recognize directory variable.
+18.	Under all the task,
+
+complete, fail); //after finish 'karma' task will run complete or fail function (async function)
+}, {async: true}); //async: true, after finish calling complete or fail, then
+it will move on to next thing
+
+19.	Add , {async: true}  to ‘build’, and ‘run’ task.
+
+        task("run", ["build"], function(){//run task "build" to generate generated/dist folder before running the server
+            jake.exec("node node_modules/http-server/bin/http-server " + DIST_DIR , {interactive: true, async: true}, complete);
+            //interactive:true , so we can see the output.
+            //complete: to run complete function when it's done.
+        }, {async: true});
+
+
+    -	If we don’t add async: true, it will cost race condition which means before finish running build task, run task will start executing.

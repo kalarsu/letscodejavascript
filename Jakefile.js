@@ -1,4 +1,4 @@
-/* globals jake:false, desc:false, task:false, complete:false, fail:false */
+/* globals jake:false, desc:false, task:false, complete:false, fail:false, directory:false */
 //defint all the global variable only for this jakefile.js
 
 (function(){
@@ -19,8 +19,8 @@
         console.log("Starting Karma server:");
         karma.start({
             configFile: KARMA_CONFIG
-        }, complete, fail);
-    }, {async: true});
+        }, complete, fail); //after finish 'karma' task will run complete or fail function (async function)
+    }, {async: true}); //async: true, after finish calling complete or fail, then it will move on to next thing
 
     desc("default build");//documentation for following task, >jake --tasks or >jake -T  will show all the tasks, this is what it meant self-documentation
     task("default", ["version", "lint", "test"], function(){ //run "version","lint" task before running default
@@ -32,7 +32,7 @@
         jake.exec("node node_modules/http-server/bin/http-server " + DIST_DIR , {interactive: true, async: true}, complete);
         //interactive:true , so we can see the output.
         //complete: to run complete function when it's done.
-    });
+    }, {async: true});
 
     desc("Erase all generated files");
     task("clean", function(){
@@ -91,7 +91,7 @@
             {interactive: true, async: true},
             complete
         );
-    });
+    }, {async: true});
 
     directory( DIST_DIR );// this will create generated/dist folder
 
