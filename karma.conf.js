@@ -10,7 +10,7 @@ module.exports = function(config) {
 
     // frameworks to use
     // available frameworks: https://npmjs.org/browse/keyword/karma-adapter
-    frameworks: ['mocha'],
+    frameworks: ['mocha', 'commonjs'],  //for karma to reconize mocha and commonjs plugin
 
 
     // list of files / patterns to load in the browser
@@ -27,6 +27,7 @@ module.exports = function(config) {
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
+      'src/**/*.js': ['commonjs'] //tell Karma to process all the js files under /src to get processed by comminjs plugin
     },
 
 
