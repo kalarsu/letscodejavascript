@@ -8,6 +8,7 @@
     var jshint = require("simplebuild-jshint");
     var karma = require("simplebuild-karma");
     var KARMA_CONFIG = "karma.conf.js";
+    var DIST_DIR = "generated/dist";
 
     //******** General-purpose tasks ----------------------------
 
@@ -25,10 +26,15 @@
     });
 
     desc("Run a localhost server");
-    task("run", function(){
-        jake.exec("node node_modules/http-server/bin/http-server src", {interactive: true, async: true}, complete);
+    task("run", ["build"], function(){//run task "build" to generate generated/dist folder before running the server
+        jake.exec("node node_modules/http-server/bin/http-server " + DIST_DIR , {interactive: true, async: true}, complete);
         //interactive:true , so we can see the output.
         //complete: to run complete function when it's done.
+    });
+
+    desc("Erase all generated files");
+    task("clean", function(){
+        console.log("Erasing generated files");
     });
 
 
@@ -67,6 +73,15 @@
             strict: !process.env.loose  //run sudo ./jake.sh loose=true , so even browser type is not match Jake won’t fail. If just run sudo ./jake.sh and browser type is not match jake will fail.
         }, complete, fail);
     }, {async: true});
+
+
+    desc("Build distribution directory");
+    task("build", [ DIST_DIR ], function(){  //  ["generated/dist"] as a task , see following directory("generated/dist")
+        console.log("Building distribution directory:");
+    });
+
+    directory( DIST_DIR );// this will create generated/dist folder
+
 
 
 
