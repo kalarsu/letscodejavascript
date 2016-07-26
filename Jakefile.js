@@ -7,6 +7,8 @@
     var semver = require("semver"); //semver is a parser for node for parsing version number
     var jshint = require("simplebuild-jshint");
     var karma = require("simplebuild-karma");
+    var shell = require("shelljs");
+
     var KARMA_CONFIG = "karma.conf.js";
     var DIST_DIR = "generated/dist";
 
@@ -35,6 +37,7 @@
     desc("Erase all generated files");
     task("clean", function(){
         console.log("Erasing generated files");
+        shell.rm("-rf", "generated");//force to remove all the file under generated without any question
     });
 
 
