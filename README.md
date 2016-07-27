@@ -988,3 +988,68 @@ it will move on to next thing
 
 
     -	If we don’t add async: true, it will cost race condition which means before finish running build task, run task will start executing.
+
+
+
+Ht19: Frontend Modules
+================================================================
+1.	In previous JavaScript file we disable using Chai because Karma can’t recognize Chai.
+    -	Download http://chaijs.com/chai.js
+    -	New folder “vendor” under /src.
+    -	Rename chai file with version number as chai-3.5.0.js, and move to /src/vendor folder.
+    -	In additiontest.js file, on the top insert following:
+
+                var assert = require("../vendor/chai-3.5.0.js").assert;
+                //.assert is to include Chai.assert library
+
+    -	In Karma.conf.js, change following:
+
+            files: [
+              'src/javascript/**/*.js',  //tells Karma where to load js files
+              'src/vendor/chai-3.5.0.js' //tells Karma to load plugin Chai
+            ],
+
+            preprocessors: {
+              'src/javascript/**/*.js': ['commonjs'], //tell Karma to process all the js files under /src/javascript to get processed by commonjs plugin
+              'src/vendor/chai-3.5.0.js': ['commonjs'] //tell Karma to process chai plugin to get process by commonjs, so require("chai...") will works
+            },
+
+    -	Restart Karma , ./jake.sh karma , refresh http://localhost:9876/ browser , ./jake.sh loose=true
+    -	Fix up code in additiontest.js as following
+
+            describe("Addition", function(){  //use "describe" to group all the test cases
+                it("adds positive numbers", function(){ //use "it" for test case, and write the comment in the code
+                    assert.equal(addition.add(3,4), 7); //use this Chai
+                    //assertEqual(addition.add(3,4), 7);   <-- take this out
+                });
+
+                it("uses IEEE 754 floating point", function(){
+                    assert.equal(addition.add(0.1, 0.2), 0.30000000000000004);//use this Chai
+                    //assertEqual(addition.add(0.1,0.2), 0.30000000000000004);  <-- take this out
+                });
+
+                // take this out
+                // function assertEqual(actual, expected){
+                //     if (actual !== expected) throw new Error("expected"+ expected + ", but was " + actual);
+                // }
+            });
+
+    -	> ./jake.sh loose=true, Chai works fine
+    -	> sudo npm uninstall chai --save-dev, sudo git add. , sudo git commit -am “npm version of chai is not longer needed”
+
+
+2.	Because we require Chai file with version number, but when Chai version changed, and we don’t want to change all the files that include Chai. So we create a assert.js file under /javascript as following. When Chai version changed, we just update assert.js file.
+
+        (function () {
+            "use strict";
+            var assert = require("../vendor/chai-3.5.0.js").assert;  // .assert is to include Chai.assert library
+
+            module.exports = assert;
+
+        }());
+
+
+    -	In _addition_test.js file
+
+            var assert = require("./assert.js");
+            //var assert = require("../vendor/chai-3.5.0.js").assert;  <-- take this out
