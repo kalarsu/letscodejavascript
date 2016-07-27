@@ -5,7 +5,7 @@
     "use strict";
 
     var addition = require("./addition.js");
-    var assert = require("../vendor/chai-3.5.0.js").assert;  // .assert is to include Chai.assert library
+    var assert = require("./assert.js");
 
     //var assert = require("chai").assert;
 
