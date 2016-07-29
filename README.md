@@ -1067,6 +1067,7 @@ Ht20: Test driven development (TDD)
 
 
 2.	Following is the baby steps to TDD the code process:
+
     1)	Think: Write the test code in _addition_test.js:
 
             describe("Subtraction", function(){
@@ -1079,6 +1080,7 @@ Ht20: Test driven development (TDD)
             >./jake.sh loose=true,
 
     2)	Red: When running server and test from step 1, there will be error message says no subtract function.
+
     3)	Green: Start writing function in addition.js
 
              exports.subtract = function subtract(a, b){

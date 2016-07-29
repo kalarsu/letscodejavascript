@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="e3181fd9-da49-45da-9216-c5f7be218bbe" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/javascript/_addition_test.js" afterPath="$PROJECT_DIR$/src/javascript/_addition_test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/javascript/addition.js" afterPath="$PROJECT_DIR$/src/javascript/addition.js" />
     </list>
     <ignored path="letscodejavascript.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,8 +26,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="934">
-              <caret line="1097" column="0" selection-start-line="1097" selection-start-column="0" selection-end-line="1097" selection-end-column="0" />
+            <state relative-caret-position="679">
+              <caret line="1083" column="4" selection-start-line="1083" selection-start-column="4" selection-end-line="1083" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -348,12 +346,12 @@
       <workItem from="1468866180864" duration="19812000" />
       <workItem from="1469124144146" duration="708000" />
       <workItem from="1469486861303" duration="8639000" />
-      <workItem from="1469581901191" duration="5605000" />
+      <workItem from="1469581901191" duration="5656000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61352000" />
+    <option name="totallyTimeSpent" value="61403000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="500" y="-1417" width="1245" height="1106" extended-state="0" />
@@ -743,8 +741,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="934">
-          <caret line="1097" column="0" selection-start-line="1097" selection-start-column="0" selection-end-line="1097" selection-end-column="0" />
+        <state relative-caret-position="679">
+          <caret line="1083" column="4" selection-start-line="1083" selection-start-column="4" selection-end-line="1083" selection-end-column="4" />
           <folding />
         </state>
       </provider>
