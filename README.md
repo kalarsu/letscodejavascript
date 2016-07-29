@@ -1053,3 +1053,45 @@ Ht19: Frontend Modules
 
             var assert = require("./assert.js");
             //var assert = require("../vendor/chai-3.5.0.js").assert;  <-- take this out
+
+
+Ht20: Test driven development (TDD)
+================================================
+
+1.	Important thing about TDD is to use tests to remain control of the code, and use test to drive development. It contains 5 steps.
+    -	1. Think: of possible tests will fail your task/code.
+    -	2. Red: Write the test and it will fail, because there is no code to test yet.
+    -	3. Green: Write the code to make the test pass.
+    -	4. Refactor: the code that you written so far.
+    -	5. Repeat: the 3 and 4 steps , and repeat 1-4 steps.
+
+
+2.	Following is the baby steps to TDD the code process:
+    1)	Think: Write the test code in _addition_test.js:
+
+            describe("Subtraction", function(){
+               it("subtracts positive numbers", function(){
+                    addition.subtract(10,3);
+               });
+            });
+
+            >./jake.sh karma,
+            >./jake.sh loose=true,
+
+    2)	Red: When running server and test from step 1, there will be error message says no subtract function.
+    3)	Green: Start writing function in addition.js
+
+             exports.subtract = function subtract(a, b){
+                return a - b;
+             };
+
+            >./jake.sh loose=true,  this will pass.
+
+    4)	Refactor: edit additiontest.js:
+            describe("Subtraction", function(){
+                it("subtracts positive numbers", function(){
+                    assert.equal(addition.subtract(10,3), 7);
+                });
+            });
+
+    5)	Repeat: Think through the whole process again and make a better code.
