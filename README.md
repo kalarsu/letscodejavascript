@@ -1175,3 +1175,45 @@ Ht21: The DOM (Document Object Model)
         -	So use following instead, and ./jake.sh, and refresh browser.
 
                 div.parentNode.removeChild(div);
+
+
+Ht22: Fist front end testing (DOM)
+===========================================================================
+1.	Rename _addition_test.js to _tabs_test.js and modify as following:
+
+        (function () {
+            "use strict";
+
+            var assert = require("./assert.js");
+            var tabs = require("./tabs.js");
+
+            //Mocha--------------------------------------
+            describe("Tabs", function(){
+                it("has an API", function(){
+                    //Arrage
+                    var element = document.createElement("div");
+
+                    //Act
+                    tabs.initialize(element);
+
+                    //Assert
+                    var styles = getComputedStyle(element);
+                    var display = styles.getPropertyValue("display");
+                    assert.equal(display, "none");
+                });
+            });
+        }());
+
+2.	New tabs.js under src/javascript/ and type following:
+
+        (function () {
+            "use strict";
+
+            exports.initialize = function initialize(element){
+                element.style.display = "none";
+            };
+
+        }());
+
+3.	./jake.sh karma, launch all the browser for testing localhost:9876, ./jake.sh to test if everything is tested and run alight.
+4.	Crosse browser testing and it’s result in ./jake.sh showing some browser passed, some browser didn’t.
