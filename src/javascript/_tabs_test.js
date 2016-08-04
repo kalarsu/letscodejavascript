@@ -8,17 +8,18 @@
     var tabs = require("./tabs.js");
 
     //Mocha--------------------------------------
-
     describe("Tabs", function(){
         it("has an API", function(){
+            //Arrage
+            var element = document.createElement("div");
 
-            tabs.initialize();
-            // var div = document.createElement("div");
-            // div.innerHTML = "This is an example";
-            // document.body.appendChild(div);
-            // div.parentNode.removeChild(div);
+            //Act
+            tabs.initialize(element);
+
+            //Assert
+            var styles = getComputedStyle(element);
+            var display = styles.getPropertyValue("display");
+            assert.equal(display, "none");
         });
     });
-
-
 }());
