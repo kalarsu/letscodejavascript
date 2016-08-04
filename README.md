@@ -1098,3 +1098,80 @@ Ht20: Test driven development (TDD)
             });
 
     5)	Repeat: Think through the whole process again and make a better code.
+
+
+
+Ht21: The DOM (Document Object Model)
+=======================================================
+1.	In order to start a tab example code, add a screen.css under /content with index.html file.
+2.	Delete unnecessary files and set up the files for tab application:
+    -	Delete addition.js
+    -	Cut out the code in app.js, just leave it as initial JavaScript code as following:
+
+            (function () {
+                "use strict";
+
+            }());
+
+
+    -	Clean up _addition_test.js  as following:
+
+            (function () {
+                "use strict";
+
+                var assert = require("./assert.js");
+
+                //Mocha--------------------------------------
+
+                describe("Something", function(){
+                    it("Something", function(){
+
+                    });
+                });
+
+
+            }());
+
+
+    -	./jake.sh karma, ./jake.sh to check server is running correctly.
+    -	Check in the code.
+
+3.	In _addition_test.js, type in following to create element in DOM:
+
+        (function () {
+            "use strict";
+
+            var assert = require("./assert.js");
+
+            //Mocha--------------------------------------
+
+            describe("Something", function(){
+                it("Something", function(){
+                    var div = document.createElement("div");
+                    div.innerHTML = "This is an example";
+                    document.body.appendChild(div);
+
+                    var p = document.createElement("p");
+                    p.innerHTML = "A new paragraph";
+                    div.appendChild(p);
+                });
+            });
+
+
+        }());
+
+        -	./jake.sh , to lint and test javascript, so it will refresh the code that we just updated.
+        -	http://localhost:9876/
+        -	right click on “DEBUG” button and open link in new tab
+        -	References for document., type mdn create element in the search will come out https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement
+
+4.	In _addition_test.js, type in following to delete element in DOM:
+        -	Add following
+
+                div.remove();
+
+        -	And run ./jake.sh again to refresh the code for server. You will see following error message saying IE 11 doesn’t support .remove();
+
+        -	So use following instead, and ./jake.sh, and refresh browser.
+
+                div.parentNode.removeChild(div);
