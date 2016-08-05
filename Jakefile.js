@@ -134,8 +134,8 @@
 
     function browserVersion(){
         return [
-            "Chrome 51.0.2704 (Mac OS X 10.11.5)",
-            "Firefox 47.0.0 (Mac OS X 10.11.0)",
+            "Chrome 52.0.2743 (Mac OS X 10.11.5)",
+            "Firefox 48.0.0 (Mac OS X 10.11.0)",
             "Safari 9.1.1 (Mac OS X 10.11.5)",
             "Mobile Safari 9.0.0 (iOS 9.1.0)",
             "IE 11.0.0 (Windows 7 0.0.0)"

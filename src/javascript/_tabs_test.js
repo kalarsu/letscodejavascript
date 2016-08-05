@@ -11,15 +11,29 @@
     describe("Tabs", function(){
         it("has an API", function(){
             //Arrage
-            var element = document.createElement("div");
+            var element = createElement("div");
 
             //Act
             tabs.initialize(element);
 
             //Assert
-            var styles = getComputedStyle(element);
-            var display = styles.getPropertyValue("display");
-            assert.equal(display, "none");
+            assert.equal(getDisplayProperty(element), "none");
+
+            //Reset
+            removeElement(element);
         });
+
+        function createElement(tagName){
+            var newtag = document.createElement(tagName);
+            document.body.appendChild(newtag);
+            return newtag;
+        }
+        function getDisplayProperty(elem){
+            var styles = getComputedStyle(elem);
+            return styles.getPropertyValue("display");
+        }
+        function removeElement(elem){
+            elem.parentNode.removeChild(elem);
+        }
     });
 }());
