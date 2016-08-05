@@ -1217,3 +1217,74 @@ Ht22: Fist front end testing (DOM)
 
 3.	./jake.sh karma, launch all the browser for testing localhost:9876, ./jake.sh to test if everything is tested and run alight.
 4.	Crosse browser testing and it’s result in ./jake.sh showing some browser passed, some browser didn’t.
+
+
+
+Ht23: Debugging testing (DOM)
+=======================================================
+1.	Fix up the code under _tabs_test.js:
+
+        (function () {
+            "use strict";
+
+            var assert = require("./assert.js");
+            var tabs = require("./tabs.js");
+
+            //Mocha--------------------------------------
+            describe("Tabs", function(){
+                it("has an API", function(){
+                    //Arrage
+                    var element = document.createElement("div");
+                    document.body.appendChild(element);
+                    //Act
+                    tabs.initialize(element);
+
+                    //Assert
+                    var styles = getComputedStyle(element);
+                    var display = styles.getPropertyValue("display");
+                    assert.equal(display, "none");
+                });
+            });
+        }());
+
+2.	>./jake.sh to refresh the code to server, all the browser should all passed this test now.
+3.	Now time to refactor the code in _tab_test.js, so we won’t make mistake to appendChild after creating a node.
+
+        (function () {
+            "use strict";
+
+            var assert = require("./assert.js");
+            var tabs = require("./tabs.js");
+
+            //Mocha--------------------------------------
+            describe("Tabs", function(){
+                it("has an API", function(){
+                    //Arrage
+                    var element = createElement("div");
+
+                    //Act
+                    tabs.initialize(element);
+
+                    //Assert
+                    assert.equal(getDisplayProperty(element), "none");
+
+                    //Reset
+                    removeElement(element);
+                });
+
+                function createElement(tagName){
+                    var newtag = document.createElement(tagName);
+                    document.body.appendChild(newtag);
+                    return newtag;
+                }
+                function getDisplayProperty(elem){
+                    var styles = getComputedStyle(elem);
+                    return styles.getPropertyValue("display");
+                }
+                function removeElement(elem){
+                    elem.parentNode.removeChild(elem);
+                }
+            });
+        }());
+
+4.	>./jake.sh again to check if there is any error.

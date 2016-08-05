@@ -20,7 +20,7 @@
             assert.equal(getDisplayProperty(element), "none");
 
             //Reset
-            removeElement(element);
+            //removeElement(element);
         });
 
         function createElement(tagName){
