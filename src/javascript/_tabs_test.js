@@ -9,28 +9,29 @@
 
     //Mocha--------------------------------------
     describe("Tabs", function(){
-        it("has an API", function(){
+        it("hides an element", function(){
             //Arrage
             var element = createElement("div");
 
             //Act
-            tabs.initialize(element);
-
+            tabs.initialize(element, "someClass");
+            
             //Assert
-            assert.equal(getDisplayProperty(element), "none");
+            assert.equal(getClass(element), "someClass");
+
 
             //Reset
-            //removeElement(element);
+            removeElement(element);
         });
+
+        function getClass(element){
+            return element.getAttribute("class");
+        }
 
         function createElement(tagName){
             var newtag = document.createElement(tagName);
             document.body.appendChild(newtag);
             return newtag;
-        }
-        function getDisplayProperty(elem){
-            var styles = getComputedStyle(elem);
-            return styles.getPropertyValue("display");
         }
         function removeElement(elem){
             elem.parentNode.removeChild(elem);
