@@ -6,29 +6,34 @@
 
     var assert = require("./assert.js");
     var tabs = require("./tabs.js");
-
     //Mocha--------------------------------------
     describe("Tabs", function(){
-        it("hides an element", function(){
+        it("set a new class when that element has no existing classes", function(){
             //Arrage
-            var element = createElement("div");
-
+            var element = addElement("div");
             //Act
             tabs.initialize(element, "someClass");
-            
             //Assert
             assert.equal(getClass(element), "someClass");
-
-
             //Reset
-            removeElement(element);
+            //removeElement(element);
+        });
+
+        it("set a new class when that element has existing classes", function(){
+            var element = addElement("div");
+            element.setAttribute("class", "existingClass");
+
+            tabs.initialize(element, "someClass");
+
+            assert.equal(getClass(element), "existingClass someClass");
+
+            //removeElement(element);
         });
 
         function getClass(element){
             return element.getAttribute("class");
         }
-
-        function createElement(tagName){
+        function addElement(tagName){
             var newtag = document.createElement(tagName);
             document.body.appendChild(newtag);
             return newtag;

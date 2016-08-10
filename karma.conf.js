@@ -15,8 +15,10 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      'src/javascript/**/*.js',  //tells Karma where to load js files
-      'src/vendor/chai-3.5.0.js' //tells Karma to load plugin Chai
+      'src/javascript/**/*.js',   //tells Karma where to load js files
+      'src/vendor/chai-3.5.0.js', //tells Karma to load plugin Chai
+      'src/vendor/classList.js'   //tells Karma to load classList.js plugin
+
     ],
 
 
@@ -29,7 +31,8 @@ module.exports = function(config) {
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
       'src/javascript/**/*.js': ['commonjs'], //tell Karma to process all the js files under /src/javascript to get processed by commonjs plugin
-      'src/vendor/chai-3.5.0.js': ['commonjs'] //tell Karma to process chai plugin to get process by commonjs, so require("chai...") will works
+      'src/vendor/chai-3.5.0.js': ['commonjs'], //tell Karma to process chai plugin to get process by commonjs, so require("chai...") will works
+      'src/vendor/classList.js': ['commonjs']   //tell karma to process classList plugin to get process by commjs, so require("../vendor/classList.js") will works
     },
 
 
